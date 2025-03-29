@@ -1,0 +1,528 @@
+{
+          "number": 329,
+          "text": "According to the text, what is the primary way the three major kinds of memory storage (sensory, short-term, and long-term) are distinguished?",
+          "options": { "a": "The type of information stored", "b": "The brain region involved", "c": "The amount of time the memory is retained", "d": "The accuracy of the memory" },
+          "answer": "c"
+        },
+        {
+          "number": 330,
+          "text": "What is defined as the process of maintaining information in memory over time?",
+          "options": { "a": "Encoding", "b": "Retrieval", "c": "Storage", "d": "Rehearsal" },
+          "answer": "c"
+        },
+        {
+          "number": 331,
+          "text": "Sensory memory is a type of storage that holds sensory information for:",
+          "options": { "a": "A few seconds or less", "b": "Up to a minute", "c": "Several minutes", "d": "Hours or days" },
+          "answer": "a"
+        },
+        {
+          "number": 332,
+          "text": "In Sperling's (1960) classic experiment on iconic memory, participants viewed three rows of four letters. When asked to recall all 12 letters after a brief flash, what typically happened?",
+          "options": { "a": "They recalled almost all the letters perfectly.", "b": "They recalled fewer than half the letters.", "c": "They recalled only the letters from the top row.", "d": "They recalled only the letters from the bottom row." },
+          "answer": "b"
+        },
+        {
+          "number": 333,
+          "text": "What were the two possible explanations Sperling considered for why participants recalled fewer than half the letters in the whole report condition?",
+          "options": { "a": "Poor vision and lack of motivation", "b": "Failure to encode all letters and forgetting during recall", "c": "Distraction by the experimental setup and misunderstanding instructions", "d": "Letters were flashed too quickly and letters were too similar" },
+          "answer": "b"
+        },
+        {
+          "number": 334,
+          "text": "In Sperling's partial report procedure, what did the tone signal to the participants?",
+          "options": { "a": "To start recalling all the letters", "b": "Which specific row of letters to report", "c": "That the experiment was over", "d": "To guess the letters they couldn't see clearly" },
+          "answer": "b"
+        },
+        {
+          "number": 335,
+          "text": "What did the results of Sperling's partial report procedure (high accuracy when cued immediately) allow him to infer?",
+          "options": { "a": "Participants could only encode one row at a time.", "b": "Participants had guessed the correct row.", "c": "Virtually all the letters had been briefly encoded in sensory memory.", "d": "The tone helped participants guess the letters." },
+          "answer": "c"
+        },
+        {
+          "number": 336,
+          "text": "What happens to performance on Sperling's partial report task if the cueing tone is substantially delayed?",
+          "options": { "a": "Performance improves as participants have more time.", "b": "Performance remains high.", "c": "Performance drops significantly because the information fades from sensory memory.", "d": "Performance becomes random." },
+          "answer": "c"
+        },
+        {
+          "number": 337,
+          "text": "Iconic memory refers to a fast-decaying store of:",
+          "options": { "a": "Auditory information", "b": "Visual information", "c": "Tactile information", "d": "Semantic information" },
+          "answer": "b"
+        },
+        {
+          "number": 338,
+          "text": "Echoic memory refers to a fast-decaying store of:",
+          "options": { "a": "Auditory information", "b": "Visual information", "c": "Olfactory information", "d": "Procedural information" },
+          "answer": "a"
+        },
+        {
+          "number": 339,
+          "text": "Replaying the last few words someone just said in your 'mind's ear' is an example of accessing information held in which memory store?",
+          "options": { "a": "Iconic memory", "b": "Echoic memory", "c": "Short-term memory", "d": "Long-term memory" },
+          "answer": "b"
+        },
+        {
+          "number": 340,
+          "text": "What is the approximate duration of iconic memory decay?",
+          "options": { "a": "1/20th of a second", "b": "1 second or less", "c": "About 5 seconds", "d": "15-20 seconds" },
+          "answer": "b"
+        },
+        {
+          "number": 341,
+          "text": "What is the approximate duration of echoic memory decay, according to Darwin et al. (1972)?",
+          "options": { "a": "1 second or less", "b": "About 5 seconds", "c": "15-20 seconds", "d": "Up to a minute" },
+          "answer": "b"
+        },
+        {
+          "number": 342,
+          "text": "According to Figure 6.6 (Flow of Information), what process is necessary for information to move from sensory memory to short-term memory?",
+          "options": { "a": "Encoding", "b": "Retrieval", "c": "Rehearsal", "d": "Attention" },
+          "answer": "d"
+        },
+        {
+          "number": 343,
+          "text": "What happens to information in sensory memory if it is not attended to?",
+          "options": { "a": "It moves to long-term memory.", "b": "It is rehearsed.", "c": "It is lost.", "d": "It remains indefinitely." },
+          "answer": "c"
+        },
+        {
+          "number": 344,
+          "text": "Short-term memory (STM) is defined as storage that holds nonsensory information for:",
+          "options": { "a": "Less than a second", "b": "More than a few seconds but less than a minute", "c": "Several minutes to an hour", "d": "Indefinitely" },
+          "answer": "b"
+        },
+        {
+          "number": 345,
+          "text": "What happens to information in short-term memory when attention shifts to something else?",
+          "options": { "a": "It is automatically transferred to long-term memory.", "b": "It is quickly lost.", "c": "It is strengthened.", "d": "It remains stable for about a minute." },
+          "answer": "b"
+        },
+        {
+          "number": 346,
+          "text": "In the Peterson & Peterson (1959) study, what task were participants asked to do immediately after seeing consonant strings to prevent rehearsal?",
+          "options": { "a": "Recall the letters", "b": "Count backward by 3s", "c": "Look at a blank screen", "d": "Write down the letters" },
+          "answer": "b"
+        },
+        {
+          "number": 347,
+          "text": "The results of the Peterson & Peterson (1959) study suggest that information can be held in the short-term memory store for approximately how long without rehearsal?",
+          "options": { "a": "1-2 seconds", "b": "5 seconds", "c": "15-20 seconds", "d": "About a minute" },
+          "answer": "c"
+        },
+        {
+          "number": 348,
+          "text": "What is rehearsal?",
+          "options": { "a": "The process of transferring information to LTM", "b": "The process of attending to sensory information", "c": "The process of keeping information in STM by mentally repeating it", "d": "The process of combining small pieces of information" },
+          "answer": "c"
+        },
+        {
+          "number": 349,
+          "text": "How does rehearsal affect the duration of information in short-term memory?",
+          "options": { "a": "It shortens the duration.", "b": "It has no effect.", "c": "It essentially resets the clock, giving it another 15-20 seconds.", "d": "It transfers the information immediately to LTM." },
+          "answer": "c"
+        },
+        {
+          "number": 350,
+          "text": "The serial position effect refers to the observation that which items in a series are most likely to be recalled?",
+          "options": { "a": "Only the items in the middle", "b": "Only the first few items", "c": "Only the last few items", "d": "The first few and last few items" },
+          "answer": "d"
+        },
+        {
+          "number": 351,
+          "text": "Enhanced recall of the first few items in a list is called the:",
+          "options": { "a": "Recency effect", "b": "Primacy effect", "c": "Chunking effect", "d": "Rehearsal effect" },
+          "answer": "b"
+        },
+        {
+          "number": 352,
+          "text": "Why does the primacy effect occur, according to the text?",
+          "options": { "a": "These items are still being actively rehearsed in STM.", "b": "These items receive more rehearsals and are more likely to enter LTM.", "c": "These items are inherently more memorable.", "d": "These items benefit from proactive interference." },
+          "answer": "b"
+        },
+        {
+          "number": 353,
+          "text": "Enhanced recall of the last few items in a list is called the:",
+          "options": { "a": "Recency effect", "b": "Primacy effect", "c": "Storage effect", "d": "Attention effect" },
+          "answer": "a"
+        },
+        {
+          "number": 354,
+          "text": "According to Atkinson & Shiffrin (1968), the recency effect can result from:",
+          "options": { "a": "Information being transferred to LTM", "b": "Rehearsing items that are still in STM", "c": "Better initial encoding of the last items", "d": "Reduced interference for the last items" },
+          "answer": "b"
+        },
+        {
+          "number": 355,
+          "text": "What task, when performed immediately after the presentation of a list, eliminates the recency effect but not the primacy effect (Glanzer & Cunitz, 1966)?",
+          "options": { "a": "Immediate recall", "b": "Taking a short break", "c": "Counting backward by 3s", "d": "Rehearsing the first item" },
+          "answer": "c"
+        },
+        {
+          "number": 356,
+          "text": "The study involving recalling the order of Harry Potter books (Kelley et al., 2013) demonstrated that:",
+          "options": { "a": "Only the recency effect occurs for LTM.", "b": "Only the primacy effect occurs for LTM.", "c": "Neither primacy nor recency effects occur for LTM.", "d": "Both primacy and recency effects can be observed in LTM tasks." },
+          "answer": "d"
+        },
+        {
+          "number": 357,
+          "text": "According to Miller (1956), what is the approximate capacity of short-term memory in terms of meaningful items?",
+          "options": { "a": "3 items", "b": "7 items", "c": "12 items", "d": "Unlimited items" },
+          "answer": "b"
+        },
+        {
+          "number": 358,
+          "text": "What is chunking?",
+          "options": { "a": "Repeating information silently.", "b": "Paying attention to sensory input.", "c": "Combining small pieces of information into larger meaningful units.", "d": "Forgetting information over time." },
+          "answer": "c"
+        },
+        {
+          "number": 359,
+          "text": "How does chunking affect short-term memory?",
+          "options": { "a": "It decreases capacity but increases duration.", "b": "It increases the effective capacity.", "c": "It decreases the duration.", "d": "It only affects sensory memory." },
+          "answer": "b"
+        },
+        {
+          "number": 360,
+          "text": "Working memory, as conceptualized by Baddeley & Hitch (1974), differs from the older concept of STM by emphasizing:",
+          "options": { "a": "Only passive storage", "b": "Only visual information", "c": "Active maintenance and manipulation of information", "d": "Unlimited capacity" },
+          "answer": "c"
+        },
+        {
+          "number": 361,
+          "text": "In Baddeley's model of working memory, which component is responsible for holding and manipulating visual and spatial information?",
+          "options": { "a": "Phonological loop", "b": "Central executive", "c": "Episodic buffer", "d": "Visuo-spatial sketchpad" },
+          "answer": "d"
+        },
+        {
+          "number": 362,
+          "text": "Which component of Baddeley's working memory model deals with verbal and auditory information?",
+          "options": { "a": "Phonological loop", "b": "Central executive", "c": "Episodic buffer", "d": "Visuo-spatial sketchpad" },
+          "answer": "a"
+        },
+        {
+          "number": 363,
+          "text": "What is the role of the central executive in Baddeley's working memory model?",
+          "options": { "a": "Storing visual images", "b": "Storing verbal information", "c": "Coordinating subsystems and controlling attention/information flow", "d": "Integrating information into a multidimensional code" },
+          "answer": "c"
+        },
+        {
+          "number": 364,
+          "text": "Which component of working memory integrates visual and verbal information into a multidimensional code and links to LTM?",
+          "options": { "a": "Phonological loop", "b": "Central executive", "c": "Episodic buffer", "d": "Visuo-spatial sketchpad" },
+          "answer": "c"
+        },
+        {
+          "number": 365,
+          "text": "When using Google Maps to navigate, holding the visual layout in mind uses the ____, while mentally rehearsing street names uses the ____.",
+          "options": { "a": "phonological loop; visuo-spatial sketchpad", "b": "visuo-spatial sketchpad; phonological loop", "c": "central executive; episodic buffer", "d": "episodic buffer; central executive" },
+          "answer": "b"
+        },
+        {
+          "number": 366,
+          "text": "Damage to the phonological loop subsystem is associated with difficulty in:",
+          "options": { "a": "Recognizing faces", "b": "Navigating familiar routes", "c": "Holding strings of digits and learning novel words", "d": "Recalling emotional events" },
+          "answer": "c"
+        },
+        {
+          "number": 367,
+          "text": "Research by Xie et al. (2020) linked higher working memory capacity to:",
+          "options": { "a": "Greater resistance to the common cold", "b": "Better athletic performance", "c": "Increased compliance with COVID-19 social distancing guidelines", "d": "Faster reading speed" },
+          "answer": "c"
+        },
+        {
+          "number": 368,
+          "text": "Brain imaging studies suggest that the central executive component of working memory relies heavily on regions within the:",
+          "options": { "a": "Hippocampus", "b": "Temporal lobe", "c": "Occipital lobe", "d": "Frontal lobe" },
+          "answer": "d"
+        },
+        {
+          "number": 369,
+          "text": "The episodic buffer is thought to play a crucial role in which learning task?",
+          "options": { "a": "Learning motor skills", "b": "Learning to recognize words (combining visual/verbal info)", "c": "Learning geographical facts", "d": "Learning emotional responses" },
+          "answer": "b"
+        },
+        {
+          "number": 370,
+          "text": "What is the general conclusion from current research on working memory training, according to the text?",
+          "options": { "a": "It produces large, general improvements in cognitive function.", "b": "It significantly boosts intelligence across the board.", "c": "People learn specific strategies for the trained tasks, with limited broader impact.", "d": "It is most effective for improving long-term memory." },
+          "answer": "c"
+        },
+        {
+          "number": 371,
+          "text": "Long-term memory (LTM) is characterized by holding information for:",
+          "options": { "a": "Less than a second", "b": "Less than a minute", "c": "Hours, days, weeks, or years", "d": "Only as long as it is rehearsed" },
+          "answer": "c"
+        },
+        {
+          "number": 372,
+          "text": "What is the known capacity limit of long-term memory?",
+          "options": { "a": "About 7 items", "b": "About 100 items", "c": "About 1 million items", "d": "No known limits" },
+          "answer": "d"
+        },
+        {
+          "number": 373,
+          "text": "Bahrick's (2000) research on recalling high school classmates from yearbook photos suggests that:",
+          "options": { "a": "LTM fades completely within 10 years.", "b": "LTM recognition can remain remarkably high even after 50 years.", "c": "Recognition memory is much weaker than recall memory.", "d": "Only faces of close friends are stored in LTM." },
+          "answer": "b"
+        },
+        {
+          "number": 374,
+          "text": "Patient HM underwent surgery that removed parts of his temporal lobes, including the hippocampus, to treat:",
+          "options": { "a": "Severe depression", "b": "Intractable epilepsy", "c": "A brain tumor", "d": "Memory loss" },
+          "answer": "b"
+        },
+        {
+          "number": 375,
+          "text": "What was the primary memory deficit experienced by patient HM after his surgery?",
+          "options": { "a": "Inability to retrieve old memories (retrograde amnesia)", "b": "Complete loss of short-term memory", "c": "Inability to form new long-term memories (anterograde amnesia)", "d": "Loss of language abilities" },
+          "answer": "c"
+        },
+        {
+          "number": 376,
+          "text": "HM's ability to repeat a telephone number indicated that his ______ was relatively intact.",
+          "options": { "a": "Long-term memory store", "b": "Short-term memory store", "c": "Sensory memory store", "d": "Episodic buffer" },
+          "answer": "b"
+        },
+        {
+          "number": 377,
+          "text": "Anterograde amnesia is defined as:",
+          "options": { "a": "The inability to retrieve information acquired before an injury", "b": "The inability to transfer new information from STM to LTM", "c": "The loss of sensory memory", "d": "The enhancement of short-term memory" },
+          "answer": "b"
+        },
+        {
+          "number": 378,
+          "text": "Studies of HM and others with similar damage indicate that the hippocampal region is critical for:",
+          "options": { "a": "Storing all long-term memories permanently", "b": "Retrieving very old memories", "c": "Putting new information into the long-term store", "d": "Controlling the visuo-spatial sketchpad" },
+          "answer": "c"
+        },
+        {
+          "number": 379,
+          "text": "Retrograde amnesia is defined as:",
+          "options": { "a": "The inability to retrieve information acquired before a particular date/injury", "b": "The inability to form new long-term memories", "c": "A deficit in working memory capacity", "d": "The loss of iconic memory" },
+          "answer": "a"
+        },
+        {
+          "number": 380,
+          "text": "The fact that HM had much worse anterograde than retrograde amnesia suggests that:",
+          "options": { "a": "The hippocampus stores all long-term memories.", "b": "Short-term memory relies on the hippocampus.", "c": "The hippocampus is not the primary site of long-term storage.", "d": "Retrograde amnesia is always more severe." },
+          "answer": "c"
+        },
+        {
+          "number": 381,
+          "text": "Where are the different aspects (sights, sounds, smells) of a single memory thought to be stored in the brain?",
+          "options": { "a": "Solely within the hippocampus", "b": "Solely within the amygdala", "c": "In different places in the cortex", "d": "Within the short-term memory store" },
+          "answer": "c"
+        },
+        {
+          "number": 382,
+          "text": "What role is proposed for the hippocampus according to the 'index' theory of memory?",
+          "options": { "a": "It permanently stores the entire memory.", "b": "It links together the separate components of a memory stored elsewhere.", "c": "It generates the emotional content of memories.", "d": "It controls the rehearsal process in STM." },
+          "answer": "b"
+        },
+        {
+          "number": 383,
+          "text": "According to the 'index' view and the cooking analogy, why might the hippocampus become less necessary for a memory over time?",
+          "options": { "a": "The memory fades completely.", "b": "The cortex takes over the indexing function.", "c": "Direct connections form between cortical areas, making the index less critical.", "d": "The memory moves to short-term storage." },
+          "answer": "c"
+        },
+        {
+          "number": 384,
+          "text": "The 'index' theory helps explain why patient HM could remember old memories but not form new ones because:",
+          "options": { "a": "His old index entries were intact, but he couldn't create new ones.", "b": "His cortex was damaged, preventing retrieval.", "c": "His short-term memory was completely lost.", "d": "The surgery enhanced his old memories." },
+          "answer": "a"
+        },
+        {
+          "number": 385,
+          "text": "What is consolidation in the context of memory?",
+          "options": { "a": "The process of retrieving a memory", "b": "The process by which memories become stable in the brain", "c": "The process of chunking information", "d": "The process of forgetting unimportant details" },
+          "answer": "b"
+        },
+        {
+          "number": 386,
+          "text": "Shortly after encoding, memories exist in a state that is:",
+          "options": { "a": "Highly stable and resistant", "b": "Permanently stored", "c": "Fragile and easily disrupted", "d": "Only accessible through hypnosis" },
+          "answer": "c"
+        },
+        {
+          "number": 387,
+          "text": "The type of consolidation that operates over seconds or minutes might explain why:",
+          "options": { "a": "People remember childhood events clearly.", "b": "Head injury patients may not recall events just before the crash.", "c": "We recognize faces easily.", "d": "Sleep improves memory." },
+          "answer": "b"
+        },
+        {
+          "number": 388,
+          "text": "Longer-term consolidation, occurring over days to years, is thought to involve:",
+          "options": { "a": "Strengthening of synaptic connections within the hippocampus only.", "b": "Transfer of information from the hippocampus to the cortex.", "c": "A decrease in the number of neurons involved.", "d": "The complete erasure of the hippocampal trace." },
+          "answer": "b"
+        },
+        {
+          "number": 389,
+          "text": "The temporal gradient often seen in retrograde amnesia (better memory for distant past than recent past) supports the idea of:",
+          "options": { "a": "Rapid forgetting from STM", "b": "Long-term consolidation involving transfer from hippocampus", "c": "The limits of sensory memory", "d": "The function of the phonological loop" },
+          "answer": "b"
+        },
+        {
+          "number": 390,
+          "text": "What activity, often done effortlessly every night, is mentioned as playing an important role in memory consolidation?",
+          "options": { "a": "Eating", "b": "Exercising", "c": "Sleeping", "d": "Talking" },
+          "answer": "c"
+        },
+        {
+          "number": 391,
+          "text": "What is reconsolidation?",
+          "options": { "a": "The initial process of stabilizing a new memory.", "b": "The process where recalled memories become vulnerable and must be consolidated again.", "c": "A technique for improving short-term memory capacity.", "d": "The transfer of memory from cortex back to hippocampus." },
+          "answer": "b"
+        },
+        {
+          "number": 392,
+          "text": "Early evidence for reconsolidation came from studies showing that if an animal retrieves a memory and is then given a drug that blocks consolidation:",
+          "options": { "a": "The memory becomes stronger.", "b": "The memory is unaffected.", "c": "Forgetting occurs, even though the memory was previously consolidated.", "d": "Only short-term memory is affected." },
+          "answer": "c"
+        },
+        {
+          "number": 393,
+          "text": "Forgetting induced by blocking reconsolidation only occurs if:",
+          "options": { "a": "The memory is very old.", "b": "The animal is asleep.", "c": "The memory is actively retrieved just before the blocking agent.", "d": "The blocking agent is given long after retrieval." },
+          "answer": "c"
+        },
+        {
+          "number": 394,
+          "text": "The study involving memories of the Boston Marathon bombing (Kredlow & Otto, 2015) suggested that reconsolidation can be disrupted by:",
+          "options": { "a": "Taking a nap", "b": "Actively trying to forget", "c": "Reading an interfering story shortly after memory reactivation", "d": "Thinking about a positive memory instead" },
+          "answer": "c"
+        },
+        {
+          "number": 395,
+          "text": "In the Boston Marathon study, which group showed the most significant reduction in recalled details a week later?",
+          "options": { "a": "The control group (did nothing)", "b": "The group that read a positive story", "c": "The group that read a neutral story", "d": "The group that read a negative story" },
+          "answer": "d"
+        },
+        {
+          "number": 396,
+          "text": "Research suggests that disrupting reconsolidation might be used to:",
+          "options": { "a": "Enhance memory for facts", "b": "Improve short-term memory capacity", "c": "Reduce the impact or detail of traumatic memories", "d": "Speed up learning" },
+          "answer": "c"
+        },
+        {
+          "number": 397,
+          "text": "Which brain structure, playing a key role in emotional memory, has been implicated in studies where disrupting reconsolidation reduces fear memories?",
+          "options": { "a": "Hippocampus", "b": "Frontal lobe", "c": "Cerebellum", "d": "Amygdala" },
+          "answer": "d"
+        },
+        {
+          "number": 398,
+          "text": "Research suggests that memory storage depends critically on the spaces between neurons, known as:",
+          "options": { "a": "Axons", "b": "Dendrites", "c": "Synapses", "d": "Myelin sheaths" },
+          "answer": "c"
+        },
+        {
+          "number": 399,
+          "text": "What does Donald Hebb's phrase 'Cells that fire together wire together' mean in the context of memory?",
+          "options": { "a": "Neurons randomly connect during firing.", "b": "Communication between neurons strengthens their connection.", "c": "Neurons that fire simultaneously deplete their resources.", "d": "Electrical wires are needed for memory." },
+          "answer": "b"
+        },
+        {
+          "number": 400,
+          "text": "Why was the sea slug Aplysia chosen by Eric Kandel for memory research?",
+          "options": { "a": "It has human-like memory capacity.", "b": "It has a very complex brain.", "c": "It has a relatively simple nervous system.", "d": "It learns extremely quickly." },
+          "answer": "c"
+        },
+        {
+          "number": 401,
+          "text": "In Aplysia, short-term memory (like withdrawing its gill faster after a recent shock) is associated with:",
+          "options": { "a": "Growth of new synapses", "b": "Enhanced neurotransmitter release", "c": "Changes in the cell body", "d": "Rewiring of the entire neural circuit" },
+          "answer": "b"
+        },
+        {
+          "number": 402,
+          "text": "In Aplysia, long-term memory (an enduring response after repeated shocks) involves:",
+          "options": { "a": "Temporary increase in neurotransmitters", "b": "Growth of new synaptic connections", "c": "A decrease in neuronal firing", "d": "Changes only in sensory neurons" },
+          "answer": "b"
+        },
+        {
+          "number": 403,
+          "text": "What is Long-Term Potentiation (LTP)?",
+          "options": { "a": "A temporary decrease in synaptic strength", "b": "A process where repeated communication across a synapse strengthens the connection", "c": "The growth of new neurons", "d": "A type of sensory memory" },
+          "answer": "b"
+        },
+        {
+          "number": 404,
+          "text": "LTP was first demonstrated by Bliss & Lømo (1973) in which brain structure of rats?",
+          "options": { "a": "Amygdala", "b": "Cerebellum", "c": "Hippocampus", "d": "Frontal cortex" },
+          "answer": "c"
+        },
+        {
+          "number": 405,
+          "text": "Which property of LTP supports its role as a potential mechanism for long-term memory storage?",
+          "options": { "a": "It is very short-lived.", "b": "It can be induced rapidly and last for a long time.", "c": "It only occurs outside the hippocampus.", "d": "It weakens synaptic connections." },
+          "answer": "b"
+        },
+        {
+          "number": 406,
+          "text": "What effect do drugs that block LTP have on learning and memory in rats?",
+          "options": { "a": "They enhance memory.", "b": "They have no effect.", "c": "They impair memory and maze learning.", "d": "They only affect short-term memory." },
+          "answer": "c"
+        },
+        {
+          "number": 407,
+          "text": "The early study by Jenkins and Dallenbach (1924) found that recall was better after:",
+          "options": { "a": "A period of waking activity", "b": "A period of sleep", "c": "Intense exercise", "d": "Eating a large meal" },
+          "answer": "b"
+        },
+        {
+          "number": 408,
+          "text": "How did Jenkins and Dallenbach interpret their findings regarding sleep and memory?",
+          "options": { "a": "Sleep actively consolidates memories.", "b": "Sleep passively protects memories from interference.", "c": "Sleep causes forgetting.", "d": "Waking activity enhances memory." },
+          "answer": "b"
+        },
+        {
+          "number": 409,
+          "text": "Targeted Memory Reactivation (TMR) involves:",
+          "options": { "a": "Intense studying right before sleep.", "b": "Presenting memory cues (like sounds) during sleep.", "c": "Using drugs to enhance memory during sleep.", "d": "Waking participants up frequently." },
+          "answer": "b"
+        },
+        {
+          "number": 410,
+          "text": "Studies using TMR have shown that presenting characteristic sounds associated with learned object-locations during sleep leads to:",
+          "options": { "a": "Worse memory for those locations.", "b": "No change in memory.", "c": "More accurate memory for the cued locations.", "d": "Memory improvement only if participants wake up." },
+          "answer": "c"
+        },
+        {
+          "number": 411,
+          "text": "According to Creery et al. (2015), TMR effects during sleep are strongest for:",
+          "options": { "a": "Memories that are already very well learned.", "b": "Associations that are not well learned initially.", "c": "Visual memories only.", "d": "Procedural memories." },
+          "answer": "b"
+        },
+        {
+          "number": 412,
+          "text": "A meta-analysis of TMR studies (Hu et al., 2020) found that TMR effects are statistically significant, but primarily when administered during which stage(s) of sleep?",
+          "options": { "a": "Only REM sleep", "b": "Only Stage 1 sleep", "c": "Stage 2 and slow-wave sleep (non-REM)", "d": "Equally effective in all sleep stages" },
+          "answer": "c"
+        },
+        {
+          "number": 413,
+          "text": "Which learning outcome relates to distinguishing sensory memory from short-term memory?",
+          "options": { "a": "Duration and capacity differences", "b": "Role of the hippocampus", "c": "Neural synapse function", "d": "Working memory model elements" },
+          "answer": "a"
+        },
+        {
+          "number": 414,
+          "text": "The visuo-spatial sketchpad, phonological loop, episodic buffer, and central executive are elements of the:",
+          "options": { "a": "Sensory memory model", "b": "Long-term potentiation process", "c": "Model of working memory", "d": "Consolidation theory" },
+          "answer": "c"
+        },
+        {
+          "number": 415,
+          "text": "Patient HM's case primarily illuminated the interrelationship between memory and which brain structure?",
+          "options": { "a": "Amygdala", "b": "Cerebellum", "c": "Frontal Lobe", "d": "Hippocampus" },
+          "answer": "d"
+        },
+        {
+          "number": 416,
+          "text": "The work with Aplysia and the concept of LTP highlight the role of what neural component in long-term memory storage?",
+          "options": { "a": "Glial cells", "b": "The neural synapse", "c": "The cell nucleus", "d": "Neurotransmitter type" },
+          "answer": "b"
+        },

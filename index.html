@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PSYO 111 Final Exam Prep</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Home / Setup Page -->
+  <div class="container" id="home">
+    <header>
+      <h1>PSYO 111 Final Exam Prep</h1>
+      <p class="disclaimer">
+        <br><br>Note: Some questions might be extremely specific and/or unrelated to course content.<br>
+        I apologize in advance for any inconvenience. <br><br><br>-Creator
+      </p>
+    </header>
+    
+    <div class="home-options">
+      <button id="start-testing-btn">Start Testing</button>
+    </div>
+    
+    <!-- Setup Options -->
+    <div id="setup-options" style="display: none;">
+      <h2>Select Testing Mode</h2>
+      <div class="mode-options">
+        <label>
+          <input type="radio" name="chapter-mode" value="specific"> Specific Chapter
+        </label>
+        <label>
+          <input type="radio" name="chapter-mode" value="all" checked> All Chapters
+        </label>
+      </div>
+      <div id="chapter-dropdown" style="display: none;">
+        <h3>Select a Chapter:</h3>
+        <select id="chapter-select">
+            <option value="3">Chapter 3 ( 90 Questions)</option>
+            <option value="4">Chapter 4 (238 Questions)</option>
+            <option value="6">Chapter 6 ( 88 Questions)</option>
+            <option value="7">Chapter 7 (351 Questions)</option>
+          </select>
+      </div>
+      
+      <div id="order-selection">
+        <h2>Select Question Order</h2>
+        <button id="sequential-btn">Sequential</button>
+        <button id="random-btn">Random</button>
+        <div id="random-options" style="display: none;">
+          <h3>Number of Questions (leave blank for all):</h3>
+          <input type="number" id="num-questions" min="1" placeholder="Enter a number">
+        </div>
+        <button id="begin-quiz-btn">Begin Quiz</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quiz Page -->
+  <div class="container" id="quiz-page" style="display: none;">
+    <div class="quiz-info">
+      <div>Score: <span id="score">0</span></div>
+      <div>Time: <span id="timer">00:00</span></div>
+    </div>
+    
+    <!-- Progress Bar & Counter -->
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+      <div class="progress-text" id="progress-text">0 / 0 Questions Completed</div>
+    </div>
+    
+    <div id="quiz-container">
+      <div class="question" id="question-text"></div>
+      <ul class="options" id="options-list"></ul>
+      
+      <div class="action-buttons">
+        <button id="submit-btn" disabled>Submit Answer</button>
+        <button id="void-btn" class="void-btn">Void Question</button>
+      </div>
+      
+      <div class="nav-buttons">
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn" disabled>Next</button>
+      </div>
+    </div>
+    
+    <div id="results" style="display: none; text-align: center; margin-top: 20px;">
+      <h2>Your final score is: <span id="final-score"></span></h2>
+      <h3 id="final-percentage"></h3>
+      <button id="restart-btn" class="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <!-- Dark Mode Toggle Button -->
+  <button id="dark-mode-toggle" class="dark-toggle" title="Toggle Dark Mode">
+    <span id="dark-mode-icon" class="icon">🌙</span>
+  </button>
+  
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

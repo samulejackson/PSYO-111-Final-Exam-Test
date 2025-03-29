@@ -1,0 +1,2620 @@
+[
+  {
+    "number": 91,
+    "text": "According to the text, hearing depends on what type of physical phenomenon?",
+    "options": {
+      "a": "Electromagnetic waves",
+      "b": "Chemical reactions",
+      "c": "Sound waves (changes in air pressure)",
+      "d": "Mechanical pressure on the skin"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 92,
+    "text": "Unlike vision, hearing has which characteristic mentioned in the text?",
+    "options": {
+      "a": "It only works in bright light",
+      "b": "It works in the dark, through walls, and around corners",
+      "c": "It requires direct line of sight",
+      "d": "It is primarily used for detecting color"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 93,
+    "text": "Who was Ray Charles, as described in the text?",
+    "options": {
+      "a": "A pioneering visual artist who lost his hearing",
+      "b": "A pioneering American soul-music singer and songwriter who went blind",
+      "c": "A researcher who studied auditory perception",
+      "d": "A physician who developed treatments for hearing loss"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 94,
+    "text": "What did Ray Charles consider potentially worse than his blindness?",
+    "options": {
+      "a": "Losing his sense of touch",
+      "b": "Losing his ability to speak",
+      "c": "Losing his hearing",
+      "d": "Losing his memory"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 95,
+    "text": "What is a 'pure tone' described as in the text?",
+    "options": {
+      "a": "A complex mixture of sound frequencies",
+      "b": "A sound produced only by musical instruments",
+      "c": "A simple sound wave with regularly alternating pressure regions",
+      "d": "A sound below the threshold of human hearing"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 96,
+    "text": "What causes the eardrum to vibrate when sound is present?",
+    "options": {
+      "a": "Light waves hitting the ear",
+      "b": "Chemical signals in the air",
+      "c": "Alternating air pressure waves",
+      "d": "Magnetic fields"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 97,
+    "text": "The frequency of a sound wave corresponds to which perceptual dimension?",
+    "options": {
+      "a": "Loudness",
+      "b": "Timbre",
+      "c": "Pitch",
+      "d": "Location"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 98,
+    "text": "What unit is used to measure the frequency of sound waves?",
+    "options": {
+      "a": "Decibels (dB)",
+      "b": "Hertz (Hz)",
+      "c": "Nanometers (nm)",
+      "d": "Lumens"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 99,
+    "text": "The amplitude of a sound wave corresponds to which perceptual dimension?",
+    "options": {
+      "a": "Pitch",
+      "b": "Timbre",
+      "c": "Loudness",
+      "d": "Complexity"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 100,
+    "text": "What unit is typically used to measure the intensity (amplitude) of sound?",
+    "options": {
+      "a": "Hertz (Hz)",
+      "b": "Decibels (dB)",
+      "c": "Cycles per second",
+      "d": "Nanometers (nm)"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 101,
+    "text": "According to the text, what is the approximate decibel level of normal conversation?",
+    "options": {
+      "a": "20 dB",
+      "b": "60 dB",
+      "c": "85 dB",
+      "d": "130 dB"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 102,
+    "text": "At what approximate decibel level can sound begin to cause hearing damage, depending on exposure length?",
+    "options": {
+      "a": "40 dB",
+      "b": "60 dB",
+      "c": "85 dB",
+      "d": "100 dB"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 103,
+    "text": "The complexity of sound waves (mixture of frequencies) corresponds to which perceptual dimension?",
+    "options": {
+      "a": "Pitch",
+      "b": "Loudness",
+      "c": "Timbre",
+      "d": "Duration"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 104,
+    "text": "What does timbre allow us to do?",
+    "options": {
+      "a": "Determine the location of a sound",
+      "b": "Judge the loudness of a sound",
+      "c": "Distinguish two sources with the same pitch and loudness",
+      "d": "Measure the frequency of a sound"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 105,
+    "text": "What determines the timbre of a sound, according to the text?",
+    "options": {
+      "a": "Only the fundamental frequency",
+      "b": "Only the overall amplitude",
+      "c": "The relative amounts of different frequencies in the mixture",
+      "d": "The duration of the sound wave"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 106,
+    "text": "How does the perception of timbre relate to the perception of color?",
+    "options": {
+      "a": "Both depend on a single wavelength/frequency",
+      "b": "Both depend on the relative amounts of different wavelengths/frequencies",
+      "c": "Timbre is perceived by the eyes, color by the ears",
+      "d": "There is no relationship between them"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 107,
+    "text": "What is the central problem of auditory perception described in the coffee shop example?",
+    "options": {
+      "a": "Filtering out background noise completely",
+      "b": "Determining the exact decibel level of each sound",
+      "c": "Reconstructing original sound sources from a complex wave mixture",
+      "d": "Identifying the pitch of the espresso machine"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 108,
+    "text": "Which part of the ear is responsible for collecting sound waves and funneling them inward?",
+    "options": {
+      "a": "Inner ear",
+      "b": "Middle ear",
+      "c": "Outer ear",
+      "d": "Auditory nerve"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 109,
+    "text": "What are the three distinct parts of the human ear mentioned in the text?",
+    "options": {
+      "a": "Pinna, Cochlea, Eardrum",
+      "b": "Outer ear, Middle ear, Inner ear",
+      "c": "Ossicles, Auditory Canal, Temporal Lobe",
+      "d": "Hammer, Anvil, Stirrup"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 110,
+    "text": "What components make up the outer ear?",
+    "options": {
+      "a": "Cochlea and auditory nerve",
+      "b": "Ossicles and oval window",
+      "c": "Pinna, auditory canal, and eardrum",
+      "d": "Basilar membrane and hair cells"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 111,
+    "text": "What is the function of the pinna?",
+    "options": {
+      "a": "To transduce sound into neural signals",
+      "b": "To amplify vibrations",
+      "c": "To collect sound waves and locate sound sources",
+      "d": "To protect the inner ear from loud noises"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 112,
+    "text": "What structure separates the outer ear from the middle ear?",
+    "options": {
+      "a": "Oval window",
+      "b": "Basilar membrane",
+      "c": "Eardrum",
+      "d": "Cochlea"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 113,
+    "text": "What does the middle ear contain?",
+    "options": {
+      "a": "Fluid-filled cochlea",
+      "b": "Auditory nerve fibers",
+      "c": "Pinna and auditory canal",
+      "d": "Ossicles (hammer, anvil, stirrup)"
+    },
+    "answer": "d"
+  },
+  {
+    "number": 114,
+    "text": "What is the function of the ossicles?",
+    "options": {
+      "a": "To collect sound waves",
+      "b": "To transduce vibrations into neural signals",
+      "c": "To mechanically transmit and amplify vibrations from the eardrum",
+      "d": "To maintain balance"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 115,
+    "text": "Why is amplification by the ossicles necessary?",
+    "options": {
+      "a": "Because the outer ear dampens sound",
+      "b": "To overcome the threshold of hearing",
+      "c": "Because more energy is needed to create pressure waves in the fluid of the inner ear",
+      "d": "To filter out high-frequency sounds"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 116,
+    "text": "What structure separates the middle ear from the inner ear?",
+    "options": {
+      "a": "Eardrum",
+      "b": "Oval window",
+      "c": "Round window",
+      "d": "Auditory canal"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 117,
+    "text": "What is the cochlea?",
+    "options": {
+      "a": "The visible part of the outer ear",
+      "b": "One of the small bones in the middle ear",
+      "c": "A fluid-filled tube in the inner ear where transduction occurs",
+      "d": "The nerve that carries signals to the brain"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 118,
+    "text": "What structure within the cochlea moves up and down in time with vibrations?",
+    "options": {
+      "a": "Eardrum",
+      "b": "Ossicles",
+      "c": "Basilar membrane",
+      "d": "Pinna"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 119,
+    "text": "How does the basilar membrane respond to different sound frequencies?",
+    "options": {
+      "a": "It vibrates uniformly regardless of frequency",
+      "b": "Low frequencies cause maximum movement at the base, high frequencies at the apex",
+      "c": "Low frequencies cause maximum movement at the apex, high frequencies at the base",
+      "d": "It only responds to frequencies above 1000 Hz"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 120,
+    "text": "What is the apex of the basilar membrane?",
+    "options": {
+      "a": "The narrow, stiff end near the oval window",
+      "b": "The wide, floppy tip end",
+      "c": "The middle section responsive to mid-range frequencies",
+      "d": "The point where the auditory nerve exits"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 121,
+    "text": "What is the base of the basilar membrane?",
+    "options": {
+      "a": "The wide, floppy tip end",
+      "b": "The narrow, stiff end near the oval window",
+      "c": "The entire length of the membrane",
+      "d": "The fluid surrounding the membrane"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 122,
+    "text": "What are the inner hair cells?",
+    "options": {
+      "a": "Cells forming the auditory nerve",
+      "b": "Specialized auditory receptor neurons in the basilar membrane",
+      "c": "Bones in the middle ear",
+      "d": "Protective cells in the outer ear canal"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 123,
+    "text": "What happens to the inner hair cells when the basilar membrane moves?",
+    "options": {
+      "a": "They retract into the membrane",
+      "b": "Their hairs bend back and forth in the cochlear fluid",
+      "c": "They release chemical signals into the middle ear",
+      "d": "They amplify the sound waves"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 124,
+    "text": "The bending of inner hair cells generates what?",
+    "options": {
+      "a": "Mechanical vibrations",
+      "b": "Fluid pressure waves",
+      "c": "Rhythmic action potentials in the auditory nerve",
+      "d": "Changes in the shape of the ossicles"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 125,
+    "text": "How is the timing of action potentials from the auditory nerve related to the original sound wave?",
+    "options": {
+      "a": "It is random",
+      "b": "It is precisely timed with the pressure peaks of the sound wave",
+      "c": "It corresponds to the silent periods between sounds",
+      "d": "It is inversely related to the frequency"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 126,
+    "text": "Which auditory nerve axons fire the most in response to a sound?",
+    "options": {
+      "a": "Those connected to hair cells that are least stimulated",
+      "b": "All axons fire equally",
+      "c": "Those connected to hair cells in the area of the basilar membrane that moves the most",
+      "d": "Only axons responsive to very low frequencies"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 127,
+    "text": "Where do action potentials from the auditory nerve travel after leaving the inner ear?",
+    "options": {
+      "a": "Directly to the auditory cortex",
+      "b": "To the visual cortex first",
+      "c": "To the brainstem, then the thalamus, then the auditory cortex",
+      "d": "To the cerebellum for processing"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 128,
+    "text": "What is area A1?",
+    "options": {
+      "a": "The primary visual cortex",
+      "b": "The primary auditory cortex in the temporal lobe",
+      "c": "A region in the brainstem processing sound location",
+      "d": "The part of the thalamus relaying auditory information"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 129,
+    "text": "The auditory cortex is suggested to have two streams analogous to the visual system. What features are processed by the spatial ('where') stream?",
+    "options": {
+      "a": "Pitch and timbre",
+      "b": "Sound identification ('what')",
+      "c": "Location of the sound source",
+      "d": "Loudness and duration"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 130,
+    "text": "Where are the 'where' auditory features processed?",
+    "options": {
+      "a": "In the frontal lobe",
+      "b": "In areas towards the back of the temporal lobe",
+      "c": "In the lower (ventral) part of the temporal lobe",
+      "d": "In the brainstem only"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 131,
+    "text": "What features are processed by the 'what' auditory stream?",
+    "options": {
+      "a": "Sound source location",
+      "b": "Identification of the sound",
+      "c": "Timing differences between ears",
+      "d": "Movement of the sound source"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 132,
+    "text": "Where are the 'what' auditory features processed?",
+    "options": {
+      "a": "In areas towards the back of the temporal lobe",
+      "b": "In the parietal lobe",
+      "c": "In the lower (ventral) part of the temporal lobe",
+      "d": "In the thalamus only"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 133,
+    "text": "How is the perceptual attribute of loudness signaled in the auditory system?",
+    "options": {
+      "a": "By the specific place on the basilar membrane that is activated",
+      "b": "By the timing of action potentials",
+      "c": "By the total amount of activity in hair cells",
+      "d": "By the complexity of the sound wave"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 134,
+    "text": "What is the 'place code' for perceiving pitch?",
+    "options": {
+      "a": "The timing of action potentials in the auditory nerve",
+      "b": "The total number of active hair cells",
+      "c": "The brain using information about which specific places on the basilar membrane are active",
+      "d": "The location of the sound source in space"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 135,
+    "text": "What is the 'temporal code' for perceiving pitch?",
+    "options": {
+      "a": "The specific location of activity on the basilar membrane",
+      "b": "The brain using the timing (synchronous firing) of action potentials in the auditory nerve",
+      "c": "The overall loudness of the sound",
+      "d": "The complexity or timbre of the sound"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 136,
+    "text": "How does timbre perception relate to the activity of hair cells?",
+    "options": {
+      "a": "It depends only on the timing of action potentials",
+      "b": "It depends on the total amount of activity",
+      "c": "It depends on the relative activity of hair cells across the basilar membrane",
+      "d": "It is independent of hair cell activity"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 137,
+    "text": "What are monaural cues for sound localization?",
+    "options": {
+      "a": "Cues that require both ears",
+      "b": "Cues based on the timing difference between ears",
+      "c": "Cues based on the intensity difference between ears",
+      "d": "Cues that depend on how the pinna alters the sound"
+    },
+    "answer": "d"
+  },
+  {
+    "number": 138,
+    "text": "What are binaural cues for sound localization?",
+    "options": {
+      "a": "Cues that work with only one ear",
+      "b": "Cues based on visual information",
+      "c": "Cues based on timing and intensity differences between the two ears",
+      "d": "Cues related to the pitch of the sound"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 139,
+    "text": "Why do sounds arrive at slightly different times at the two ears?",
+    "options": {
+      "a": "Because the speed of light is finite",
+      "b": "Because the speed of sound is much slower than light",
+      "c": "Because of interference from brain activity",
+      "d": "Because the ears process information at different speeds"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 140,
+    "text": "The time difference between ears is most effective for localizing which types of sounds?",
+    "options": {
+      "a": "High-frequency components",
+      "b": "Low-frequency components",
+      "c": "Very loud sounds only",
+      "d": "Very quiet sounds only"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 141,
+    "text": "Why are higher-frequency sounds more intense in the ear closer to the source?",
+    "options": {
+      "a": "Because high frequencies travel faster",
+      "b": "Because the head blocks higher frequencies more effectively",
+      "c": "Because the far ear amplifies low frequencies",
+      "d": "Because high frequencies bend around the head easily"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 142,
+    "text": "What is the purpose of turning your head side to side when trying to localize a sound?",
+    "options": {
+      "a": "To clean the auditory canals",
+      "b": "To change the relative intensity and timing cues and use vision",
+      "c": "To amplify the sound using the pinnae",
+      "d": "To activate the temporal code for pitch"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 143,
+    "text": "How does the auditory system group or segregate sound features into sources?",
+    "options": {
+      "a": "Based on random assignment",
+      "b": "Primarily using visual cues",
+      "c": "Using Gestalt principles like similarity, proximity, and common fate",
+      "d": "By analyzing only the loudest frequency component"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 144,
+    "text": "Which Gestalt principle suggests that sounds similar in pitch or location are grouped together?",
+    "options": {
+      "a": "Proximity",
+      "b": "Similarity",
+      "c": "Closure",
+      "d": "Continuity"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 145,
+    "text": "Which Gestalt principle suggests that sounds occurring close together in time are grouped together?",
+    "options": {
+      "a": "Proximity",
+      "b": "Similarity",
+      "c": "Common fate",
+      "d": "Simplicity"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 146,
+    "text": "What is conductive hearing loss?",
+    "options": {
+      "a": "Damage to the cochlea or auditory nerve",
+      "b": "Damage to the eardrum or ossicles impairing sound conduction",
+      "c": "Hearing loss caused by loud noise exposure",
+      "d": "Age-related hearing decline"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 147,
+    "text": "In conductive hearing loss, is the cochlea typically normal or damaged?",
+    "options": {
+      "a": "Damaged",
+      "b": "Normal",
+      "c": "Completely absent",
+      "d": "Replaced by scar tissue"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 148,
+    "text": "What is sensorineural hearing loss?",
+    "options": {
+      "a": "Damage to the eardrum or ossicles",
+      "b": "A temporary blockage of the auditory canal",
+      "c": "Damage to the cochlea, hair cells, or auditory nerve",
+      "d": "Hearing loss caused only by genetic factors"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 149,
+    "text": "What are the two main effects of sensorineural hearing loss mentioned?",
+    "options": {
+      "a": "Decreased sensitivity (sounds need to be louder) and decreased acuity (sounds smear)",
+      "b": "Increased sensitivity to loud sounds and improved acuity",
+      "c": "Loss of balance and tinnitus",
+      "d": "Inability to hear low frequencies and perfect pitch for high frequencies"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 150,
+    "text": "Which type of hearing loss is common with aging?",
+    "options": {
+      "a": "Conductive hearing loss only",
+      "b": "Sensorineural hearing loss",
+      "c": "Both conductive and sensorineural equally",
+      "d": "Neither, hearing improves with age"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 151,
+    "text": "Can hearing aids fix the acuity problem associated with sensorineural hearing loss?",
+    "options": {
+      "a": "Yes, perfectly",
+      "b": "Yes, but only for low frequencies",
+      "c": "No, they primarily amplify sounds to help with sensitivity",
+      "d": "No, hearing aids are only for conductive loss"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 152,
+    "text": "What is a cochlear implant?",
+    "options": {
+      "a": "An advanced type of hearing aid that fits inside the canal",
+      "b": "A surgical procedure to repair the eardrum",
+      "c": "An electronic device replacing the function of hair cells by stimulating the auditory nerve",
+      "d": "A device to measure brain activity related to hearing"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 153,
+    "text": "What part of the cochlear implant system is worn externally?",
+    "options": {
+      "a": "Electrodes inserted into the cochlea",
+      "b": "Receiver inside the skull",
+      "c": "Microphone, processor, and transmitter",
+      "d": "The auditory nerve itself"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 154,
+    "text": "What part of the cochlear implant system is implanted internally?",
+    "options": {
+      "a": "Microphone and processor",
+      "b": "Receiver and electrodes",
+      "c": "External transmitter only",
+      "d": "Hearing aid battery"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 155,
+    "text": "How does a cochlear implant work?",
+    "options": {
+      "a": "It amplifies sound mechanically like a hearing aid",
+      "b": "It transforms sound into electrical signals that directly stimulate the auditory nerve",
+      "c": "It repairs damaged hair cells within the cochlea",
+      "d": "It bypasses the ear entirely and stimulates the auditory cortex directly"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 156,
+    "text": "According to the 'Hot Science' box, what percentage of infants born deaf have hearing parents?",
+    "options": {
+      "a": "Less than 10%",
+      "b": "About 50%",
+      "c": "More than 90%",
+      "d": "Exactly 75%"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 157,
+    "text": "Why are deaf children of hearing parents vulnerable to language disorders?",
+    "options": {
+      "a": "Due to genetic factors linked to deafness",
+      "b": "Because sign language is inherently limited",
+      "c": "Because early communication with caregivers using spoken language is crucial",
+      "d": "Because cochlear implants interfere with language"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 158,
+    "text": "What does recent evidence (Caselli et al., 2021) suggest about deaf children exposed to ASL by 6 months?",
+    "options": {
+      "a": "They show delayed language development",
+      "b": "They later show age-appropriate vocabulary growth",
+      "c": "They struggle to learn spoken language later",
+      "d": "They primarily communicate through gestures"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 159,
+    "text": "What is a potential risk associated with cochlear implantation mentioned in the text?",
+    "options": {
+      "a": "Complete loss of remaining hearing",
+      "b": "Increased chance of infections like meningitis",
+      "c": "Interference with visual development",
+      "d": "Dependence on external batteries"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 160,
+    "text": "The study by Tobey et al. (2013) examined the link between spoken language ability and what factor in children with cochlear implants?",
+    "options": {
+      "a": "The brand of the implant",
+      "b": "The number of electrodes",
+      "c": "The age at which the implant was received",
+      "d": "The hearing status of the parents"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 161,
+    "text": "What did the results of the Tobey et al. (2013) study show regarding age at implantation?",
+    "options": {
+      "a": "Age at implantation did not matter for language outcomes",
+      "b": "Children implanted later (e.g., 4-5 years) had the best outcomes",
+      "c": "Children implanted at younger ages showed performance closer to the normal range",
+      "d": "Performance depended only on the time since implantation, not the age it occurred"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 162,
+    "text": "According to the 'Hot Science' box, early cochlear implantation is associated with enhanced development in which areas besides general language ability?",
+    "options": {
+      "a": "Musical talent and artistic skill",
+      "b": "Athletic coordination and balance",
+      "c": "Auditory comprehension and reading comprehension",
+      "d": "Mathematical reasoning and spatial awareness"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 163,
+    "text": "What is the main conclusion regarding the timing of cochlear implants based on the studies discussed?",
+    "options": {
+      "a": "It is always best to wait until the child is older",
+      "b": "There are disadvantages to waiting to implant a child at an older age",
+      "c": "The timing of the implant has no impact on language development",
+      "d": "Implants are only effective if done within the first 6 months of life"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 164,
+    "text": "What is the primary topic of Chapter 4?",
+    "options": {
+      "a": "Memory and Learning",
+      "b": "Sensation and Perception",
+      "c": "Social Psychology",
+      "d": "Neuroscience and Behaviour"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 165,
+    "text": "Which of the following is listed as a main section topic in Chapter 4?",
+    "options": {
+      "a": "The Chemical Senses: Adding Flavour",
+      "b": "Theories of Emotion",
+      "c": "Developmental Milestones",
+      "d": "Cognitive Biases"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 166,
+    "text": "Daniel Kish uses a form of echolocation, also known as:",
+    "options": {
+      "a": "Sonar",
+      "b": "Radar",
+      "c": "Infrared sensing",
+      "d": "Magnetic field detection"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 167,
+    "text": "How does Daniel Kish generate the sounds for echolocation?",
+    "options": {
+      "a": "By snapping his fingers",
+      "b": "By using a handheld device",
+      "c": "By clicking his tongue against the roof of his mouth",
+      "d": "By whistling"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 168,
+    "text": "What information can Daniel Kish obtain from the echoes of his clicks?",
+    "options": {
+      "a": "Only the distance to objects",
+      "b": "Only the presence or absence of objects",
+      "c": "Location, size, shape, and material composition of objects",
+      "d": "The color and temperature of objects"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 169,
+    "text": "Daniel Kish refers to his echolocation technique as:",
+    "options": {
+      "a": "Echo vision",
+      "b": "Flash sonar",
+      "c": "Sound mapping",
+      "d": "Click sensing"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 170,
+    "text": "How does Daniel Kish describe the 'vision' obtained through flash sonar?",
+    "options": {
+      "a": "As precise and clear as normal vision",
+      "b": "Like a continuous sort of vision from flashes, a 3D fuzzy geometry",
+      "c": "Purely two-dimensional, like a photograph",
+      "d": "Focused only on auditory details, not spatial layout"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 171,
+    "text": "Brain imaging studies of flash sonar users like Daniel Kish show activation in which part of the brain during echolocation?",
+    "options": {
+      "a": "Auditory cortex only",
+      "b": "Motor cortex",
+      "c": "'Visual' parts of the brain (occipital lobe)",
+      "d": "Frontal lobe decision-making areas"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 172,
+    "text": "What is the name of the nonprofit organization founded by Daniel Kish?",
+    "options": {
+      "a": "Seeing Eye Dogs of America",
+      "b": "World Access for the Blind",
+      "c": "National Federation of the Blind",
+      "d": "Echolocation Education Foundation"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 173,
+    "text": "What fundamental distinction is made at the beginning of the chapter?",
+    "options": {
+      "a": "Between vision and hearing",
+      "b": "Between sensation and perception",
+      "c": "Between conscious and unconscious thought",
+      "d": "Between learning and memory"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 174,
+    "text": "According to the text, research on sensation and perception forms the basis for understanding more complex processes like:",
+    "options": {
+      "a": "Muscle coordination",
+      "b": "Cellular respiration",
+      "c": "Memory, emotion, motivation, and decision making",
+      "d": "Digestion and metabolism"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 175,
+    "text": "What is the basic definition of sensation provided?",
+    "options": {
+      "a": "The interpretation of sensory information",
+      "b": "The conscious awareness of the environment",
+      "c": "Simple stimulation of a sense organ",
+      "d": "The conversion of physical energy to electrical signals"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 176,
+    "text": "What is the basic definition of perception provided?",
+    "options": {
+      "a": "The detection of physical energy by sense organs",
+      "b": "The organization, identification, and interpretation of sensation",
+      "c": "The process of sensory adaptation",
+      "d": "The firing of sensory neurons"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 177,
+    "text": "In the reading example, the eyes act as the ______ organs, while the brain acts as the ______ organ.",
+    "options": {
+      "a": "perceptual; sensory",
+      "b": "sensory; perceptual",
+      "c": "cognitive; emotional",
+      "d": "motor; sensory"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 178,
+    "text": "Transduction converts ______ signals into ______ signals.",
+    "options": {
+      "a": "neural; physical",
+      "b": "physical; neural",
+      "c": "chemical; electrical",
+      "d": "electrical; chemical"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 179,
+    "text": "What happens if you push gently on your closed eyelid, according to the text?",
+    "options": {
+      "a": "You feel pressure but see nothing",
+      "b": "You hear a faint sound",
+      "c": "You might perceive sparkly dots (light)",
+      "d": "Your eye automatically opens"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 180,
+    "text": "The phenomenon of seeing light when pressure is applied to the eye illustrates what principle?",
+    "options": {
+      "a": "Sensory adaptation",
+      "b": "The brain interprets signals based on the pathway they arrive on (transduction to 'light')",
+      "c": "Absolute threshold",
+      "d": "Just noticeable difference"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 181,
+    "text": "Why can humans only see a small portion of the electromagnetic spectrum?",
+    "options": {
+      "a": "Because only visible light frequencies can penetrate the atmosphere",
+      "b": "Because those are the only frequencies that exist",
+      "c": "Because we only have visual receptors sensitive to those frequencies",
+      "d": "Because our brains filter out other frequencies"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 182,
+    "text": "The text mentions that some animals can sense the Earth's magnetic field, which humans cannot. This illustrates:",
+    "options": {
+      "a": "Sensory adaptation",
+      "b": "That our senses detect only a subset of the physical world",
+      "c": "The process of transduction",
+      "d": "Synesthesia"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 183,
+    "text": "What reason is suggested for why human senses might be limited (related to head size)?",
+    "options": {
+      "a": "Larger heads would make balance difficult",
+      "b": "Evolution favored speed over sensory capacity",
+      "c": "Head size at birth is limited by the mother's pelvis, constraining brain/neuron capacity",
+      "d": "More sensory input would be too overwhelming to process"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 184,
+    "text": "What is sensory adaptation?",
+    "options": {
+      "a": "The process of converting physical energy to neural signals",
+      "b": "The minimum intensity needed to detect a stimulus",
+      "c": "Sensitivity to prolonged stimulation tends to decline over time",
+      "d": "The ability to focus on one stimulus among many"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 185,
+    "text": "The example of the smell in a bakery fading after a few minutes illustrates:",
+    "options": {
+      "a": "Absolute threshold",
+      "b": "Just noticeable difference",
+      "c": "Sensory adaptation",
+      "d": "Transduction"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 186,
+    "text": "Why is sensory adaptation considered useful?",
+    "options": {
+      "a": "It increases sensitivity to all stimuli",
+      "b": "It prevents sensory overload from unchanging stimuli",
+      "c": "It speeds up the process of transduction",
+      "d": "It enhances our perception of color"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 187,
+    "text": "The phenomenon where a grey cloud around a fixated black dot disappears is called:",
+    "options": {
+      "a": "Sensory overload",
+      "b": "Troxler fading",
+      "c": "Blind spot filling-in",
+      "d": "Negative afterimage"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 188,
+    "text": "Our sensory systems respond more strongly to ______ stimulation.",
+    "options": {
+      "a": "constant",
+      "b": "prolonged",
+      "c": "changes in",
+      "d": "familiar"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 189,
+    "text": "What is psychophysics?",
+    "options": {
+      "a": "The study of paranormal psychological phenomena",
+      "b": "The physics of sensory organ function",
+      "c": "Methods relating physical stimulus characteristics to observer's perception",
+      "d": "The study of how drugs affect perception"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 190,
+    "text": "Measuring the faintest light spot a person can see is an example of determining:",
+    "options": {
+      "a": "Just noticeable difference",
+      "b": "Absolute threshold",
+      "c": "Sensory adaptation rate",
+      "d": "Signal detection criterion"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 191,
+    "text": "The absolute threshold is the intensity at which a stimulus is detected on what percentage of trials?",
+    "options": {
+      "a": "10%",
+      "b": "25%",
+      "c": "50%",
+      "d": "100%"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 192,
+    "text": "According to Table 4.1, what is the approximate absolute threshold for touch?",
+    "options": {
+      "a": "A candle flame 48 km away",
+      "b": "A clock's tick 6.1 m away",
+      "c": "A fly's wing falling on the cheek from 1 cm away",
+      "d": "A teaspoon of sugar in 7.6 litres of water"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 193,
+    "text": "According to Table 4.1, what is the approximate absolute threshold for smell?",
+    "options": {
+      "a": "A fly's wing on the cheek",
+      "b": "One drop of perfume in a six-room area",
+      "c": "A clock's tick 6.1 m away",
+      "d": "A candle flame 48 km away"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 194,
+    "text": "According to Table 4.1, what is the approximate absolute threshold for taste?",
+    "options": {
+      "a": "One drop of perfume in six rooms",
+      "b": "A teaspoon of sugar in 7.6 litres of water",
+      "c": "A fly's wing on the cheek",
+      "d": "A clock tick 6.1 m away"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 195,
+    "text": "The graph in Figure 4.1 (Absolute Threshold) shows that the transition from not hearing to hearing is:",
+    "options": {
+      "a": "Abrupt and sudden",
+      "b": "Gradual",
+      "c": "Linear",
+      "d": "Instantaneous"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 196,
+    "text": "Humans tend to be most sensitive (have the lowest thresholds) to sounds corresponding to:",
+    "options": {
+      "a": "Very low pipe organ notes",
+      "b": "Very high dog whistles",
+      "c": "The human voice",
+      "d": "Ultrasonic frequencies"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 197,
+    "text": "What is the term for how well we can distinguish two very similar stimuli?",
+    "options": {
+      "a": "Sensitivity",
+      "b": "Acuity",
+      "c": "Absolute threshold",
+      "d": "Adaptation"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 198,
+    "text": "What is the Just Noticeable Difference (JND)?",
+    "options": {
+      "a": "The absolute minimum stimulus intensity detectable",
+      "b": "The minimal change in a stimulus that can just barely be detected",
+      "c": "The point where sensory adaptation occurs",
+      "d": "The level of stimulus complexity"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 199,
+    "text": "How does the JND typically change as the intensity of the standard stimulus (S) increases?",
+    "options": {
+      "a": "It decreases",
+      "b": "It stays the same",
+      "c": "It increases",
+      "d": "It becomes zero"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 200,
+    "text": "What does Weber's Law state?",
+    "options": {
+      "a": "Absolute threshold is constant across senses",
+      "b": "Sensory adaptation occurs at a fixed rate",
+      "c": "The JND for a stimulus is a constant proportion of the stimulus intensity",
+      "d": "Perception is the sum of individual sensations"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 201,
+    "text": "The example of noticing the difference between a 25g and 50g envelope, but not between a 10kg package and a 10.025kg package, illustrates:",
+    "options": {
+      "a": "Absolute threshold",
+      "b": "Sensory adaptation",
+      "c": "Weber's Law",
+      "d": "Signal detection theory"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 202,
+    "text": "Why is the assumption that a fixed threshold exists problematic?",
+    "options": {
+      "a": "Thresholds change constantly due to adaptation",
+      "b": "The same person may perceive the same stimulus differently on different occasions",
+      "c": "Thresholds are different for different sensory modalities",
+      "d": "Physical intensity cannot be accurately measured"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 203,
+    "text": "What is 'noise' in the context of signal detection theory?",
+    "options": {
+      "a": "Only auditory interference",
+      "b": "Any stimulus presented below the absolute threshold",
+      "c": "All other stimuli from internal and external environments competing with the signal",
+      "d": "Errors made by the observer"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 204,
+    "text": "According to signal detection theory, the response to a stimulus depends on:",
+    "options": {
+      "a": "Only the physical intensity of the stimulus",
+      "b": "Only the observer's motivation",
+      "c": "The observer's sensitivity and their decision criterion",
+      "d": "The observer's absolute threshold only"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 205,
+    "text": "In signal detection theory, what does an observer compare the sensory evidence to?",
+    "options": {
+      "a": "The absolute threshold",
+      "b": "The JND",
+      "c": "An internal decision criterion",
+      "d": "The physical properties of the stimulus"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 206,
+    "text": "A radiologist using a liberal criterion for detecting cancer in a mammogram would likely result in:",
+    "options": {
+      "a": "Missing many true cancers but few false alarms",
+      "b": "Minimizing missed cancers but leading to many unnecessary biopsies",
+      "c": "An equal number of missed cancers and false alarms",
+      "d": "Perfect accuracy with no errors"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 207,
+    "text": "A radiologist using a conservative criterion for detecting cancer would likely result in:",
+    "options": {
+      "a": "Detecting every possible cancer but many false alarms",
+      "b": "Fewer unnecessary biopsies but missing some treatable cancers",
+      "c": "An equal number of missed cancers and false alarms",
+      "d": "Perfect accuracy with no errors"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 208,
+    "text": "According to 'The Real World: Multitasking', using a cell phone while driving increases accident risk by approximately how much?",
+    "options": {
+      "a": "Two times",
+      "b": "Four times",
+      "c": "Ten times",
+      "d": "No significant increase"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 209,
+    "text": "Multitasking, like driving while talking on a phone, requires juggling multiple sources of sensory input, highlighting the issue of:",
+    "options": {
+      "a": "Sensory adaptation",
+      "b": "Absolute threshold",
+      "c": "Selective attention",
+      "d": "Perceptual constancy"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 210,
+    "text": "Research by Shomstein & Yantis (2004) found that when attention is directed to hearing, activity in visual areas tends to:",
+    "options": {
+      "a": "Increase",
+      "b": "Decrease",
+      "c": "Remain unchanged",
+      "d": "Become synchronized"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 211,
+    "text": "Why are phone conversations considered more distracting while driving than listening to the radio?",
+    "options": {
+      "a": "Radio signals interfere with car electronics",
+      "b": "Phone conversations require more cognitive resources (memory, planning, emotion)",
+      "c": "Radio volume is usually lower",
+      "d": "Phone use requires holding the device"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 212,
+    "text": "Does using a hands-free phone significantly reduce the risks associated with driving while talking, according to the studies cited?",
+    "options": {
+      "a": "Yes, it eliminates the risk",
+      "b": "Yes, it significantly reduces the risk",
+      "c": "No, it makes little difference to the cognitive distraction",
+      "d": "The text does not address hands-free devices"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 213,
+    "text": "Compared to driving without texting, texting while driving leads to:",
+    "options": {
+      "a": "Slightly faster reaction times",
+      "b": "Better lane keeping",
+      "c": "Dramatically less time looking at the road and difficulty maintaining lane/distance",
+      "d": "No significant difference in driving performance"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 214,
+    "text": "The impairing effect of texting while driving is comparable to:",
+    "options": {
+      "a": "Listening to the radio",
+      "b": "Having a passenger in the car",
+      "c": "Alcohol consumption and smoking marijuana",
+      "d": "Driving in daylight versus nighttime"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 215,
+    "text": "People who report frequent multitasking in everyday life tend to perform how on lab tasks requiring focused attention?",
+    "options": {
+      "a": "Better than non-multitaskers",
+      "b": "The same as non-multitaskers",
+      "c": "Worse (more difficulty focusing)",
+      "d": "Faster but with more errors"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 216,
+    "text": "What physical property of light waves determines the perception of hue (color)?",
+    "options": {
+      "a": "Amplitude",
+      "b": "Purity",
+      "c": "Wavelength",
+      "d": "Frequency (used for sound)"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 217,
+    "text": "What physical property of light waves determines the perception of brightness?",
+    "options": {
+      "a": "Wavelength",
+      "b": "Amplitude (intensity)",
+      "c": "Purity",
+      "d": "Frequency"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 218,
+    "text": "What physical property of light waves relates to the perception of saturation (richness of color)?",
+    "options": {
+      "a": "Amplitude",
+      "b": "Wavelength",
+      "c": "Purity (number of wavelengths)",
+      "d": "Intensity"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 219,
+    "text": "Which structure does light pass through first when entering the eye?",
+    "options": {
+      "a": "Lens",
+      "b": "Pupil",
+      "c": "Cornea",
+      "d": "Retina"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 220,
+    "text": "What is the pupil?",
+    "options": {
+      "a": "The colored part of the eye",
+      "b": "The clear outer tissue",
+      "c": "A hole in the center of the iris",
+      "d": "The light-sensitive tissue at the back"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 221,
+    "text": "What structure controls the size of the pupil?",
+    "options": {
+      "a": "Cornea",
+      "b": "Lens",
+      "c": "Retina",
+      "d": "Iris"
+    },
+    "answer": "d"
+  },
+  {
+    "number": 222,
+    "text": "What structure changes shape to focus light onto the retina?",
+    "options": {
+      "a": "Cornea",
+      "b": "Iris",
+      "c": "Lens",
+      "d": "Pupil"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 223,
+    "text": "What is the retina?",
+    "options": {
+      "a": "The clear outer layer of the eye",
+      "b": "The muscle that controls pupil size",
+      "c": "The structure that focuses light",
+      "d": "The light-sensitive tissue lining the back of the eyeball"
+    },
+    "answer": "d"
+  },
+  {
+    "number": 224,
+    "text": "The process by which the eye maintains a clear image on the retina by changing the lens shape is called:",
+    "options": {
+      "a": "Transduction",
+      "b": "Adaptation",
+      "c": "Accommodation",
+      "d": "Refraction"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 225,
+    "text": "Nearsightedness (myopia) occurs when the eyeball is too long and images focus:",
+    "options": {
+      "a": "Behind the retina",
+      "b": "In front of the retina",
+      "c": "Directly on the optic nerve",
+      "d": "Perfectly on the retina"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 226,
+    "text": "Farsightedness (hyperopia) occurs when the eyeball is too short and images focus:",
+    "options": {
+      "a": "Behind the retina",
+      "b": "In front of the retina",
+      "c": "Directly on the optic nerve",
+      "d": "Perfectly on the retina"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 227,
+    "text": "Which type of photoreceptor cell detects color and operates in daylight?",
+    "options": {
+      "a": "Rods",
+      "b": "Cones",
+      "c": "Bipolar cells",
+      "d": "Retinal ganglion cells"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 228,
+    "text": "Which type of photoreceptor cell becomes active in low-light conditions for night vision?",
+    "options": {
+      "a": "Rods",
+      "b": "Cones",
+      "c": "Bipolar cells",
+      "d": "Retinal ganglion cells"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 229,
+    "text": "What kind of information do rods provide?",
+    "options": {
+      "a": "Color and fine detail",
+      "b": "Only shades of grey, no color information",
+      "c": "Information about depth",
+      "d": "Only information about motion"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 230,
+    "text": "What is the fovea?",
+    "options": {
+      "a": "The point where the optic nerve leaves the eye",
+      "b": "An area of the retina where vision is clearest, containing only cones",
+      "c": "The outermost layer of the retina",
+      "d": "A structure in the middle ear"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 231,
+    "text": "Where are rods located in the retina?",
+    "options": {
+      "a": "Only in the fovea",
+      "b": "Distributed evenly across the entire retina",
+      "c": "Distributed around the retina except in the fovea",
+      "d": "Only in the blind spot"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 232,
+    "text": "Why might an astronomer look slightly to the side of a dim star to see it better?",
+    "options": {
+      "a": "To focus the image directly on the fovea",
+      "b": "To focus the image on the periphery where sensitive rods are located",
+      "c": "To avoid the blind spot",
+      "d": "To engage color vision"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 233,
+    "text": "Which cells in the retina collect signals from rods and cones and transmit them to retinal ganglion cells?",
+    "options": {
+      "a": "Amacrine cells",
+      "b": "Horizontal cells",
+      "c": "Bipolar cells",
+      "d": "Glial cells"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 234,
+    "text": "Which cells in the retina organize signals and send them to the brain via the optic nerve?",
+    "options": {
+      "a": "Rods",
+      "b": "Cones",
+      "c": "Bipolar cells",
+      "d": "Retinal ganglion cells (RGCs)"
+    },
+    "answer": "d"
+  },
+  {
+    "number": 235,
+    "text": "What forms the optic nerve?",
+    "options": {
+      "a": "Bundled axons of bipolar cells",
+      "b": "Bundled axons of retinal ganglion cells",
+      "c": "Bundled axons of rods and cones",
+      "d": "Blood vessels supplying the retina"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 236,
+    "text": "What is the blind spot?",
+    "options": {
+      "a": "The fovea",
+      "b": "Any area of the retina with low cone density",
+      "c": "A location in the visual field where the optic nerve leaves the eye (no receptors)",
+      "d": "A temporary loss of vision due to bright light"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 237,
+    "text": "Why don't we normally notice our blind spot?",
+    "options": {
+      "a": "It is too small to detect",
+      "b": "Our eyes are constantly moving",
+      "c": "Our perceptual system 'fills in' the missing information",
+      "d": "The other eye compensates perfectly"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 238,
+    "text": "Where does visual information travel after leaving the optic nerve?",
+    "options": {
+      "a": "Directly to the visual cortex",
+      "b": "To the cerebellum",
+      "c": "To the lateral geniculate nucleus (LGN) in the thalamus, then to area V1",
+      "d": "To the amygdala"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 239,
+    "text": "Information from the right visual field is processed in which hemisphere of the brain?",
+    "options": {
+      "a": "Right hemisphere",
+      "b": "Left hemisphere",
+      "c": "Both hemispheres equally",
+      "d": "The brainstem"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 240,
+    "text": "Area V1, the primary visual cortex, is located in which lobe of the brain?",
+    "options": {
+      "a": "Frontal lobe",
+      "b": "Temporal lobe",
+      "c": "Parietal lobe",
+      "d": "Occipital lobe"
+    },
+    "answer": "d"
+  },
+  {
+    "number": 241,
+    "text": "The perception of color is created by:",
+    "options": {
+      "a": "The light waves themselves",
+      "b": "Pigments in the objects viewed",
+      "c": "Our brain interpreting wavelengths of light",
+      "d": "The temperature of the light source"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 242,
+    "text": "Which visible wavelengths are perceived as deep purple?",
+    "options": {
+      "a": "Shortest",
+      "b": "Medium",
+      "c": "Longest",
+      "d": "A mixture of all wavelengths"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 243,
+    "text": "Which visible wavelengths are perceived as red?",
+    "options": {
+      "a": "Shortest",
+      "b": "Medium",
+      "c": "Longest",
+      "d": "A mixture of all wavelengths"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 244,
+    "text": "How is white light perceived?",
+    "options": {
+      "a": "From a single, specific wavelength",
+      "b": "When no light is present",
+      "c": "From a mixture containing about the same amounts of many different wavelengths",
+      "d": "Only from the longest wavelengths"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 245,
+    "text": "How many types of cone photoreceptors do humans typically have?",
+    "options": {
+      "a": "One",
+      "b": "Two",
+      "c": "Three",
+      "d": "Four"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 246,
+    "text": "What wavelengths are the three types of cones (L, M, S) primarily sensitive to?",
+    "options": {
+      "a": "Long (reddish), Medium (greenish), Short (bluish)",
+      "b": "Long (bluish), Medium (greenish), Short (reddish)",
+      "c": "Long (yellowish), Medium (cyanish), Short (magentish)",
+      "d": "All are sensitive to the entire visible spectrum equally"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 247,
+    "text": "How does the brain interpret color based on cone activity?",
+    "options": {
+      "a": "By the total activity across all three cone types",
+      "b": "By the activity of only one cone type",
+      "c": "By the relative levels of activity between pairs of cone types",
+      "d": "By comparing cone activity to rod activity"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 248,
+    "text": "What causes color vision deficiency (often called color blindness)?",
+    "options": {
+      "a": "Damage to the cornea",
+      "b": "Absence of rods in the retina",
+      "c": "One or more cone types being missing",
+      "d": "Clouding of the lens"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 249,
+    "text": "What is a color afterimage?",
+    "options": {
+      "a": "Seeing colors in the dark",
+      "b": "A genetic defect in color perception",
+      "c": "Perceiving an opposing color after staring at a color fatigues specific cones",
+      "d": "The inability to distinguish certain colors"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 250,
+    "text": "Staring at a red patch leads to a ______ afterimage.",
+    "options": {
+      "a": "Reddish",
+      "b": "Bluish",
+      "c": "Greenish",
+      "d": "Yellowish"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 251,
+    "text": "Staring at a yellow patch leads to a ______ afterimage.",
+    "options": {
+      "a": "Reddish",
+      "b": "Bluish",
+      "c": "Greenish",
+      "d": "Yellowish"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 252,
+    "text": "The color-opponent system explains afterimages by proposing that pairs of cone types work in opposition. Which pairs are mentioned?",
+    "options": {
+      "a": "L-cones vs M-cones, and S-cones vs M-cones",
+      "b": "L-cones vs S-cones, and M-cones vs L-cones",
+      "c": "Rods vs Cones",
+      "d": "L-cones vs Rods, and S-cones vs Rods"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 253,
+    "text": "Neurons in the primary visual cortex (Area V1) are known to respond selectively to what features?",
+    "options": {
+      "a": "Complex objects like faces",
+      "b": "Colors only",
+      "c": "Bars and edges in specific orientations",
+      "d": "Sounds and visual stimuli equally"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 254,
+    "text": "What is a visual receptive field?",
+    "options": {
+      "a": "The entire area a person can see",
+      "b": "The specific color a neuron responds to",
+      "c": "The region of the visual field to which a particular neuron responds",
+      "d": "The part of the brain processing visual information"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 255,
+    "text": "The ventral stream of visual processing travels to the ______ lobe and is involved in determining an object's ______.",
+    "options": {
+      "a": "parietal; location ('where')",
+      "b": "temporal; shape and identity ('what')",
+      "c": "occipital; color",
+      "d": "frontal; movement"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 256,
+    "text": "The dorsal stream of visual processing travels towards the ______ lobe and is involved in determining an object's ______.",
+    "options": {
+      "a": "temporal; identity ('what')",
+      "b": "occipital; shape",
+      "c": "parietal; location and movement ('where'/'how')",
+      "d": "frontal; color"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 257,
+    "text": "The case of patient DF, who had damage to the ventral stream, demonstrated an inability to ______ objects by sight, but an ability to ______.",
+    "options": {
+      "a": "locate; name",
+      "b": "recognize; guide actions towards them",
+      "c": "see color; recognize shape",
+      "d": "guide actions towards; recognize"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 258,
+    "text": "Visual form agnosia is the inability to:",
+    "options": {
+      "a": "Perceive motion",
+      "b": "Recognize objects by sight",
+      "c": "See colors",
+      "d": "Judge distances"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 259,
+    "text": "Damage to the dorsal stream (parietal lobe) can cause difficulty with:",
+    "options": {
+      "a": "Recognizing faces",
+      "b": "Seeing colors",
+      "c": "Using vision to guide reaching and grasping",
+      "d": "Identifying objects by name"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 260,
+    "text": "What is the 'binding problem' in perception?",
+    "options": {
+      "a": "How the eyes focus light on the retina",
+      "b": "How transduction occurs in different senses",
+      "c": "How the brain links features together to perceive unified objects",
+      "d": "How sensory adaptation limits perception"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 261,
+    "text": "Parallel processing in the visual system refers to the brain's ability to:",
+    "options": {
+      "a": "Focus on only one feature at a time",
+      "b": "Analyze multiple features (orientation, color, size) simultaneously",
+      "c": "Process visual information very slowly",
+      "d": "Combine visual and auditory information"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 262,
+    "text": "What is an illusory conjunction?",
+    "options": {
+      "a": "A hallucination of an object that isn't there",
+      "b": "Failure to notice a change in a scene",
+      "c": "A perceptual mistake where features from multiple objects are incorrectly combined",
+      "d": "Seeing motion where there is none"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 263,
+    "text": "In the study by Treisman and Schmidt (1982), participants shown colored letters flanked by digits sometimes reported seeing:",
+    "options": {
+      "a": "Only the digits",
+      "b": "The letters with incorrect colors (e.g., a blue A instead of a red A)",
+      "c": "Letters that were not presented at all",
+      "d": "Colors that were not presented at all"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 264,
+    "text": "According to feature-integration theory, what is required to bind individual features together?",
+    "options": {
+      "a": "Pre-attentive processing",
+      "b": "Focused attention",
+      "c": "Sensory memory",
+      "d": "Bottom-up processing only"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 265,
+    "text": "When do illusory conjunctions typically occur, according to feature-integration theory?",
+    "options": {
+      "a": "When stimuli are presented for a long time",
+      "b": "When attention is highly focused on the features",
+      "c": "When it is difficult to pay full attention to the features",
+      "d": "When viewing very simple stimuli"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 266,
+    "text": "The study flashing Black and white faces with neutral or angry expressions found that illusory conjunctions (misattributing anger) were more likely to occur:",
+    "options": {
+      "a": "When anger moved from a Black face to a white face",
+      "b": "When anger moved from a white face to a Black face",
+      "c": "Equally in both directions",
+      "d": "When the faces were shown for a long time"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 267,
+    "text": "The modular view of object recognition suggests that:",
+    "options": {
+      "a": "All brain areas process all objects equally",
+      "b": "Object recognition relies solely on V1 activity",
+      "c": "Specialized brain areas (modules) detect specific object categories (faces, places)",
+      "d": "Recognition depends on distributed patterns across many regions"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 268,
+    "text": "The distributed representation view of object recognition suggests that:",
+    "options": {
+      "a": "Only one brain area is active when viewing an object",
+      "b": "Specific modules exist for every possible object",
+      "c": "Object identification relies on the pattern of activity across multiple brain regions",
+      "d": "Recognition happens entirely within the retina"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 269,
+    "text": "Studies recording single neurons in the human temporal lobe found neurons that respond to:",
+    "options": {
+      "a": "Any visual stimulus",
+      "b": "Only simple lines and edges",
+      "c": "Specific objects or people viewed from multiple angles or represented by words",
+      "d": "Only abstract concepts"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 270,
+    "text": "What is perceptual constancy?",
+    "options": {
+      "a": "The tendency for perception to change rapidly",
+      "b": "The idea that perception remains constant even as sensory signals change",
+      "c": "The inability to perceive changes in a scene",
+      "d": "The minimum level required for perception"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 271,
+    "text": "Recognizing a friend under different lighting conditions (sunlight vs. blacklight) is an example of:",
+    "options": {
+      "a": "Sensory adaptation",
+      "b": "Perceptual constancy",
+      "c": "Illusory conjunction",
+      "d": "Change blindness"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 272,
+    "text": "What role does conceptual knowledge play in object recognition?",
+    "options": {
+      "a": "It is irrelevant; recognition is purely visual",
+      "b": "It hinders recognition by creating biases",
+      "c": "It helps us understand an object's characteristics and significance, aiding recognition",
+      "d": "It is only used for recognizing abstract shapes"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 273,
+    "text": "Gestalt psychology emphasized that we perceive:",
+    "options": {
+      "a": "Isolated sensory features",
+      "b": "Whole objects organized in meaningful ways",
+      "c": "Only what we expect to perceive",
+      "d": "Random patterns of stimulation"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 274,
+    "text": "The process of grouping and segregating features to create whole objects is called:",
+    "options": {
+      "a": "Sensory adaptation",
+      "b": "Perceptual constancy",
+      "c": "Perceptual organization",
+      "d": "Feature integration"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 275,
+    "text": "Which Gestalt principle states that the visual system selects the simplest interpretation?",
+    "options": {
+      "a": "Closure",
+      "b": "Continuity",
+      "c": "Proximity",
+      "d": "Simplicity"
+    },
+    "answer": "d"
+  },
+  {
+    "number": 276,
+    "text": "Which Gestalt principle involves filling in missing elements to perceive complete objects?",
+    "options": {
+      "a": "Closure",
+      "b": "Continuity",
+      "c": "Similarity",
+      "d": "Common fate"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 277,
+    "text": "Which Gestalt principle involves grouping together edges or contours with the same orientation?",
+    "options": {
+      "a": "Proximity",
+      "b": "Similarity",
+      "c": "Continuity",
+      "d": "Closure"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 278,
+    "text": "Which Gestalt principle involves grouping together regions that are similar in color, shape, or texture?",
+    "options": {
+      "a": "Proximity",
+      "b": "Continuity",
+      "c": "Similarity",
+      "d": "Common fate"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 279,
+    "text": "Which Gestalt principle involves grouping together objects that are close together?",
+    "options": {
+      "a": "Similarity",
+      "b": "Continuity",
+      "c": "Proximity",
+      "d": "Closure"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 280,
+    "text": "Which Gestalt principle involves perceiving elements that move together as parts of a single moving object?",
+    "options": {
+      "a": "Similarity",
+      "b": "Proximity",
+      "c": "Common fate",
+      "d": "Closure"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 281,
+    "text": "In Gestalt terms, separating an object from its surroundings involves identifying a ______ apart from the ______. ",
+    "options": {
+      "a": "ground; figure",
+      "b": "figure; ground",
+      "c": "feature; object",
+      "d": "object; feature"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 282,
+    "text": "What cues help distinguish figure from ground?",
+    "options": {
+      "a": "Color and brightness only",
+      "b": "Size (smaller regions tend to be figure) and movement",
+      "c": "Texture and shape only",
+      "d": "Familiarity and complexity"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 283,
+    "text": "The Rubin vase illusion demonstrates:",
+    "options": {
+      "a": "Color constancy",
+      "b": "A reversible figure-ground relationship",
+      "c": "An illusory conjunction",
+      "d": "Sensory adaptation"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 284,
+    "text": "fMRI studies of the Rubin vase illusion show greater activity in face-selective areas when people perceive the image as:",
+    "options": {
+      "a": "A vase",
+      "b": "Faces",
+      "c": "Both simultaneously",
+      "d": "Neither (activity decreases)"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 285,
+    "text": "How does the brain perceive depth from a flat, 2-D retinal image?",
+    "options": {
+      "a": "It directly senses the third dimension",
+      "b": "It relies only on color information",
+      "c": "It uses various monocular and binocular visual cues as an 'educated guess'",
+      "d": "It measures the physical size of the retinal image"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 286,
+    "text": "What are monocular depth cues?",
+    "options": {
+      "a": "Cues requiring both eyes",
+      "b": "Cues available from the image in one eye",
+      "c": "Cues based only on object motion",
+      "d": "Cues related to color perception"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 287,
+    "text": "The tendency for parallel lines to seem to converge in the distance is which monocular cue?",
+    "options": {
+      "a": "Texture gradient",
+      "b": "Interposition",
+      "c": "Relative size",
+      "d": "Linear perspective"
+    },
+    "answer": "d"
+  },
+  {
+    "number": 288,
+    "text": "The tendency for textures to appear less detailed further away is which monocular cue?",
+    "options": {
+      "a": "Linear perspective",
+      "b": "Texture gradient",
+      "c": "Interposition",
+      "d": "Relative height"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 289,
+    "text": "When one object partly blocks another, giving a cue that the blocking object is closer, this is:",
+    "options": {
+      "a": "Linear perspective",
+      "b": "Relative size",
+      "c": "Interposition",
+      "d": "Texture gradient"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 290,
+    "text": "The tendency for closer objects to be lower in the visual field is which monocular cue?",
+    "options": {
+      "a": "Relative height",
+      "b": "Linear perspective",
+      "c": "Interposition",
+      "d": "Familiar size"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 291,
+    "text": "Using the known size of objects (like people) to judge distance based on retinal image size is using the cue of:",
+    "options": {
+      "a": "Linear perspective",
+      "b": "Interposition",
+      "c": "Familiar size (or relative size)",
+      "d": "Texture gradient"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 292,
+    "text": "What is binocular disparity?",
+    "options": {
+      "a": "A monocular depth cue",
+      "b": "The difference in the retinal images of the two eyes",
+      "c": "The tendency for eyes to move together",
+      "d": "A defect in color vision"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 293,
+    "text": "How does the brain use binocular disparity to perceive depth?",
+    "options": {
+      "a": "It ignores the input from one eye",
+      "b": "It averages the two images",
+      "c": "It computes the difference (disparity) between images to gauge distance",
+      "d": "It relies on the absolute size of the images"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 294,
+    "text": "Greater binocular disparity indicates an object is ______, while lesser disparity indicates it is ______.",
+    "options": {
+      "a": "farther away; closer",
+      "b": "closer; farther away",
+      "c": "larger; smaller",
+      "d": "moving; stationary"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 295,
+    "text": "Who first discussed binocular disparity and invented the stereoscope?",
+    "options": {
+      "a": "Ernst Weber",
+      "b": "Gustav Fechner",
+      "c": "Sir Charles Wheatstone",
+      "d": "Hermann von Helmholtz"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 296,
+    "text": "Illusions like the Ames room rely on fooling the visual system about:",
+    "options": {
+      "a": "The color of objects",
+      "b": "The motion of objects",
+      "c": "How far away objects are (distance)",
+      "d": "The brightness of the scene"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 297,
+    "text": "The Ames room uses ______ to make a trapezoidal room appear square when viewed from a specific point.",
+    "options": {
+      "a": "Binocular disparity",
+      "b": "Forced perspective",
+      "c": "Motion parallax",
+      "d": "Color contrast"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 298,
+    "text": "In the Ames room illusion, why does a person in one corner appear much larger than a person in the other?",
+    "options": {
+      "a": "The people are actually different sizes",
+      "b": "The lighting changes their apparent size",
+      "c": "The viewer assumes they are equidistant, so retinal size differences are interpreted as real size differences",
+      "d": "Binocular disparity cues are exaggerated"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 299,
+    "text": "Perceiving motion involves encoding information about:",
+    "options": {
+      "a": "Color and shape",
+      "b": "Space and time",
+      "c": "Loudness and pitch",
+      "d": "Texture and depth"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 300,
+    "text": "Which brain region, part of the dorsal stream, is specialized for perceiving visual motion?",
+    "options": {
+      "a": "Area V1",
+      "b": "Area MT (middle temporal)",
+      "c": "Fusiform face area",
+      "d": "Lateral geniculate nucleus (LGN)"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 301,
+    "text": "Damage to area MT can cause a deficit in:",
+    "options": {
+      "a": "Color perception",
+      "b": "Object recognition",
+      "c": "Motion perception",
+      "d": "Depth perception"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 302,
+    "text": "How does the brain account for self-motion (eye/head movements) when perceiving object motion?",
+    "options": {
+      "a": "It ignores self-motion signals",
+      "b": "It assumes all retinal image motion is object motion",
+      "c": "It monitors self-motion and 'subtracts' it from retinal motion",
+      "d": "It relies solely on auditory cues for motion"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 303,
+    "text": "The waterfall illusion is an example of a motion ______.",
+    "options": {
+      "a": "threshold",
+      "b": "constancy",
+      "c": "aftereffect",
+      "d": "conjunction"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 304,
+    "text": "The waterfall illusion occurs because:",
+    "options": {
+      "a": "Staring fatigues motion detectors for one direction, causing opposing detectors to dominate",
+      "b": "The brain fills in missing information",
+      "c": "Water reflects light in unusual ways",
+      "d": "Binocular disparity cues are disrupted"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 305,
+    "text": "fMRI studies show increased activity in which brain region during the waterfall illusion?",
+    "options": {
+      "a": "V1",
+      "b": "LGN",
+      "c": "MT",
+      "d": "Auditory cortex"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 306,
+    "text": "Perceiving motion from rapidly alternating stationary signals (like casino lights) is called:",
+    "options": {
+      "a": "Real motion",
+      "b": "Apparent motion",
+      "c": "Motion aftereffect",
+      "d": "Biological motion"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 307,
+    "text": "The ability to perceive motion from minimal cues, like moving dots depicting a person walking, is called:",
+    "options": {
+      "a": "Apparent motion perception",
+      "b": "Biological motion perception",
+      "c": "Motion aftereffect",
+      "d": "Forced perspective"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 308,
+    "text": "Which brain area is strongly linked to biological motion perception?",
+    "options": {
+      "a": "Primary visual cortex (V1)",
+      "b": "Posterior superior temporal sulcus (STS)",
+      "c": "Primary auditory cortex (A1)",
+      "d": "Hippocampus"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 309,
+    "text": "The posterior STS region involved in biological motion is functionally connected with which nearby region involved in social processing?",
+    "options": {
+      "a": "Amygdala",
+      "b": "Prefrontal cortex",
+      "c": "Temporo-parietal junction (TPJ)",
+      "d": "Motor cortex"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 310,
+    "text": "The visual system has excellent ______ acuity, while the auditory system excels at ______ acuity.",
+    "options": {
+      "a": "temporal; spatial",
+      "b": "spatial; temporal",
+      "c": "color; pitch",
+      "d": "motion; depth"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 311,
+    "text": "Spatial acuity refers to the ability to distinguish stimuli that are close together in ______.",
+    "options": {
+      "a": "time",
+      "b": "frequency",
+      "c": "space",
+      "d": "intensity"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 312,
+    "text": "Temporal acuity refers to the ability to distinguish stimuli that are close together in ______.",
+    "options": {
+      "a": "time",
+      "b": "location",
+      "c": "space",
+      "d": "color"
+    },
+    "answer": "a"
+  },
+  {
+    "number": 313,
+    "text": "Events that stimulate multiple senses at the same time are called:",
+    "options": {
+      "a": "Unisensory",
+      "b": "Subliminal",
+      "c": "Multisensory",
+      "d": "Ambiguous"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 314,
+    "text": "The ventriloquist illusion, where speech seems to come from a moving mouth on screen, occurs because we trust the ______ system more for spatial location.",
+    "options": {
+      "a": "auditory",
+      "b": "visual",
+      "c": "tactile",
+      "d": "olfactory"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 315,
+    "text": "What is change blindness?",
+    "options": {
+      "a": "Inability to perceive color",
+      "b": "Inability to perceive motion",
+      "c": "Failure to detect changes to the visual details of a scene",
+      "d": "A temporary loss of vision"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 316,
+    "text": "The study where experimenters swapped places while hidden by a door demonstrated:",
+    "options": {
+      "a": "Inattentional blindness",
+      "b": "Change blindness",
+      "c": "Sensory adaptation",
+      "d": "Perceptual constancy"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 317,
+    "text": "Change blindness illustrates that our perception of the world is less ______ than we intuitively feel.",
+    "options": {
+      "a": "accurate",
+      "b": "stable",
+      "c": "complete",
+      "d": "colorful"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 318,
+    "text": "Change blindness is most likely to occur when we fail to focus ______ on the object undergoing change.",
+    "options": {
+      "a": "memory",
+      "b": "attention",
+      "c": "sensation",
+      "d": "emotion"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 319,
+    "text": "What is inattentional blindness?",
+    "options": {
+      "a": "Failure to detect changes in a scene",
+      "b": "Failure to perceive objects that are not the focus of attention",
+      "c": "The inability to recognize familiar objects",
+      "d": "Blindness caused by lack of sleep"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 320,
+    "text": "The study with the unicycling clown found that students using ______ were much more likely to fail to notice the clown.",
+    "options": {
+      "a": "sunglasses",
+      "b": "headphones",
+      "c": "cell phones",
+      "d": "textbooks"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 321,
+    "text": "Inattentional blindness emphasizes that our conscious visual experience is restricted to features selected by:",
+    "options": {
+      "a": "Peripheral vision",
+      "b": "Sensory memory",
+      "c": "Focused attention",
+      "d": "Long-term memory"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 322,
+    "text": "What is synesthesia, as described in the 'World of Difference' box?",
+    "options": {
+      "a": "A complete loss of one sense",
+      "b": "Enhanced acuity in all senses",
+      "c": "When one attribute of a stimulus (e.g., sound) leads to experiencing another attribute (e.g., color)",
+      "d": "A type of visual illusion"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 323,
+    "text": "Which musicians are mentioned as experiencing synesthesia?",
+    "options": {
+      "a": "Mozart and Beethoven",
+      "b": "Lorde and Billie Eilish",
+      "c": "Elvis Presley and Johnny Cash",
+      "d": "Madonna and Michael Jackson"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 324,
+    "text": "What type of synesthesia did novelist Vladimir Nabokov describe?",
+    "options": {
+      "a": "Seeing sounds as colors",
+      "b": "Tasting shapes",
+      "c": "Associating letters/sounds with specific colors",
+      "d": "Feeling textures when hearing music"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 325,
+    "text": "How common is the type of synesthesia where specific letters are seen in specific colors?",
+    "options": {
+      "a": "Extremely rare (1 in a million)",
+      "b": "About 1 in 10,000",
+      "c": "About 1 in 100",
+      "d": "Very common (about 1 in 10)"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 326,
+    "text": "Synesthetes who see colors for letters/numbers show enhanced ability in what perceptual task?",
+    "options": {
+      "a": "Discriminating sounds",
+      "b": "Discriminating objective colors",
+      "c": "Reading speed",
+      "d": "Remembering numbers"
+    },
+    "answer": "b"
+  },
+  {
+    "number": 327,
+    "text": "What evidence suggests a genetic contribution to synesthesia?",
+    "options": {
+      "a": "Synesthesia can be learned through practice",
+      "b": "It only occurs after brain injury",
+      "c": "Shared gene alterations were found in families with sound-color synesthesia",
+      "d": "All identical twins share the same synesthetic experiences"
+    },
+    "answer": "c"
+  },
+  {
+    "number": 328,
+    "text": "For performers like Lorde and Eilish, synesthesia is described as:",
+    "options": {
+      "a": "A perceptual anomaly and hindrance",
+      "b": "An integral part of their creative process",
+      "c": "Something they try to ignore",
+      "d": "A recently acquired condition"
+    },
+    "answer": "b"
+  }
+]
