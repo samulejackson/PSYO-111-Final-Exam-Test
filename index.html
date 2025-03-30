@@ -43,8 +43,10 @@
       
       <div id="order-selection">
         <h2>Select Question Order</h2>
-        <button id="sequential-btn">Sequential</button>
-        <button id="random-btn">Random</button>
+        <div class="toggle-container">
+          <button id="sequential-btn" class="toggle-option active">Sequential</button>
+          <button id="random-btn" class="toggle-option">Random</button>
+        </div>
         <div id="random-options" style="display: none;">
           <h3>Number of Questions (leave blank for all):</h3>
           <input type="number" id="num-questions" min="1" placeholder="Enter a number">
