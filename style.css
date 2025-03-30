@@ -10,7 +10,7 @@ body {
 /* Centered Container */
 .container {
   width: 90%;
-  max-width: 800px; /* You can adjust this value if needed */
+  max-width: 800px;
   margin: 50px auto;
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -36,6 +36,38 @@ header {
 #order-selection {
   text-align: center;
   margin-bottom: 20px;
+}
+
+/* Toggle Container for Order Selection */
+.toggle-container {
+  display: inline-flex;
+  border: 2px solid #007BFF;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.toggle-container .toggle-option {
+  flex: 1;
+  border: none;
+  background: #fff;
+  color: #007BFF;
+  padding: 8px 16px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+.toggle-container .toggle-option.active {
+  background: #007BFF;
+  color: #fff;
+}
+.toggle-container .toggle-option:not(:last-child) {
+  border-right: 2px solid #007BFF;
+}
+
+/* Begin Quiz Button */
+#order-selection button#begin-quiz-btn {
+  display: block;
+  margin: 15px auto 0;
 }
 
 /* General Button Styling */
@@ -68,6 +100,7 @@ button:disabled {
 
 /* Question Styling */
 .question {
+  margin-top: 40px;
   font-size: 1.3em;
   margin-bottom: 15px;
   background: #fff;
@@ -90,7 +123,7 @@ button:disabled {
   width: 100%;
   text-align: left;
   padding: 12px;
-  font-size: 1.2em; /* Increased font size */
+  font-size: 1em;
   border: 1px solid #ccc;
   background: #f9f9f9;
   color: #000;
@@ -103,7 +136,7 @@ button:disabled {
   background: #f0f0f0;
 }
 .options li button.selected {
-  background: #d1e7dd;  /* Light green when selected */
+  background: #d1e7dd;
   border-color: #badbcc;
 }
 .options li button.correct {
@@ -223,7 +256,7 @@ body.dark-mode .options li button:hover {
   background: #3a3a3a;
 }
 body.dark-mode .options li button.selected {
-  background: #4caf50; /* Vivid green for selection in dark mode */
+  background: #4caf50;
   border-color: #4caf50;
   color: #fff;
 }
