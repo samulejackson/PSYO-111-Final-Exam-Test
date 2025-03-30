@@ -16,11 +16,12 @@ const setupOptionsDiv = document.getElementById('setup-options');
 const modeOptions = document.getElementsByName('chapter-mode');
 const chapterDropdown = document.getElementById('chapter-dropdown');
 const chapterSelect = document.getElementById('chapter-select');
+const beginQuizBtn = document.getElementById('begin-quiz-btn');
+
+// Toggle DOM elements
 const sequentialBtn = document.getElementById('sequential-btn');
 const randomBtn = document.getElementById('random-btn');
 const randomOptionsDiv = document.getElementById('random-options');
-const numQuestionsInput = document.getElementById('num-questions');
-const beginQuizBtn = document.getElementById('begin-quiz-btn');
 
 // DOM elements (quiz page)
 const quizPageDiv = document.getElementById('quiz-page');
@@ -39,20 +40,17 @@ const restartBtn = document.getElementById('restart-btn');
 const progressBar = document.getElementById('progress-bar');
 const progressText = document.getElementById('progress-text');
 
-// Dark Mode Toggle (if using dark mode)
+// Dark Mode Toggle
 const darkToggle = document.getElementById('dark-mode-toggle');
 const darkModeIcon = document.getElementById('dark-mode-icon');
-if (darkToggle) {
-  darkToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    // Change icon based on mode: moon for dark mode off, sun for dark mode on
-    if (document.body.classList.contains('dark-mode')) {
-      darkModeIcon.textContent = "☀️";
-    } else {
-      darkModeIcon.textContent = "🌙";
-    }
-  });
-}
+darkToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+  if (document.body.classList.contains('dark-mode')) {
+    darkModeIcon.textContent = "☀️";
+  } else {
+    darkModeIcon.textContent = "🌙";
+  }
+});
 
 // Home Page: Start Testing button click
 startTestingBtn.addEventListener('click', () => {
@@ -71,17 +69,17 @@ modeOptions.forEach(option => {
   });
 });
 
-// Order selection buttons
+// Toggle for Order Selection (segmented control)
 sequentialBtn.addEventListener('click', () => {
   orderMode = 'sequential';
-  sequentialBtn.style.background = "#007BFF";
-  randomBtn.style.background = "";
+  sequentialBtn.classList.add('active');
+  randomBtn.classList.remove('active');
   randomOptionsDiv.style.display = "none";
 });
 randomBtn.addEventListener('click', () => {
   orderMode = 'random';
-  randomBtn.style.background = "#007BFF";
-  sequentialBtn.style.background = "";
+  randomBtn.classList.add('active');
+  sequentialBtn.classList.remove('active');
   randomOptionsDiv.style.display = "block";
 });
 
@@ -91,7 +89,6 @@ beginQuizBtn.addEventListener('click', () => {
   
   if (selectedMode === "specific") {
     let chapter = chapterSelect.value;
-    // Filter questions by chapter range based on question.number.
     if (chapter === "3") {
       filteredQuestions = allQuestionsData.filter(q => q.number >= 1 && q.number <= 90);
     } else if (chapter === "4") {
@@ -102,27 +99,23 @@ beginQuizBtn.addEventListener('click', () => {
       filteredQuestions = allQuestionsData.filter(q => q.number >= 417);
     }
   } else {
-    // All chapters
     filteredQuestions = allQuestionsData.slice();
   }
   
   currentQuestionIndex = 0;
   score = 0;
   scoreSpan.textContent = score;
-  // Each element: { selected, correct, voided }
   userAnswers = new Array(filteredQuestions.length).fill(null);
   initQuizOrder();
   
-  // If in random mode and a number is specified, trim quizOrder accordingly.
-  if (orderMode === 'random' && numQuestionsInput.value) {
-    let requested = parseInt(numQuestionsInput.value);
+  if (orderMode === 'random' && document.getElementById('num-questions').value) {
+    let requested = parseInt(document.getElementById('num-questions').value);
     if (requested > 0 && requested < quizOrder.length) {
       quizOrder = quizOrder.slice(0, requested);
     }
   }
   
   updateProgress();
-  
   homeDiv.style.display = "none";
   quizPageDiv.style.display = "block";
   startTimer();
@@ -161,7 +154,7 @@ function stopTimer() {
   clearInterval(timerInterval);
 }
 
-// Render current question and options with randomized order and new sequential labels
+// Render current question and options with randomized order and sequential labels
 function renderQuestion() {
   selectedOption = null;
   submitBtn.disabled = true;
@@ -173,22 +166,17 @@ function renderQuestion() {
   let q = filteredQuestions[quizOrder[currentQuestionIndex]];
   questionText.textContent = "Question " + displayQuestionNumber + ": " + q.text;
   
-  // Create an array of options with their original key and text
   let optionsArray = Object.keys(q.options).map(originalKey => {
-      return { originalKey: originalKey, text: q.options[originalKey] };
+    return { originalKey: originalKey, text: q.options[originalKey] };
   });
-  // Shuffle the options array
   optionsArray = shuffleArray(optionsArray);
   
-  // Define sequential labels (e.g., a, b, c, d, etc.)
   const labels = "abcdefghijklmnopqrstuvwxyz";
-  
   optionsArray.forEach((option, index) => {
     let li = document.createElement('li');
     let btn = document.createElement('button');
-    let newLabel = labels[index]; // assign sequential label
+    let newLabel = labels[index];
     btn.textContent = newLabel + ") " + option.text;
-    // Store the original key for answer checking
     btn.dataset.originalKey = option.originalKey;
     
     if (userAnswers[quizOrder[currentQuestionIndex]]) {
@@ -244,7 +232,6 @@ submitBtn.addEventListener('click', () => {
   });
   
   userAnswers[quizOrder[currentQuestionIndex]] = { selected: selectedOption, correct: (selectedOption === q.answer), voided: false };
-  
   if (selectedOption === q.answer) {
     score++;
     scoreSpan.textContent = score;
@@ -257,16 +244,12 @@ submitBtn.addEventListener('click', () => {
 
 // Void Question button handler
 voidBtn.addEventListener('click', () => {
-  // Mark this question as voided.
   userAnswers[quizOrder[currentQuestionIndex]] = { voided: true };
-  
-  // Disable answer options and buttons.
   document.querySelectorAll('#options-list button').forEach(btn => {
     btn.disabled = true;
   });
   submitBtn.disabled = true;
   nextBtn.disabled = false;
-  
   updateProgress();
 });
 
@@ -275,14 +258,12 @@ function updateNavButtons() {
   prevBtn.disabled = currentQuestionIndex === 0;
   nextBtn.disabled = (userAnswers[quizOrder[currentQuestionIndex]] === null);
 }
-
 prevBtn.addEventListener('click', () => {
   if (currentQuestionIndex > 0) {
     currentQuestionIndex--;
     renderQuestion();
   }
 });
-
 nextBtn.addEventListener('click', () => {
   if (currentQuestionIndex < quizOrder.length - 1) {
     currentQuestionIndex++;
@@ -292,24 +273,21 @@ nextBtn.addEventListener('click', () => {
   }
 });
 
-// Update progress counter and progress bar using quizOrder length
+// Update progress counter and progress bar
 function updateProgress() {
-  // Count answered questions (excluding voided ones)
   let answered = userAnswers.filter((ans, idx) => ans !== null && !ans.voided && quizOrder.includes(idx)).length;
   let total = quizOrder.length;
   progressText.textContent = answered + " / " + total + " Questions Completed";
   progressBar.style.width = ((answered / total) * 100) + "%";
 }
 
-// End quiz: show final score and percentage (excluding voided questions)
+// End quiz: show final score and percentage
 function endQuiz() {
   stopTimer();
   document.getElementById('quiz-container').style.display = "none";
   resultsDiv.style.display = "block";
-  
   let validCount = userAnswers.filter(ans => ans !== null && !ans.voided).length;
   let percentage = validCount > 0 ? Math.round((score / validCount) * 100) : 0;
-  
   finalScoreSpan.textContent = score + " out of " + validCount;
   finalPercentage.textContent = "Percentage: " + percentage + "%";
 }
