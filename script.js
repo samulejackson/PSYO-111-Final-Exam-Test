@@ -39,11 +39,20 @@ const restartBtn = document.getElementById('restart-btn');
 const progressBar = document.getElementById('progress-bar');
 const progressText = document.getElementById('progress-text');
 
-
-//darkmode toggle
+// Dark Mode Toggle (if using dark mode)
 const darkToggle = document.getElementById('dark-mode-toggle');
 const darkModeIcon = document.getElementById('dark-mode-icon');
-
+if (darkToggle) {
+  darkToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    // Change icon based on mode: moon for dark mode off, sun for dark mode on
+    if (document.body.classList.contains('dark-mode')) {
+      darkModeIcon.textContent = "☀️";
+    } else {
+      darkModeIcon.textContent = "🌙";
+    }
+  });
+}
 
 // Home Page: Start Testing button click
 startTestingBtn.addEventListener('click', () => {
@@ -152,7 +161,7 @@ function stopTimer() {
   clearInterval(timerInterval);
 }
 
-// Render current question and options
+// Render current question and options with randomized order and new sequential labels
 function renderQuestion() {
   selectedOption = null;
   submitBtn.disabled = true;
@@ -161,21 +170,33 @@ function renderQuestion() {
   optionsList.innerHTML = "";
   
   let displayQuestionNumber = currentQuestionIndex + 1;
-  questionText.textContent = "Question " + displayQuestionNumber + ": " + filteredQuestions[quizOrder[currentQuestionIndex]].text;
-  
   let q = filteredQuestions[quizOrder[currentQuestionIndex]];
-  for (let key in q.options) {
+  questionText.textContent = "Question " + displayQuestionNumber + ": " + q.text;
+  
+  // Create an array of options with their original key and text
+  let optionsArray = Object.keys(q.options).map(originalKey => {
+      return { originalKey: originalKey, text: q.options[originalKey] };
+  });
+  // Shuffle the options array
+  optionsArray = shuffleArray(optionsArray);
+  
+  // Define sequential labels (e.g., a, b, c, d, etc.)
+  const labels = "abcdefghijklmnopqrstuvwxyz";
+  
+  optionsArray.forEach((option, index) => {
     let li = document.createElement('li');
     let btn = document.createElement('button');
-    btn.textContent = key + ") " + q.options[key];
-    btn.dataset.option = key;
+    let newLabel = labels[index]; // assign sequential label
+    btn.textContent = newLabel + ") " + option.text;
+    // Store the original key for answer checking
+    btn.dataset.originalKey = option.originalKey;
     
     if (userAnswers[quizOrder[currentQuestionIndex]]) {
       const userAnswer = userAnswers[quizOrder[currentQuestionIndex]].selected;
-      if (key === q.answer) {
+      if (option.originalKey === q.answer) {
         btn.classList.add('correct');
       }
-      if (userAnswer === key && userAnswer !== q.answer) {
+      if (userAnswer === option.originalKey && userAnswer !== q.answer) {
         btn.classList.add('wrong');
       }
       btn.disabled = true;
@@ -185,14 +206,14 @@ function renderQuestion() {
           b.classList.remove('selected');
         });
         btn.classList.add('selected');
-        selectedOption = btn.dataset.option;
+        selectedOption = btn.dataset.originalKey;
         submitBtn.disabled = false;
       });
     }
     
     li.appendChild(btn);
     optionsList.appendChild(li);
-  }
+  });
   
   updateNavButtons();
   updateProgress();
@@ -206,14 +227,14 @@ submitBtn.addEventListener('click', () => {
   const buttons = document.querySelectorAll('#options-list button');
   buttons.forEach(btn => {
     btn.disabled = true;
-    if (btn.dataset.option === q.answer) {
+    if (btn.dataset.originalKey === q.answer) {
       btn.classList.add('correct');
       let cue = document.createElement('span');
       cue.classList.add('visual-cue');
       cue.textContent = "✓";
       btn.appendChild(cue);
     }
-    if (btn.dataset.option === selectedOption && selectedOption !== q.answer) {
+    if (btn.dataset.originalKey === selectedOption && selectedOption !== q.answer) {
       btn.classList.add('wrong');
       let cue = document.createElement('span');
       cue.classList.add('visual-cue');
@@ -273,6 +294,7 @@ nextBtn.addEventListener('click', () => {
 
 // Update progress counter and progress bar using quizOrder length
 function updateProgress() {
+  // Count answered questions (excluding voided ones)
   let answered = userAnswers.filter((ans, idx) => ans !== null && !ans.voided && quizOrder.includes(idx)).length;
   let total = quizOrder.length;
   progressText.textContent = answered + " / " + total + " Questions Completed";
@@ -285,7 +307,6 @@ function endQuiz() {
   document.getElementById('quiz-container').style.display = "none";
   resultsDiv.style.display = "block";
   
-  // Calculate total attempted (non-voided) questions and percentage
   let validCount = userAnswers.filter(ans => ans !== null && !ans.voided).length;
   let percentage = validCount > 0 ? Math.round((score / validCount) * 100) : 0;
   
@@ -303,16 +324,4 @@ restartBtn.addEventListener('click', () => {
   stopTimer();
   homeDiv.style.display = "block";
   quizPageDiv.style.display = "none";
-});
-
-
-
-darkToggle.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
-  // Change icon based on mode: moon for dark mode off, sun for dark mode on
-  if (document.body.classList.contains('dark-mode')) {
-    darkModeIcon.textContent = "☀️";
-  } else {
-    darkModeIcon.textContent = "🌙";
-  }
 });
