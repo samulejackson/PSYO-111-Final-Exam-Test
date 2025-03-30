@@ -1,1000 +1,996 @@
-// Sample continuous list for PSYO 111 Final Exam Prep.
-// In your actual file, you might have around 500 questions.
-// Here we include a few sample questions for demonstration with appropriate question numbers.
 
 const allQuestionsData = [
-    {
-    "number": 1,
-    "text": "What is a gene?",
-    "options": {
-    "a": "A large thread in the cell nucleus",
-    "b": "The basic unit of hereditary transmission",
-    "c": "A protein molecule that affects traits",
-    "d": "A chemical modification to DNA"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 2,
-    "text": "Genes are organized into large threads called:",
-    "options": {
-    "a": "DNA",
-    "b": "Proteins",
-    "c": "Chromosomes",
-    "d": "mRNA"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 3,
-    "text": "DNA is wound around each other in a:",
-    "options": {
-    "a": "Single-helix configuration",
-    "b": "Triple-helix configuration",
-    "c": "Double-helix configuration",
-    "d": "Linear configuration"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 4,
-    "text": "What molecule communicates a copy of the DNA code?",
-    "options": {
-    "a": "Protein",
-    "b": "Chromosome",
-    "c": "Messenger RNA (mRNA)",
-    "d": "Histone"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 5,
-    "text": "How many pairs of chromosomes do humans have?",
-    "options": {
-    "a": "22",
-    "b": "23",
-    "c": "24",
-    "d": "46"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 6,
-    "text": "Monozygotic twins share what percentage of their genes?",
-    "options": {
-    "a": "25%",
-    "b": "50%",
-    "c": "75%",
-    "d": "100%"
-    },
-    "answer": "d"
-    },
-    {
-    "number": 7,
-    "text": "Dizygotic twins develop from:",
-    "options": {
-    "a": "A single fertilized egg",
-    "b": "Two separate fertilized eggs",
-    "c": "The splitting of a single sperm",
-    "d": "The fusion of two eggs"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 8,
-    "text": "The degree of relatedness is the probability of:",
-    "options": {
-    "a": "Sharing environments",
-    "b": "Sharing genes",
-    "c": "Having similar traits",
-    "d": "Developing from the same egg"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 9,
-    "text": "Epigenetics is the study of:",
-    "options": {
-    "a": "Changes in DNA sequences",
-    "b": "Environmental influences on gene expression",
-    "c": "The structure of DNA",
-    "d": "The inheritance of traits"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 10,
-    "text": "Epigenetic marks are:",
-    "options": {
-    "a": "Alterations to the basic DNA sequence",
-    "b": "Chemical modifications to DNA",
-    "c": "Changes in chromosome number",
-    "d": "Traits inherited from parents"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 11,
-    "text": "DNA methylation involves:",
-    "options": {
-    "a": "Adding proteins to histones",
-    "b": "Removing a methyl group from DNA",
-    "c": "Adding a methyl group to DNA",
-    "d": "Altering the DNA sequence"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 12,
-    "text": "Histone modification can:",
-    "options": {
-    "a": "Only switch genes off",
-    "b": "Only switch genes on",
-    "c": "Switch genes on or off",
-    "d": "Alter the underlying DNA sequence"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 13,
-    "text": "Epigenetic differences between monozygotic twins:",
-    "options": {
-    "a": "Do not exist",
-    "b": "Increase as they accumulate experience",
-    "c": "Decrease over time",
-    "d": "Are present early in life and remain constant"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 14,
-    "text": "Epigenetic marks play a role in:",
-    "options": {
-    "a": "Eye color",
-    "b": "Height",
-    "c": "Learning and memory",
-    "d": "Hair color"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 15,
-    "text": "Research suggests that epigenetic changes are linked to:",
-    "options": {
-    "a": "Happiness",
-    "b": "Stress responses",
-    "c": "Hunger",
-    "d": "Thirst"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 16,
-    "text": "Studies on Holocaust survivors suggest epigenetics may play a role in:",
-    "options": {
-    "a": "Increasing DNA methylation",
-    "b": "Transmitting trauma consequences across generations",
-    "c": "Decreasing stress responses",
-    "d": "Enhancing memory"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 17,
-    "text": "High LG mothers in rat studies showed what kind of behavior?",
-    "options": {
-    "a": "Neglectful behavior towards pups",
-    "b": "Licking and grooming their pups",
-    "c": "Indifference towards pups",
-    "d": "Aggressive behavior towards pups"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 18,
-    "text": "Pups of high LG mothers were found to be:",
-    "options": {
-    "a": "More fearful as adults",
-    "b": "Less fearful as adults",
-    "c": "Equally fearful as adults",
-    "d": "Fearful only in infancy"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 19,
-    "text": "Increased levels of serotonin are associated with:",
-    "options": {
-    "a": "Decreased mood",
-    "b": "Elevated mood",
-    "c": "Increased fear",
-    "d": "Decreased fear"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 20,
-    "text": "In the context of epigenetics, high LG in rats is similar to what in humans?",
-    "options": {
-    "a": "Childhood neglect",
-    "b": "Loving and attentive parenting",
-    "c": "Economic disadvantage",
-    "d": "High-stress environments"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 21,
-    "text": "Children raised in economically disadvantaged neighborhoods showed:",
-    "options": {
-    "a": "Decreased DNA methylation",
-    "b": "Greater DNA methylation in genes linked to inflammation and smoking",
-    "c": "No difference in DNA methylation",
-    "d": "Increased gene expression"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 22,
-    "text": "Epigenetics is increasingly recognized for its importance in:",
-    "options": {
-    "a": "Treating broken bones",
-    "b": "Various psychological disorders",
-    "c": "Improving eyesight",
-    "d": "Enhancing physical strength"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 23,
-    "text": "Genes set the range of possibilities, but individual characteristics are determined by:",
-    "options": {
-    "a": "Heredity",
-    "b": "Environmental factors and experience",
-    "c": "DNA alone",
-    "d": "Chance"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 24,
-    "text": "Heritability is a measure of:",
-    "options": {
-    "a": "Individual differences due to environment",
-    "b": "Variability of behavioral traits due to genetic factors",
-    "c": "The degree to which interventions can change a trait",
-    "d": "Specific genes that contribute to a trait"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 25,
-    "text": "A heritability of 0 means:",
-    "options": {
-    "a": "Genes are the only reason for individual differences",
-    "b": "Genes do not contribute to individual differences",
-    "c": "Environmental factors do not contribute to individual differences",
-    "d": "The trait is highly heritable"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 26,
-    "text": "For human behavior, heritability estimates are mostly in what range?",
-    "options": {
-    "a": "0 to 0.10",
-    "b": "0.80 to 1.00",
-    "c": "0.30 to 0.60",
-    "d": "0.90 to 1.00"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 27,
-    "text": "A heritability index of .50 for intelligence indicates:",
-    "options": {
-    "a": "Intelligence is entirely genetic",
-    "b": "Intelligence is entirely environmental",
-    "c": "Half of the variability is due to genetics",
-    "d": "Genetics plays no role in intelligence"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 28,
-    "text": "Heritability tells us:",
-    "options": {
-    "a": "About specific genes contributing to a trait",
-    "b": "About an individual’s abilities",
-    "c": "About differences across individuals in a population",
-    "d": "The degree to which interventions can change a trait"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 29,
-    "text": "Heritability is dependent on:",
-    "options": {
-    "a": "Genetic factors only",
-    "b": "Environmental conditions",
-    "c": "Individual choices",
-    "d": "Fate"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 30,
-    "text": "Heritability is useful for:",
-    "options": {
-    "a": "Determining how individuals will respond to conditions",
-    "b": "Identifying traits influenced by genes",
-    "c": "Predicting individual behavior",
-    "d": "Changing behavioral traits"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 31,
-    "text": "Scientists study the brain by:",
-    "options": {
-    "a": "Dissection only",
-    "b": "Studying people with brain damage",
-    "c": "Studying the brain’s electrical activity",
-    "d": "Using brain imaging",
-    "e": "b, c, and d"
-    },
-    "answer": "e"
-    },
-    {
-    "number": 32,
-    "text": "Studying damaged brains helps neuroscientists:",
-    "options": {
-    "a": "Understand brain structure",
-    "b": "Theorize about the functions of different brain areas",
-    "c": "Develop new surgical techniques",
-    "d": "Identify atypical brains"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 33,
-    "text": "The concept that there are natural variations in brain structure and function is known as:",
-    "options": {
-    "a": "Brain damage",
-    "b": "Atypical brain",
-    "c": "Neurodiversity",
-    "d": "Lesion"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 34,
-    "text": "Paul Broca is known for his work on:",
-    "options": {
-    "a": "Language comprehension",
-    "b": "Speech production",
-    "c": "Visual processing",
-    "d": "Motor functions"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 35,
-    "text": "Carl Wernicke described a patient with an impairment in:",
-    "options": {
-    "a": "Speech production",
-    "b": "Language comprehension",
-    "c": "Motor control",
-    "d": "Emotional regulation"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 36,
-    "text": "Broca's area and Wernicke's area are located in the:",
-    "options": {
-    "a": "Right hemisphere",
-    "b": "Left hemisphere",
-    "c": "Occipital lobe",
-    "d": "Parietal lobe"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 37,
-    "text": "Phineas Gage's case provided insight into the functions of the:",
-    "options": {
-    "a": "Occipital lobe",
-    "b": "Temporal lobe",
-    "c": "Frontal lobe",
-    "d": "Parietal lobe"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 38,
-    "text": "After his accident, Gage experienced significant changes in:",
-    "options": {
-    "a": "Motor skills",
-    "b": "Language abilities",
-    "c": "Personality and emotional life",
-    "d": "Sensory perception"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 39,
-    "text": "Severing the corpus callosum is a procedure used to treat:",
-    "options": {
-    "a": "Language disorders",
-    "b": "Motor impairments",
-    "c": "Severe epilepsy",
-    "d": "Vision problems"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 40,
-    "text": "The corpus callosum:",
-    "options": {
-    "a": "Controls speech production",
-    "b": "Allows the two hemispheres to communicate",
-    "c": "Is responsible for motor control",
-    "d": "Regulates emotions"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 41,
-    "text": "In a split-brain patient, information entering one hemisphere:",
-    "options": {
-    "a": "Immediately travels to the other hemisphere",
-    "b": "Stays in that hemisphere",
-    "c": "Is lost",
-    "d": "Enhances communication between hemispheres"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 42,
-    "text": "Roger Sperry is known for his work on:",
-    "options": {
-    "a": "Brain damage",
-    "b": "Split-brain experiments",
-    "c": "EEG recordings",
-    "d": "Neuroimaging techniques"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 43,
-    "text": "Contralateral control means that the left hand is controlled by:",
-    "options": {
-    "a": "The left hemisphere",
-    "b": "The right hemisphere",
-    "c": "Both hemispheres",
-    "d": "The corpus callosum"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 44,
-    "text": "A chimeric face is:",
-    "options": {
-    "a": "A face with exaggerated features",
-    "b": "A face assembled from half-face components",
-    "c": "A face that changes expression",
-    "d": "A face processed only by the right hemisphere"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 45,
-    "text": "An electroencephalograph (EEG) records:",
-    "options": {
-    "a": "Brain structure",
-    "b": "Electrical activity in the brain",
-    "c": "Blood flow in the brain",
-    "d": "Chemical changes in the brain"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 46,
-    "text": "EEG measures variables like:",
-    "options": {
-    "a": "Brain size",
-    "b": "A person’s level of attention",
-    "c": "Specific thoughts",
-    "d": "Brain lesions"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 47,
-    "text": "EEG can reveal abnormal patterns of activity associated with:",
-    "options": {
-    "a": "Eye movement",
-    "b": "Muscle tension",
-    "c": "Brain injuries and disorders",
-    "d": "Heart rate"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 48,
-    "text": "Hubel and Wiesel studied:",
-    "options": {
-    "a": "Split-brain patients",
-    "b": "Electrical activity in humans",
-    "c": "Action potentials of individual neurons",
-    "d": "Brain lesions"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 49,
-    "text": "Hubel and Wiesel inserted electrodes into the:",
-    "options": {
-    "a": "Frontal lobes",
-    "b": "Temporal lobes",
-    "c": "Occipital lobes",
-    "d": "Parietal lobes"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 50,
-    "text": "Feature detectors in the visual cortex respond to:",
-    "options": {
-    "a": "Complex objects",
-    "b": "Particular features of visual stimuli",
-    "c": "All visual stimuli equally",
-    "d": "Emotional expressions"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 51,
-    "text": "Damage to the area specialized for processing faces results in:",
-    "options": {
-    "a": "Inability to recognize objects",
-    "b": "Inability to perceive faces",
-    "c": "Loss of language",
-    "d": "Impaired motor control"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 52,
-    "text": "Neuroimaging techniques are used to:",
-    "options": {
-    "a": "Dissect the brain",
-    "b": "Create images of the living, healthy brain",
-    "c": "Study brain damage",
-    "d": "Record electrical activity"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 53,
-    "text": "Structural brain imaging provides information about:",
-    "options": {
-    "a": "Brain activity",
-    "b": "The basic structure of the brain",
-    "c": "Brain function during tasks",
-    "d": "Blood flow in the brain"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 54,
-    "text": "Functional brain imaging provides information about:",
-    "options": {
-    "a": "Brain structure",
-    "b": "The activity of the brain during tasks",
-    "c": "Brain lesions",
-    "d": "Tumors"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 55,
-    "text": "Computerized axial tomography (CT) scans use:",
-    "options": {
-    "a": "Magnetic fields",
-    "b": "Radioactive substances",
-    "c": "X-ray photographs",
-    "d": "Sound waves"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 56,
-    "text": "CT scans show:",
-    "options": {
-    "a": "Brain activity",
-    "b": "Different densities of tissue in the brain",
-    "c": "Blood flow",
-    "d": "Molecular composition"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 57,
-    "text": "Magnetic resonance imaging (MRI) uses:",
-    "options": {
-    "a": "X-rays",
-    "b": "Radioactive substances",
-    "c": "A strong magnetic field",
-    "d": "Sound waves"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 58,
-    "text": "MRI produces pictures of:",
-    "options": {
-    "a": "Bone tissue",
-    "b": "Soft tissue at a better resolution than CT",
-    "c": "Brain activity",
-    "d": "Electrical activity"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 59,
-    "text": "Diffusion tensor imaging (DTI) visualizes:",
-    "options": {
-    "a": "Brain tumors",
-    "b": "White matter pathways",
-    "c": "Brain activity",
-    "d": "Lesions"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 60,
-    "text": "The Human Connectome Project aims to:",
-    "options": {
-    "a": "Map brain tumors",
-    "b": "Study brain damage",
-    "c": "Provide a complete map of neural pathways in the brain",
-    "d": "Measure brain volume"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 61,
-    "text": "Functional brain-imaging techniques rely on the fact that activated brain areas demand more:",
-    "options": {
-    "a": "Electrical activity",
-    "b": "Energy, supplied by increased blood flow",
-    "c": "Radioactive substances",
-    "d": "Magnetic pulses"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 62,
-    "text": "Positron emission tomography (PET) involves:",
-    "options": {
-    "a": "Using magnetic fields",
-    "b": "Injecting a radioactive substance",
-    "c": "Measuring electrical activity",
-    "d": "Analyzing brain structure"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 63,
-    "text": "Functional magnetic resonance imaging (fMRI) detects:",
-    "options": {
-    "a": "Radioactive substances",
-    "b": "Electrical activity",
-    "c": "The difference between oxygenated and deoxygenated hemoglobin",
-    "d": "Brain structure"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 64,
-    "text": "Hemoglobin is the molecule in the blood that carries:",
-    "options": {
-    "a": "Carbon dioxide",
-    "b": "Oxygen",
-    "c": "Glucose",
-    "d": "Nutrients"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 65,
-    "text": "Compared to PET, fMRI:",
-    "options": {
-    "a": "Requires radioactive substances",
-    "b": "Is less precise",
-    "c": "Can localize changes in brain activity more quickly",
-    "d": "Is less expensive"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 66,
-    "text": "Resting state functional connectivity measures:",
-    "options": {
-    "a": "Brain structure",
-    "b": "Task-related brain activity",
-    "c": "Spontaneous activity in different brain regions",
-    "d": "Electrical activity"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 67,
-    "text": "Brain regions with highly correlated activity are thought to be:",
-    "options": {
-    "a": "Damaged",
-    "b": "Functionally connected",
-    "c": "Independent",
-    "d": "Structurally different"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 68,
-    "text": "The default network is involved in:",
-    "options": {
-    "a": "Motor control",
-    "b": "Sensory perception",
-    "c": "Internally focused cognitive activities",
-    "d": "Language processing"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 69,
-    "text": "An important application of understanding brain connectivity is to:",
-    "options": {
-    "a": "Predict and characterize brain disorders",
-    "b": "Enhance memory",
-    "c": "Control behavior",
-    "d": "Improve physical health"
-    },
-    "answer": "a"
-    },
-    {
-    "number": 70,
-    "text": "FMRI images typically result from:",
-    "options": {
-    "a": "Studying individual brain cells",
-    "b": "Comparing an experimental task and a control task",
-    "c": "Analyzing brain structure",
-    "d": "Measuring electrical activity"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 71,
-    "text": "Schacter and Loftus argue that fMRI should not be used in courtrooms to determine:",
-    "options": {
-    "a": "Brain damage",
-    "b": "Witness accuracy",
-    "c": "Criminal intent",
-    "d": "Mental disorders"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 72,
-    "text": "Transcranial magnetic stimulation (TMS) is a technique that:",
-    "options": {
-    "a": "Measures brain activity",
-    "b": "Creates images of the brain",
-    "c": "Mimics brain damage",
-    "d": "Enhances brain function"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 73,
-    "text": "TMS delivers a:",
-    "options": {
-    "a": "Radioactive substance",
-    "b": "Electrical pulse",
-    "c": "Magnetic pulse",
-    "d": "Sound wave"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 74,
-    "text": "TMS deactivates neurons in the:",
-    "options": {
-    "a": "Brainstem",
-    "b": "Cerebellum",
-    "c": "Cerebral cortex",
-    "d": "Spinal cord"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 75,
-    "text": "TMS can be used to study:",
-    "options": {
-    "a": "Brain structure",
-    "b": "Brain lesions",
-    "c": "How the brain creates thoughts, feelings, and actions",
-    "d": "Genetic influences on behavior"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 76,
-    "text": "Researchers used TMS to interfere with the operation of the angular gyrus to study:",
-    "options": {
-    "a": "Language processing",
-    "b": "Motor control",
-    "c": "Memory and imagination",
-    "d": "Visual perception"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 77,
-    "text": "Combining TMS with fMRI allows researchers to:",
-    "options": {
-    "a": "Enhance brain activity",
-    "b": "Measure electrical activity",
-    "c": "Localize precisely where TMS is having its effect",
-    "d": "Study brain structure"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 78,
-    "text": "Each method for studying the brain provides:",
-    "options": {
-    "a": "The same type of information",
-    "b": "A specific type of tool for exploring brain structure and function",
-    "c": "A complete picture of brain activity",
-    "d": "Information on genetic influences"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 79,
-    "text": "An important task for researchers is to:",
-    "options": {
-    "a": "Use all available tools",
-    "b": "Decide which tool is most appropriate for their scientific question",
-    "c": "Focus on one method only",
-    "d": "Develop new tools"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 80,
-    "text": "Early studies attempted to estimate brain volume by:",
-    "options": {
-    "a": "Using MRI",
-    "b": "Measuring head circumference",
-    "c": "Dissecting the brain",
-    "d": "Measuring electrical activity"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 81,
-    "text": "Studies using MRI have reported a positive correlation between:",
-    "options": {
-    "a": "Brain activity and intelligence",
-    "b": "Brain size and age",
-    "c": "Overall brain volume and intelligence",
-    "d": "Brain structure and behavior"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 82,
-    "text": "A positive correlation can range from:",
-    "options": {
-    "a": "-1.00 to 0",
-    "b": "0 to +1.00",
-    "c": "-1.00 to +1.00",
-    "d": "0 to 100"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 83,
-    "text": "The third-variable problem refers to:",
-    "options": {
-    "a": "Difficulty in measuring brain volume",
-    "b": "The influence of environmental factors",
-    "c": "A relationship between two variables caused by an unmeasured third variable",
-    "d": "Genetic influences on behavior"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 84,
-    "text": "The UK Biobank is:",
-    "options": {
-    "a": "A collection of brain images",
-    "b": "A research institute",
-    "c": "A database of health-related information",
-    "d": "A type of brain-imaging technique"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 85,
-    "text": "Nave et al. (2019) analyzed MRI-measured brain volume in UKB participants and related it to:",
-    "options": {
-    "a": "Motor skills",
-    "b": "Sensory perception",
-    "c": "Cognitive measures",
-    "d": "Emotional regulation"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 86,
-    "text": "Fluid intelligence involves:",
-    "options": {
-    "a": "Stored knowledge",
-    "b": "The ability to solve novel problems",
-    "c": "Language skills",
-    "d": "Social skills"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 87,
-    "text": "Nave et al. (2019) found a significant correlation of +.19 between:",
-    "options": {
-    "a": "Brain activity and intelligence",
-    "b": "Brain size and age",
-    "c": "Brain volume and fluid intelligence",
-    "d": "Brain structure and behavior"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 88,
-    "text": "The correlation between brain volume and intelligence suggests that:",
-    "options": {
-    "a": "Brain volume accounts for a large portion of the variation in intelligence",
-    "b": "Brain volume accounts for only a small portion of the variation in intelligence",
-    "c": "Larger brain volume always causes higher intelligence",
-    "d": "Intelligence determines brain volume"
-    },
-    "answer": "b"
-    },
-    {
-    "number": 89,
-    "text": "Because the data on brain volume and intelligence are correlational, we don’t know:",
-    "options": {
-    "a": "If there is a relationship between the two",
-    "b": "The strength of the correlation",
-    "c": "Whether larger brain volume causes increased intelligence",
-    "d": "If other variables are involved"
-    },
-    "answer": "c"
-    },
-    {
-    "number": 90,
-    "text": "The findings on brain volume and intelligence:",
-    "options": {
-    "a": "Provide a definitive answer",
-    "b": "Suggest you should use a tape measure to predict academic success",
-    "c": "Provide a solid basis for evaluating the extent to which a bigger brain is a smarter brain",
-    "d": "Have no relevance to predicting academic success"
-    },
-    "answer": "c"
-    },
-      {
+  {
+      "number": 1,
+      "text": "According to the text, what is the primary definition of a gene?",
+      "options": {
+          "a": "A section of DNA coding for protein molecules that affect traits",
+          "b": "A large thread-like structure containing DNA, such as a chromosome",
+          "c": "The major unit of hereditary transmission",
+          "d": "A molecule like messenger RNA involved in protein production"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 2,
+      "text": "Genes are described as being organized into larger structures called:",
+      "options": {
+          "a": "Double helices",
+          "b": "Chromosomes",
+          "c": "Histones",
+          "d": "Messenger RNAs"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 3,
+      "text": "The structure of DNA within chromosomes is described as a:",
+      "options": {
+          "a": "Single-strand configuration",
+          "b": "Methyl group attachment",
+          "c": "Double-helix configuration",
+          "d": "Protein-based sequence"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 4,
+      "text": "Which molecule is responsible for communicating a copy of the DNA code to cells for protein production?",
+      "options": {
+          "a": "Histone protein",
+          "b": "Deoxyribonucleic acid (DNA)",
+          "c": "Messenger RNA (mRNA)",
+          "d": "Methyl group"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 5,
+      "text": "How many pairs of chromosomes do humans typically possess?",
+      "options": {
+          "a": "23 pairs",
+          "b": "46 pairs",
+          "c": "2 pairs (X and Y)",
+          "d": "An amount varying by individual"
+      },
+      "answer": "a"
+  },
+  {
+      "number": 6,
+      "text": "Monozygotic twins result from the splitting of a single fertilized egg and therefore share:",
+      "options": {
+          "a": "Approximately 50% of their variable DNA",
+          "b": "The same X or Y chromosome from their father",
+          "c": "Exactly 75% of their genes",
+          "d": "100% of their genes"
+      },
+      "answer": "d"
+  },
+  {
+      "number": 7,
+      "text": "Dizygotic twins, also known as fraternal twins, develop from:",
+      "options": {
+          "a": "A single fertilized egg that splits late in development",
+          "b": "Two separate fertilized eggs",
+          "c": "A single egg fertilized by two different sperm",
+          "d": "Two eggs fertilized by the same sperm"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 8,
+      "text": "The concept 'degree of relatedness' refers to the:",
+      "options": {
+          "a": "Similarity in environmental upbringing",
+          "b": "Probability of sharing genes between individuals",
+          "c": "Number of chromosomes shared",
+          "d": "Likelihood of developing similar psychological traits"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 9,
+      "text": "Epigenetics primarily studies how:",
+      "options": {
+          "a": "Environmental factors influence gene expression without changing the DNA sequence",
+          "b": "Mutations alter the fundamental DNA sequence",
+          "c": "Genes determine fixed traits like eye color",
+          "d": "DNA methylation creates new genes"
+      },
+      "answer": "a"
+  },
+  {
+      "number": 10,
+      "text": "What are epigenetic marks?",
+      "options": {
+          "a": "Permanent changes to the DNA base sequence (mutations)",
+          "b": "Chemical modifications to DNA or histones that affect gene activity",
+          "c": "The physical location of a gene on a chromosome",
+          "d": "Errors that occur during DNA replication"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 11,
+      "text": "The epigenetic mechanism of DNA methylation typically involves:",
+      "options": {
+          "a": "Adding a methyl group, which usually switches a gene off",
+          "b": "Removing a methyl group, which usually switches a gene on",
+          "c": "Adding an acetyl group to DNA, altering its structure",
+          "d": "Modifying histone proteins to make DNA more accessible"
+      },
+      "answer": "a"
+  },
+  {
+      "number": 12,
+      "text": "Unlike DNA methylation, histone modification is described as being able to:",
+      "options": {
+          "a": "Only switch genes off permanently",
+          "b": "Alter the underlying DNA sequence",
+          "c": "Either switch genes on or switch genes off",
+          "d": "Only add methyl groups to DNA"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 13,
+      "text": "How do epigenetic differences between monozygotic twins change over time, according to the text?",
+      "options": {
+          "a": "They remain identical throughout life due to identical DNA",
+          "b": "They accumulate with experience, making the twins less identical epigenetically",
+          "c": "They decrease as twins share more experiences",
+          "d": "They are significant at birth but converge later in life"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 14,
+      "text": "Research involving rats and mice indicates that epigenetic marks play a role in processes such as:",
+      "options": {
+          "a": "Determining the basic number of chromosomes",
+          "b": "Controlling involuntary reflexes",
+          "c": "Learning and memory formation",
+          "d": "Establishing the initial DNA sequence"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 15,
+      "text": "Studies involving humans have linked epigenetic changes, specifically DNA methylation, with:",
+      "options": {
+          "a": "Athletic performance",
+          "b": "Responses to psychological stress",
+          "c": "Basic metabolic rate",
+          "d": "Natural hair color development"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 16,
+      "text": "What potential role for epigenetics was suggested by research on Holocaust survivors and their offspring?",
+      "options": {
+          "a": "Preventing the inheritance of genetic disorders",          
+          "b": "Increasing resilience to future stress",
+          "c": "Altering the fundamental DNA structure passed to offspring",
+          "d": "Transmitting the consequences of trauma across generations",
+      },
+      "answer": "d"
+  },
+  {
+      "number": 17,
+      "text": "In the studies by Meaney and colleagues, what characterized the 'high LG' rat mothers?",
+      "options": {
+          "a": "Spending minimal time with their pups",
+          "b": "Frequently licking and grooming their young pups",
+          "c": "Building more elaborate nests",
+          "d": "Showing heightened aggression towards threats"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 18,
+      "text": "Adult rats that were raised by high LG mothers (or cross-fostered to them) showed which characteristic compared to those raised by low LG mothers?",
+      "options": {
+          "a": "Increased levels of stress-related hormones",
+          "b": "Greater fearfulness in stressful situations",
+          "c": "Less fearfulness in stressful situations",
+          "d": "No difference in stress response or fearfulness"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 19,
+      "text": "The text associates increased levels of hippocampal serotonin in rats with:",
+      "options": {
+          "a": "Lowered mood and increased anxiety",
+          "b": "Elevated mood and potentially calmer stress response",
+          "c": "Impaired memory function",
+          "d": "Decreased grooming behavior"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 20,
+      "text": "The behavior of high LG rat mothers is suggested to be the human equivalent of:",
+      "options": {
+          "a": "High socioeconomic status",
+          "b": "Strict and demanding parenting",
+          "c": "Loving and attentive parenting",          
+          "d": "Genetic predisposition to calmness"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 21,
+      "text": "A large-scale study in Great Britain found that children raised in economically disadvantaged neighborhoods showed:",
+      "options": {
+          "a": "Lower overall DNA methylation compared to advantaged children",
+          "b": "Greater DNA methylation in genes linked to inflammation and smoking",
+          "c": "Identical epigenetic patterns to children in advantaged neighborhoods",
+          "d": "Reduced expression of the glucocorticoid receptor gene"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 22,
+      "text": "The text highlights the increasing recognition of epigenetics' importance in understanding:",
+      "options": {
+          "a": "Psychological disorders where early life stress is a risk factor",
+          "b": "Basic laws of Mendelian inheritance",
+          "c": "The development of the skeletal system",
+          "d": "Acute infectious diseases"
+      },
+      "answer": "a"
+  },
+  {
+      "number": 23,
+      "text": "While genes set a range of possibilities, the characteristics of an individual within that range are determined by:",
+      "options": {
+          "a": "Genetic factors alone",          
+          "b": "The number of chromosomes",
+          "c": "Purely random chance events",
+          "d": "Environmental factors and experience interacting with genes",
+      },
+      "answer": "d"
+  },
+  {
+      "number": 24,
+      "text": "What does heritability measure?",
+      "options": {
+          "a": "The specific genes responsible for a particular trait",
+          "b": "The proportion of variability in behavioral traits among individuals attributable to genetic factors",
+          "c": "The extent to which a trait can be changed by environmental interventions",
+          "d": "The genetic similarity between two individuals"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 25,
+      "text": "What does a heritability score of 0 indicate about a behavioral trait?",
+      "options": {
+          "a": "The trait is entirely determined by genetic factors",
+          "b": "Genetic factors do not contribute to individual differences in that trait",
+          "c": "Environmental factors have no influence on the trait",
+          "d": "The trait cannot be measured accurately"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 26,
+      "text": "In what range do most heritability estimates for human behavior fall?",
+      "options": {
+          "a": "Close to 0 (e.g., .00 to .10)",
+          "b": "Close to 1.00 (e.g., .90 to 1.00)",
+          "c": "In the moderate range (e.g., .30 to .60)",
+          "d": "Exactly 0.50 for all complex traits"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 27,
+      "text": "If the heritability index for intelligence is .50, what does this imply?",
+      "options": {
+          "a": "Exactly half of an individual's intelligence is genetic, the other half environmental",
+          "b": "Intelligence is fixed and cannot be influenced by the environment",
+          "c": "Half of the *variability* in intelligence scores *within a population* is attributable to genetic influences",
+          "d": "Environmental factors are twice as important as genetic factors for intelligence"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 28,
+      "text": "Which statement accurately describes heritability?",
+      "options": {
+          "a": "It reveals the specific genes causing a trait in an individual.",
+          "b": "It is a population concept, indicating differences across individuals, not within one person.",
+          "c": "It is a fixed value for a trait, regardless of the environment.",
+          "d": "It directly measures the influence of environmental factors."
+      },
+      "answer": "b"
+  },
+  {
+      "number": 29,
+      "text": "Heritability estimates are meaningful only for the specific environmental conditions in which they were computed because heritability is:",
+      "options": {
+          "a": "An abstract concept unrelated to the real world",
+          "b": "Dependent on the environment",
+          "c": "Entirely determined by genetic makeup",
+          "d": "A measure of fate or destiny"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 30,
+      "text": "What is a limitation of using heritability estimates?",
+      "options": {
+          "a": "They cannot identify behavioral traits influenced by genes.",
+          "b": "They tell us precisely how an individual will respond to specific environmental conditions.",
+          "c": "They do not indicate the degree to which interventions can change a behavioral trait.",
+          "d": "They only apply to animal behavior, not human behavior."
+      },
+      "answer": "c"
+  },
+  {
+      "number": 31,
+      "text": "Which of the following represents the three main ways researchers study the link between the human brain and behavior, as outlined in the text?",
+      "options": {
+          "a": "Dissection, genetic analysis, and historical records",
+          "b": "Animal studies, computer modeling, and philosophical inquiry",
+          "c": "Studying brain damage, recording electrical activity, and using brain imaging",
+          "d": "Psychotherapy, medication trials, and behavioral observation"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 32,
+      "text": "By studying instances where specific brain damage leads to loss of function, neuroscientists can:",
+      "options": {
+          "a": "Directly observe how neurons repair themselves",
+          "b": "Theorize about the functions normally performed by the damaged areas",
+          "c": "Develop methods to reverse the brain damage",
+          "d": "Map the complete genetic code of the individual"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 33,
+      "text": "What is the concept of neurodiversity?",
+      "options": {
+          "a": "The idea that all brains are structurally and functionally identical",
+          "b": "The view that brain damage is the primary cause of cognitive variation",
+          "c": "The idea of natural variations in brain structure/function leading to cognitive/social/emotional differences",
+          "d": "A specific neurological disorder requiring medical intervention"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 34,
+      "text": "The work of Paul Broca in 1861 provided early evidence linking a specific brain area (in the left frontal lobe) to:",
+      "options": {
+          "a": "Understanding spoken language",
+          "b": "Producing spoken language",
+          "c": "Processing visual information",
+          "d": "Regulating emotional responses"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 35,
+      "text": "Carl Wernicke described a patient whose brain damage (in the upper-left temporal lobe) was associated with difficulty in:",
+      "options": {
+          "a": "Comprehending language",
+          "b": "Producing fluent speech",
+          "c": "Controlling voluntary movement",
+          "d": "Recognizing familiar faces"
+      },
+      "answer": "a"
+  },
+  {
+      "number": 36,
+      "text": "Broca's area and Wernicke's area provided early evidence suggesting that:",
+      "options": {
+          "a": "Both language functions are located in the right hemisphere",
+          "b": "Speech production and comprehension are located in separate brain areas, often in the left hemisphere",
+          "c": "Language processing is distributed evenly across the entire brain",
+          "d": "The frontal lobe is solely responsible for all aspects of language"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 37,
+      "text": "The accidental injury to Phineas Gage, where an iron rod passed through his head, offered initial insights into the role of which brain region in personality and emotion?",
+      "options": {
+          "a": "Cerebellum",
+          "b": "Occipital lobe",
+          "c": "Frontal lobe",
+          "d": "Hippocampus"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 38,
+      "text": "What was the reported major change in Phineas Gage after his accident?",
+      "options": {
+          "a": "Loss of ability to speak or understand language",
+          "b": "Complete paralysis of his limbs",
+          "c": "Significant alterations in personality, becoming irritable and irresponsible",
+          "d": "Development of extraordinary memory capabilities"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 39,
+      "text": "A split-brain procedure, which involves severing the corpus callosum, is sometimes performed to:",
+      "options": {
+          "a": "Enhance communication between the brain hemispheres",
+          "b": "Treat severe, intractable epilepsy by isolating seizures",
+          "c": "Repair damage caused by stroke",
+          "d": "Improve language processing abilities"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 40,
+      "text": "What is the primary function of the corpus callosum?",
+      "options": {
+          "a": "To regulate basic life functions like breathing",          
+          "b": "To process sensory information from the body",
+          "c": "To control muscle movements and coordination",
+          "d": "To allow communication and information transfer between the two cerebral hemispheres",
+      },
+      "answer": "d"
+  },
+  {
+      "number": 41,
+      "text": "What happens to information entering one hemisphere in a person with a severed corpus callosum (split brain)?",
+      "options": {
+          "a": "It is processed normally by both hemispheres via other pathways",
+          "b": "It generally stays within that hemisphere and does not reach the other",
+          "c": "It triggers a seizure across the entire brain",
+          "d": "It becomes inaccessible to conscious awareness"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 42,
+      "text": "The experiments conducted by Roger Sperry and colleagues on split-brain patients demonstrated:",
+      "options": {
+          "a": "That the two hemispheres function identically",
+          "b": "That severing the corpus callosum has no effect on behavior",
+          "c": "Specialized functions of the left and right hemispheres",
+          "d": "The brain's ability to completely rewire itself after surgery"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 43,
+      "text": "The term 'contralateral control' means that the right hemisphere typically controls movement and processes sensation from which side of the body?",
+      "options": {
+          "a": "The right side",
+          "b": "The left side",
+          "c": "Both sides equally",
+          "d": "The midline of the body"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 44,
+      "text": "In split-brain research, what is a 'chimeric face'?",
+      "options": {
+          "a": "A computer-generated average face",
+          "b": "A photograph of a face shown extremely briefly",
+          "c": "A face composed of half of one person's face and half of another's",
+          "d": "A face that evokes strong emotional responses"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 45,
+      "text": "What does an electroencephalograph (EEG) primarily measure?",
+      "options": {
+          "a": "Changes in blood flow within the brain",
+          "b": "The overall electrical activity of large groups of neurons",
+          "c": "The detailed structure of individual brain cells",
+          "d": "The release of neurotransmitters at synapses"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 46,
+      "text": "EEG is particularly useful for determining:",
+      "options": {
+          "a": "The specific thoughts a person is having",
+          "b": "The precise location of cognitive functions",
+          "c": "Different states of consciousness, like wakefulness and stages of sleep",
+          "d": "The chemical composition of brain tissue"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 47,
+      "text": "Clinically, EEG can be used to detect:",
+      "options": {
+          "a": "Microscopic structural damage",
+          "b": "Variations in skull thickness",
+          "c": "Abnormal electrical patterns associated with conditions like epilepsy or brain injuries",
+          "d": "Differences in white matter pathways"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 48,
+      "text": "What technique did Hubel and Wiesel use in their Nobel Prize-winning research?",
+      "options": {
+          "a": "Functional magnetic resonance imaging (fMRI)",
+          "b": "Electroencephalography (EEG) on human subjects",
+          "c": "Studying language deficits in patients with brain damage",
+          "d": "Recording action potentials from individual neurons in the visual cortex of cats",
+      },
+      "answer": "d"
+  },
+  {
+      "number": 49,
+      "text": "Hubel and Wiesel's research focused on understanding neuronal activity in which part of the brain?",
+      "options": {
+          "a": "The frontal lobes, related to planning",
+          "b": "The temporal lobes, related to hearing",
+          "c": "The occipital lobes, responsible for visual processing",
+          "d": "The cerebellum, involved in motor control"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 50,
+      "text": "What are 'feature detectors' as discovered by Hubel and Wiesel?",
+      "options": {
+          "a": "Brain regions that detect overall levels of light",
+          "b": "Neurons in the visual cortex that respond selectively to specific aspects of a stimulus (e.g., lines, edges, orientation)",
+          "c": "Cells in the retina that initially capture light",
+          "d": "Cortical areas specialized for recognizing complex objects like faces"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 51,
+      "text": "Complementary evidence linking brain areas to function comes from studies showing that damage to a specific cortical area (e.g., for face processing) results in:",
+      "options": {
+          "a": "Loss or alteration of the type of function processed by neurons in that area",
+          "b": "Enhancement of that specific function",
+          "c": "No noticeable change in behavior or perception",
+          "d": "Improvement in unrelated cognitive abilities"
+      },
+      "answer": "a"
+  },
+  {
+      "number": 52,
+      "text": "Neuroimaging techniques primarily allow researchers to:",
+      "options": {
+          "a": "Directly manipulate neuronal firing rates",
+          "b": "Create images of the structure and/or activity of the living brain",
+          "c": "Analyze the genetic makeup influencing brain development",
+          "d": "Conduct surgical interventions with high precision"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 53,
+      "text": "What type of information does structural brain imaging (like CT and MRI) provide?",
+      "options": {
+          "a": "Real-time information about brain activity during a task",
+          "b": "Information about the basic structure, shape, and potential abnormalities (lesions, tumors) of the brain",
+          "c": "Measurement of electrical signals from the scalp",
+          "d": "The level of specific neurotransmitters in different brain regions"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 54,
+      "text": "Functional brain imaging (like PET and fMRI) primarily provides information about:",
+      "options": {
+          "a": "The static, anatomical structure of the brain",
+          "b": "Changes in brain activity (e.g., blood flow, metabolism) while performing tasks",
+          "c": "The genetic sequences related to brain function",
+          "d": "The pathways of white matter tracts"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 55,
+      "text": "How does a computerized axial tomography (CT) scan generate images of the brain?",
+      "options": {
+          "a": "By detecting radio waves emitted by molecules in a magnetic field",
+          "b": "By measuring electrical activity from the scalp",
+          "c": "By taking multiple X-ray photographs from different angles and combining them",
+          "d": "By detecting a radioactive tracer injected into the bloodstream"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 56,
+      "text": "What do CT scans primarily show within the brain?",
+      "options": {
+          "a": "Patterns of neuronal firing",
+          "b": "Differences in tissue density (e.g., skull, cortex, lesions)",
+          "c": "Oxygen levels in the blood",
+          "d": "The precise location of neurotransmitter release"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 57,
+      "text": "Magnetic resonance imaging (MRI) creates brain images by:",
+      "options": {
+          "a": "Using X-rays to detect tissue density",
+          "b": "Measuring electrical potentials on the scalp",
+          "c": "Using strong magnetic fields and radio waves to map tissue based on molecular properties",
+          "d": "Tracking a radioactive substance in the bloodstream"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 58,
+      "text": "A key advantage of MRI over CT scans for viewing brain structure is that MRI:",
+      "options": {
+          "a": "Is significantly faster and less expensive",
+          "b": "Provides better resolution images of soft tissue",
+          "c": "Measures brain activity directly",
+          "d": "Does not require the patient to remain still"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 59,
+      "text": "What specific type of brain structure is visualized using Diffusion Tensor Imaging (DTI)?",
+      "options": {
+          "a": "Individual neuron cell bodies",
+          "b": "White matter pathways (fiber bundles connecting regions)",
+          "c": "Blood vessels within the brain",
+          "d": "Fluid-filled ventricles"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 60,
+      "text": "The primary goal of the Human Connectome Project is to:",
+      "options": {
+          "a": "Sequence the entire human genome related to the brain",
+          "b": "Develop new drugs for neurological disorders",
+          "c": "Create a complete map of the brain's neural connection pathways (the connectome)",
+          "d": "Catalog all known types of neurons"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 61,
+      "text": "Functional imaging techniques like PET and fMRI work on the principle that activated brain areas:",
+      "options": {
+          "a": "Show decreased electrical activity",
+          "b": "Demand more energy, leading to increased blood flow",
+          "c": "Become denser and appear brighter on CT scans",
+          "d": "Shrink slightly in size"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 62,
+      "text": "How does Positron Emission Tomography (PET) typically measure brain activity?",
+      "options": {
+          "a": "By detecting magnetic fields produced by neurons",
+          "b": "By tracking the location of a harmless radioactive substance injected into the bloodstream",
+          "c": "By measuring changes in the shape of brain structures",
+          "d": "By recording electrical signals from deep within the brain"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 63,
+      "text": "What does functional Magnetic Resonance Imaging (fMRI) primarily detect to infer brain activity?",
+      "options": {
+          "a": "The firing rate of individual neurons",
+          "b": "The release of specific neurotransmitters",
+          "c": "Changes in blood oxygen levels (difference between oxygenated and deoxygenated hemoglobin)",
+          "d": "Structural abnormalities like tumors or lesions"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 64,
+      "text": "Hemoglobin is crucial for fMRI because it is the molecule that:",
+      "options": {
+          "a": "Transmits nerve impulses",
+          "b": "Carries oxygen in the blood",
+          "c": "Forms the structure of cell membranes",
+          "d": "Synthesizes proteins within neurons"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 65,
+      "text": "Which of the following is an advantage of fMRI over PET?",
+      "options": {
+          "a": "fMRI uses a radioactive tracer, making it more sensitive",
+          "b": "fMRI does not require exposure to radioactivity and has better temporal resolution",
+          "c": "PET provides much higher spatial resolution of brain structures",
+          "d": "PET scans are significantly quicker to perform"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 66,
+      "text": "What does 'resting state functional connectivity' measure?",
+      "options": {
+          "a": "Brain activity while a person performs a demanding cognitive task",
+          "b": "The physical connections between brain regions via white matter tracts",
+          "c": "The correlation of spontaneous activity between different brain regions over time when at rest",
+          "d": "The brain's response to external magnetic stimulation"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 67,
+      "text": "In functional connectivity analysis, brain regions whose activity levels are highly correlated over time are considered to be:",
+      "options": {
+          "a": "Structurally damaged",
+          "b": "Functionally connected or part of a network",
+          "c": "Operating completely independently",
+          "d": "Primarily involved in sensory input"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 68,
+      "text": "The 'default network' identified using functional connectivity is associated with what kinds of cognitive activities?",
+      "options": {
+          "a": "Processing external sensory information (sight, sound)",
+          "b": "Executing precise motor commands",
+          "c": "Internally focused thought (e.g., remembering, imagining future, mind wandering)",
+          "d": "Basic life support functions (e.g., breathing, heart rate)"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 69,
+      "text": "Understanding brain connectivity (both structural and functional) is believed to have important applications for:",
+      "options": {
+          "a": "Developing better methods for measuring head circumference",
+          "b": "Predicting and characterizing the course of brain disorders like Alzheimer's",
+          "c": "Creating artificial general intelligence",
+          "d": "Improving the resolution of CT scans"
+      },
+      "answer": "a"
+  },
+  {
+      "number": 70,
+      "text": "The colored 'activation blobs' seen in fMRI (and PET) images usually represent:",
+      "options": {
+          "a": "The only parts of the brain active during a task",
+          "b": "Areas where activity significantly differed between an experimental task and a control task",
+          "c": "Permanent structural changes in the brain",
+          "d": "Direct visualization of individual neurons firing"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 71,
+      "text": "Why did Schacter and Loftus express caution about using fMRI to determine witness memory accuracy in courtrooms?",
+      "options": {
+          "a": "fMRI technology is too expensive for legal applications",
+          "b": "Laboratory findings may not generalize to complex real-world events, and group averages don't guarantee individual accuracy",
+          "c": "fMRI scans are known to cause memory distortions",
+          "d": "Legal standards prohibit the use of any brain imaging evidence"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 72,
+      "text": "What does Transcranial Magnetic Stimulation (TMS) allow researchers to do?",
+      "options": {
+          "a": "Create high-resolution structural images of the brain",
+          "b": "Measure the brain's overall electrical activity non-invasively",
+          "c": "Temporarily deactivate specific cortical brain regions to infer their function",
+          "d": "Track the flow of radioactive tracers through the brain"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 73,
+      "text": "How does TMS temporarily affect brain regions?",
+      "options": {
+          "a": "By injecting a chemical substance",
+          "b": "By delivering a focused magnetic pulse through the skull",
+          "c": "By applying low-level electrical currents",
+          "d": "By using high-frequency sound waves"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 74,
+      "text": "TMS primarily affects neurons located in the:",
+      "options": {
+          "a": "Deep subcortical structures like the amygdala",
+          "b": "Brainstem",
+          "c": "Cerebral cortex (the outer layer of the brain)",
+          "d": "Spinal cord"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 75,
+      "text": "A key advantage of TMS over studying naturally occurring brain damage is that TMS:",
+      "options": {
+          "a": "Produces permanent, well-defined lesions",
+          "b": "Can only be used on animal subjects",
+          "c": "Allows researchers to manipulate brain activity and establish causal relationships",
+          "d": "Provides detailed images of brain structure"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 76,
+      "text": "Researchers used TMS on the angular gyrus (part of the default network) to investigate its causal role in:",
+      "options": {
+          "a": "Processing basic visual features like lines and edges",
+          "b": "Controlling fine motor movements",          
+          "c": "Understanding spoken language",
+          "d": "Remembering past events and imagining future experiences",
+      },
+      "answer": "d"
+  },
+  {
+      "number": 77,
+      "text": "What benefit is gained by combining TMS with fMRI?",
+      "options": {
+          "a": "It allows TMS to stimulate deeper brain structures",
+          "b": "It eliminates the need for a magnetic pulse",
+          "c": "It helps researchers precisely localize the brain areas affected by the TMS pulse",
+          "d": "It makes the TMS procedure non-invasive"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 78,
+      "text": "What is the most important takeaway regarding the different methods for studying the brain?",
+      "options": {
+          "a": "fMRI is superior to all other methods",
+          "b": "Each method provides specific tools with unique strengths and weaknesses for exploring brain structure or function",
+          "c": "Studying brain damage is no longer a useful approach",
+          "d": "All methods provide essentially the same information about the brain"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 79,
+      "text": "When choosing a method to study the brain, what is a crucial task for researchers?",
+      "options": {
+          "a": "Always select the newest available technology",
+          "b": "Decide which available tool is most appropriate for their specific scientific question, considering its limitations",
+          "c": "Combine as many methods as possible in every experiment",
+          "d": "Focus solely on methods that provide structural information"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 80,
+      "text": "What indirect and inadequate method was sometimes used in early studies (like Galton's) to estimate brain volume?",
+      "options": {
+          "a": "Early forms of magnetic resonance imaging (MRI)",
+          "b": "Measuring external head circumference",
+          "c": "Analyzing electroencephalograph (EEG) patterns",
+          "d": "Conducting detailed cognitive tests"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 81,
+      "text": "Modern studies using MRI have typically reported what kind of correlation between overall brain volume and measures of intelligence?",
+      "options": {
+          "a": "A strong negative correlation",
+          "b": "No significant correlation",
+          "c": "A positive correlation (though strength is debated)",
+          "d": "A correlation that varies randomly"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 82,
+      "text": "A positive correlation coefficient (like that between brain volume and intelligence) mathematically falls within what range?",
+      "options": {
+          "a": "Less than 0 (e.g., -0.5)",
+          "b": "Greater than 0 up to +1.00",
+          "c": "Exactly 0",
+          "d": "Greater than +1.00"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 83,
+      "text": "What is the 'third-variable problem' when interpreting a correlation, such as between brain volume and intelligence?",
+      "options": {
+          "a": "The difficulty in accurately measuring both variables",
+          "b": "The possibility that the correlation exists only in specific populations",
+          "c": "The potential that an unmeasured factor (e.g., age, socioeconomic status) causes changes in both variables",
+          "d": "The likelihood that the correlation is purely due to chance"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 84,
+      "text": "What is the UK Biobank?",
+      "options": {
+          "a": "A specialized brain imaging facility in the UK",
+          "b": "A government agency regulating neuroscience research",
+          "c": "A large-scale database containing health, genetic, and imaging data from volunteer participants",
+          "d": "A scientific journal focused on brain-volume research"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 85,
+      "text": "The large-scale study by Nave et al. (2019) using UK Biobank data analyzed the relationship between MRI-measured brain volume and:",
+      "options": {
+          "a": "Participants' dietary habits",
+          "b": "Measures of physical fitness",
+          "c": "Several cognitive measures, including fluid intelligence",
+          "d": "Reported levels of happiness"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 86,
+      "text": "Fluid intelligence is best described as the ability to:",
+      "options": {
+          "a": "Recall facts and previously learned information",
+          "b": "Solve novel problems using logic and reasoning",
+          "c": "Understand and use language fluently",
+          "d": "Navigate social situations effectively"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 87,
+      "text": "After controlling for variables like age, sex, and socioeconomic status, Nave et al. (2019) found what size of correlation between brain volume and fluid intelligence?",
+      "options": {
+          "a": "A very strong positive correlation (e.g., +.80)",
+          "b": "No significant correlation (near 0)",
+          "c": "A statistically significant but relatively modest positive correlation (around +.19 to +.27)",
+          "d": "A significant negative correlation (e.g., -.20)"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 88,
+      "text": "What do the modest correlations found in large-scale studies suggest about the relationship between brain volume and intelligence?",
+      "options": {
+          "a": "Brain volume is the single most important factor determining intelligence",
+          "b": "Brain volume accounts for only a small portion of the individual differences in intelligence",
+          "c": "There is no reliable relationship between brain size and intelligence",
+          "d": "Measuring head circumference is a highly accurate predictor of intelligence"
+      },
+      "answer": "b"
+  },
+  {
+      "number": 89,
+      "text": "Why can't we definitively conclude from correlational data that larger brain volume *causes* higher intelligence?",
+      "options": {
+          "a": "Because the correlation is positive, not negative",
+          "b": "Because the sample sizes are too small (even in UK Biobank studies)",
+          "c": "Because correlation does not imply causation; intelligence could influence brain volume, or a third variable could influence both",
+          "d": "Because MRI technology is not accurate enough to measure volume precisely"
+      },
+      "answer": "c"
+  },
+  {
+      "number": 90,
+      "text": "Based on the 'Hot Science' section, what is the most reasonable conclusion regarding the 'bigger brain, smarter brain' question?",
+      "options": {
+          "a": "There is definitively no relationship between brain size and intelligence.",
+          "b": "Head circumference is the best predictor of academic success.",
+          "c": "There is a statistically significant but modest relationship, though causality isn't proven and volume explains only a small part of intelligence variation.",
+          "d": "Larger brain volume is proven to cause significantly higher intelligence."
+      },
+      "answer": "c"
+  },
+       {
         "number": 91,
         "text": "According to the text, hearing depends on what type of physical phenomenon?",
         "options": {
