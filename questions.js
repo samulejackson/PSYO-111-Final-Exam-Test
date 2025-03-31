@@ -1,3 +1,6 @@
+// Sample continuous list for PSYO 111 Final Exam Prep.
+// In your actual file, you might have around 500 questions.
+// Here we include a few sample questions for demonstration with appropriate question numbers.
 
 const allQuestionsData = [
   {
@@ -93,9 +96,9 @@ const allQuestionsData = [
       "text": "Epigenetics primarily studies how:",
       "options": {
           "a": "Environmental factors influence gene expression without changing the DNA sequence",
-          "b": "Mutations alter the fundamental DNA sequence",
-          "c": "Genes determine fixed traits like eye color",
-          "d": "DNA methylation creates new genes"
+          "b": "Mutations, such as insertions, deletions, or substitutions of nucleotides, lead to permanent alterations in the fundamental DNA sequence of an organism",
+          "c": "Genes, composed of specific sequences of DNA, directly determine fixed traits like eye color through the inheritance of specific alleles",
+          "d": "DNA methylation, a key process in molecular biology, leads to the creation of entirely new genes within the genome"
       },
       "answer": "a"
   },
@@ -104,7 +107,7 @@ const allQuestionsData = [
       "text": "What are epigenetic marks?",
       "options": {
           "a": "Permanent changes to the DNA base sequence (mutations)",
-          "b": "Chemical modifications to DNA or histones that affect gene activity",
+          "b": "Chemical modifications to DNA that affect gene activity",
           "c": "The physical location of a gene on a chromosome",
           "d": "Errors that occur during DNA replication"
       },
@@ -137,7 +140,7 @@ const allQuestionsData = [
       "text": "How do epigenetic differences between monozygotic twins change over time, according to the text?",
       "options": {
           "a": "They remain identical throughout life due to identical DNA",
-          "b": "They accumulate with experience, making the twins less identical epigenetically",
+          "b": "They inscrese as twins have different experiences.",
           "c": "They decrease as twins share more experiences",
           "d": "They are significant at birth but converge later in life"
       },
@@ -268,10 +271,10 @@ const allQuestionsData = [
       "number": 25,
       "text": "What does a heritability score of 0 indicate about a behavioral trait?",
       "options": {
-          "a": "The trait is entirely determined by genetic factors",
+          "a": "Genes may influence the trait, but individual differences are not due to genetic variations.",
           "b": "Genetic factors do not contribute to individual differences in that trait",
-          "c": "Environmental factors have no influence on the trait",
-          "d": "The trait cannot be measured accurately"
+          "c": "The environment is the main influence; identical environments would result in no individual differences.",
+          "d": "Measurement limitations might obscure any underlying genetic influences on individual differences."
       },
       "answer": "b"
   },
@@ -290,9 +293,9 @@ const allQuestionsData = [
       "number": 27,
       "text": "If the heritability index for intelligence is .50, what does this imply?",
       "options": {
-          "a": "Exactly half of an individual's intelligence is genetic, the other half environmental",
+          "a": "95.5% of an individual's intelligence is genetic, the rest environmental",
           "b": "Intelligence is fixed and cannot be influenced by the environment",
-          "c": "Half of the *variability* in intelligence scores *within a population* is attributable to genetic influences",
+          "c": "Half of the variability in intelligence scores within a population is attributable to genetic influences",
           "d": "Environmental factors are twice as important as genetic factors for intelligence"
       },
       "answer": "c"
@@ -301,12 +304,12 @@ const allQuestionsData = [
       "number": 28,
       "text": "Which statement accurately describes heritability?",
       "options": {
-          "a": "It reveals the specific genes causing a trait in an individual.",
+          "a": "It indicates the extent to which genetic factors contribute to the expression of a trait in an individual.",
           "b": "It is a population concept, indicating differences across individuals, not within one person.",
-          "c": "It is a fixed value for a trait, regardless of the environment.",
-          "d": "It directly measures the influence of environmental factors."
+          "c": "It represents a general estimate of the genetic influence on a trait within a specific population and environment.",
+          "d": "It indirectly reflects the impact of environmental factors by showing the proportion of trait variation not associated with genetic differences."
       },
-      "answer": "b"
+      "answer": "b" 
   },
   {
       "number": 29,
@@ -336,7 +339,7 @@ const allQuestionsData = [
       "options": {
           "a": "Dissection, genetic analysis, and historical records",
           "b": "Animal studies, computer modeling, and philosophical inquiry",
-          "c": "Studying brain damage, recording electrical activity, and using brain imaging",
+          "c": "Studying brain damage, electrical activity, and brain imaging",
           "d": "Psychotherapy, medication trials, and behavioral observation"
       },
       "answer": "c"
@@ -346,7 +349,7 @@ const allQuestionsData = [
       "text": "By studying instances where specific brain damage leads to loss of function, neuroscientists can:",
       "options": {
           "a": "Directly observe how neurons repair themselves",
-          "b": "Theorize about the functions normally performed by the damaged areas",
+          "b": "Theorize about impaired functions",
           "c": "Develop methods to reverse the brain damage",
           "d": "Map the complete genetic code of the individual"
       },
@@ -356,8 +359,8 @@ const allQuestionsData = [
       "number": 33,
       "text": "What is the concept of neurodiversity?",
       "options": {
-          "a": "The idea that all brains are structurally and functionally identical",
-          "b": "The view that brain damage is the primary cause of cognitive variation",
+          "a": "The notion that while brains share a common basic structure, individual variations have minimal impact on overall cognitive function.",
+          "b": "The perspective that significant cognitive differences primarily arise from developmental abnormalities or acquired brain injuries.",
           "c": "The idea of natural variations in brain structure/function leading to cognitive/social/emotional differences",
           "d": "A specific neurological disorder requiring medical intervention"
       },
@@ -412,9 +415,9 @@ const allQuestionsData = [
       "text": "What was the reported major change in Phineas Gage after his accident?",
       "options": {
           "a": "Loss of ability to speak or understand language",
-          "b": "Complete paralysis of his limbs",
-          "c": "Significant alterations in personality, becoming irritable and irresponsible",
-          "d": "Development of extraordinary memory capabilities"
+          "b": "Complete paralysis of his limbs below his waist",
+          "c": "Change in personality, becoming irritable and irresponsible",
+          "d": "Development of extraordinary memory capabilities, such as rembering specific details of past events"
       },
       "answer": "c"
   },
@@ -435,8 +438,8 @@ const allQuestionsData = [
       "options": {
           "a": "To regulate basic life functions like breathing",          
           "b": "To process sensory information from the body",
-          "c": "To control muscle movements and coordination",
-          "d": "To allow communication and information transfer between the two cerebral hemispheres",
+          "c": "To control muscle movements and coordination, like balance and fine motor control",
+          "d": "To transfer information between the two hemispheres",
       },
       "answer": "d"
   },
@@ -477,8 +480,8 @@ const allQuestionsData = [
       "number": 44,
       "text": "In split-brain research, what is a 'chimeric face'?",
       "options": {
-          "a": "A computer-generated average face",
-          "b": "A photograph of a face shown extremely briefly",
+          "a": "A computer-generated face created by averaging features from many individuals.",
+          "b": "A photograph of a face shown very quickly in an experiment.",
           "c": "A face composed of half of one person's face and half of another's",
           "d": "A face that evokes strong emotional responses"
       },
@@ -486,10 +489,10 @@ const allQuestionsData = [
   },
   {
       "number": 45,
-      "text": "What does an electroencephalograph (EEG) primarily measure?",
+      "text": "What does an EEG primarily measure?",
       "options": {
           "a": "Changes in blood flow within the brain",
-          "b": "The overall electrical activity of large groups of neurons",
+          "b": "The electrical activity of groups of neurons",
           "c": "The detailed structure of individual brain cells",
           "d": "The release of neurotransmitters at synapses"
       },
@@ -501,8 +504,8 @@ const allQuestionsData = [
       "options": {
           "a": "The specific thoughts a person is having",
           "b": "The precise location of cognitive functions",
-          "c": "Different states of consciousness, like wakefulness and stages of sleep",
-          "d": "The chemical composition of brain tissue"
+          "c": "Different states of consciousness",
+          "d": "Different chemical composition of brain tissue"
       },
       "answer": "c"
   },
@@ -512,7 +515,7 @@ const allQuestionsData = [
       "options": {
           "a": "Microscopic structural damage",
           "b": "Variations in skull thickness",
-          "c": "Abnormal electrical patterns associated with conditions like epilepsy or brain injuries",
+          "c": "Abnormal electrical patterns",
           "d": "Differences in white matter pathways"
       },
       "answer": "c"
@@ -544,7 +547,7 @@ const allQuestionsData = [
       "text": "What are 'feature detectors' as discovered by Hubel and Wiesel?",
       "options": {
           "a": "Brain regions that detect overall levels of light",
-          "b": "Neurons in the visual cortex that respond selectively to specific aspects of a stimulus (e.g., lines, edges, orientation)",
+          "b": "Neurons in the visual cortex that selectively respond to stimulus features",
           "c": "Cells in the retina that initially capture light",
           "d": "Cortical areas specialized for recognizing complex objects like faces"
       },
@@ -577,7 +580,7 @@ const allQuestionsData = [
       "text": "What type of information does structural brain imaging (like CT and MRI) provide?",
       "options": {
           "a": "Real-time information about brain activity during a task",
-          "b": "Information about the basic structure, shape, and potential abnormalities (lesions, tumors) of the brain",
+          "b": "Information about the basic structure, shape, and potential abnormalities of the brain",
           "c": "Measurement of electrical signals from the scalp",
           "d": "The level of specific neurotransmitters in different brain regions"
       },
@@ -610,7 +613,7 @@ const allQuestionsData = [
       "text": "What do CT scans primarily show within the brain?",
       "options": {
           "a": "Patterns of neuronal firing",
-          "b": "Differences in tissue density (e.g., skull, cortex, lesions)",
+          "b": "Differences in tissue density",
           "c": "Oxygen levels in the blood",
           "d": "The precise location of neurotransmitter release"
       },
@@ -620,10 +623,10 @@ const allQuestionsData = [
       "number": 57,
       "text": "Magnetic resonance imaging (MRI) creates brain images by:",
       "options": {
-          "a": "Using X-rays to detect tissue density",
+          "a": "Using high-energy electromagnetic waves to visualize internal brain structures based on their density.",
           "b": "Measuring electrical potentials on the scalp",
           "c": "Using strong magnetic fields and radio waves to map tissue based on molecular properties",
-          "d": "Tracking a radioactive substance in the bloodstream"
+          "d": "Identifying different brain tissues by tracing the movement and concentration of specific molecules introduced into the bloodstream."
       },
       "answer": "c"
   },
@@ -643,7 +646,7 @@ const allQuestionsData = [
       "text": "What specific type of brain structure is visualized using Diffusion Tensor Imaging (DTI)?",
       "options": {
           "a": "Individual neuron cell bodies",
-          "b": "White matter pathways (fiber bundles connecting regions)",
+          "b": "White matter pathways",
           "c": "Blood vessels within the brain",
           "d": "Fluid-filled ventricles"
       },
@@ -654,9 +657,9 @@ const allQuestionsData = [
       "text": "The primary goal of the Human Connectome Project is to:",
       "options": {
           "a": "Sequence the entire human genome related to the brain",
-          "b": "Develop new drugs for neurological disorders",
-          "c": "Create a complete map of the brain's neural connection pathways (the connectome)",
-          "d": "Catalog all known types of neurons"
+          "b": "Develop new drugs for every neurological disorders currently know",
+          "c": "Create a complete map of the brain's neural connection pathways",
+          "d": "Catalog all known types of neurons and thier specific functions"
       },
       "answer": "c"
   },
@@ -675,10 +678,10 @@ const allQuestionsData = [
       "number": 62,
       "text": "How does Positron Emission Tomography (PET) typically measure brain activity?",
       "options": {
-          "a": "By detecting magnetic fields produced by neurons",
+          "a": "By detecting magnetic fields produced by electrical activity of specific neurons in the brain",
           "b": "By tracking the location of a harmless radioactive substance injected into the bloodstream",
-          "c": "By measuring changes in the shape of brain structures",
-          "d": "By recording electrical signals from deep within the brain"
+          "c": "By measuring changes in blood flow using the magnetic fields that it produces",
+          "d": "By recording electrical activity in the brain using electrodes on the scalp"
       },
       "answer": "b"
   },
@@ -688,7 +691,7 @@ const allQuestionsData = [
       "options": {
           "a": "The firing rate of individual neurons",
           "b": "The release of specific neurotransmitters",
-          "c": "Changes in blood oxygen levels (difference between oxygenated and deoxygenated hemoglobin)",
+          "c": "Changes in blood oxygen levels",
           "d": "Structural abnormalities like tumors or lesions"
       },
       "answer": "c"
@@ -765,8 +768,8 @@ const allQuestionsData = [
       "options": {
           "a": "The only parts of the brain active during a task",
           "b": "Areas where activity significantly differed between an experimental task and a control task",
-          "c": "Permanent structural changes in the brain",
-          "d": "Direct visualization of individual neurons firing"
+          "c": "Long-lasting changes in the physical structure of the brain that are a direct result of the experimental procedure.",
+          "d": "A direct visual representation showing the firing of individual nerve cells within the brain in real time."
       },
       "answer": "b"
   },
@@ -787,7 +790,7 @@ const allQuestionsData = [
       "options": {
           "a": "Create high-resolution structural images of the brain",
           "b": "Measure the brain's overall electrical activity non-invasively",
-          "c": "Temporarily deactivate specific cortical brain regions to infer their function",
+          "c": "Temporarily deactivate specific brain regions to infer their function",
           "d": "Track the flow of radioactive tracers through the brain"
       },
       "answer": "c"
@@ -809,7 +812,7 @@ const allQuestionsData = [
       "options": {
           "a": "Deep subcortical structures like the amygdala",
           "b": "Brainstem",
-          "c": "Cerebral cortex (the outer layer of the brain)",
+          "c": "Cerebral cortex",
           "d": "Spinal cord"
       },
       "answer": "c"
@@ -864,8 +867,8 @@ const allQuestionsData = [
       "options": {
           "a": "Always select the newest available technology",
           "b": "Decide which available tool is most appropriate for their specific scientific question, considering its limitations",
-          "c": "Combine as many methods as possible in every experiment",
-          "d": "Focus solely on methods that provide structural information"
+          "c": "Aim to employ a diverse array of brain study methods in each experiment to obtain a comprehensive and converging understanding of neural processes.",
+          "d": "Initially concentrate on employing techniques that primarily offer detailed structural insights into the brain's anatomy as a foundational step in the research."
       },
       "answer": "b"
   },
@@ -886,7 +889,7 @@ const allQuestionsData = [
       "options": {
           "a": "A strong negative correlation",
           "b": "No significant correlation",
-          "c": "A positive correlation (though strength is debated)",
+          "c": "A positive correlation",
           "d": "A correlation that varies randomly"
       },
       "answer": "c"
@@ -908,7 +911,7 @@ const allQuestionsData = [
       "options": {
           "a": "The difficulty in accurately measuring both variables",
           "b": "The possibility that the correlation exists only in specific populations",
-          "c": "The potential that an unmeasured factor (e.g., age, socioeconomic status) causes changes in both variables",
+          "c": "The potential that an unmeasured factor is influencing both variables",
           "d": "The likelihood that the correlation is purely due to chance"
       },
       "answer": "c"
@@ -917,8 +920,8 @@ const allQuestionsData = [
       "number": 84,
       "text": "What is the UK Biobank?",
       "options": {
-          "a": "A specialized brain imaging facility in the UK",
-          "b": "A government agency regulating neuroscience research",
+          "a": "A specialized brain imaging facility located in the UK that focuses on researching neurological conditions.",
+          "b": "A government agency in the UK responsible for regulating and providing ethical oversight for neuroscience research projects.",
           "c": "A large-scale database containing health, genetic, and imaging data from volunteer participants",
           "d": "A scientific journal focused on brain-volume research"
       },
@@ -930,7 +933,7 @@ const allQuestionsData = [
       "options": {
           "a": "Participants' dietary habits",
           "b": "Measures of physical fitness",
-          "c": "Several cognitive measures, including fluid intelligence",
+          "c": "Participants' fluid intelligence",
           "d": "Reported levels of happiness"
       },
       "answer": "c"
@@ -952,7 +955,7 @@ const allQuestionsData = [
       "options": {
           "a": "A very strong positive correlation (e.g., +.80)",
           "b": "No significant correlation (near 0)",
-          "c": "A statistically significant but relatively modest positive correlation (around +.19 to +.27)",
+          "c": "A slightly statistically significant positive correlation (around +.19 to +.27)",
           "d": "A significant negative correlation (e.g., -.20)"
       },
       "answer": "c"
@@ -981,12 +984,12 @@ const allQuestionsData = [
   },
   {
       "number": 90,
-      "text": "Based on the 'Hot Science' section, what is the most reasonable conclusion regarding the 'bigger brain, smarter brain' question?",
+      "text": "What is the most reasonable conclusion regarding the 'bigger brain, smarter brain' question?",
       "options": {
-          "a": "There is definitively no relationship between brain size and intelligence.",
-          "b": "Head circumference is the best predictor of academic success.",
+          "a": "While overall brain size might not be the sole determinant of intelligence, studies have shown negligible correlation between an individual's brain volume and their cognitive abilities.",
+          "b": "A larger head circumference is generally associated with higher academic performance, making it a practical, though not perfect, indicator of intelligence.",
           "c": "There is a statistically significant but modest relationship, though causality isn't proven and volume explains only a small part of intelligence variation.",
-          "d": "Larger brain volume is proven to cause significantly higher intelligence."
+          "d": "Scientific evidence strongly indicates that individuals with larger brain volumes consistently demonstrate significantly higher levels of intelligence across various cognitive domains."
       },
       "answer": "c"
   },
