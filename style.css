@@ -5,6 +5,10 @@ body {
   margin: 0;
   padding: 0;
   transition: background 0.3s, color 0.3s;
+  /* Add min-height to ensure footer/toggle doesn't overlap short content */
+  min-height: 100vh; 
+  position: relative; /* Needed for potential absolute positioning inside */
+  padding-bottom: 80px; /* Add padding to prevent content overlap with dark toggle */
 }
 
 /* Centered Container */
@@ -28,6 +32,14 @@ header {
   text-align: center;
   margin-bottom: 20px;
 }
+header h1 {
+  font-size: 1.8em; /* Base size */
+}
+header .disclaimer {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
 
 /* Setup Sections */
 .home-options,
@@ -36,6 +48,13 @@ header {
 #order-selection {
   text-align: center;
   margin-bottom: 20px;
+}
+.mode-options label,
+#chapter-dropdown h3,
+#order-selection h2,
+#order-selection h3 {
+    display: block; /* Ensure labels/headings stack well */
+    margin-bottom: 10px;
 }
 
 /* Toggle Container for Order Selection */
@@ -55,13 +74,14 @@ header {
   font-size: 1em;
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
+  white-space: nowrap; /* Prevent text wrapping inside toggle buttons */
 }
 .toggle-container .toggle-option.active {
   background: #007BFF;
   color: #fff;
 }
 .toggle-container .toggle-option:not(:last-child) {
-  border-right: 0px solid #007BFF;
+  border-right: 0px solid #007BFF; /* Kept as 0px, seems intentional */
 }
 
 /* Begin Quiz Button */
@@ -80,6 +100,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
+  font-size: 1em; /* Ensure consistent base font size */
 }
 button:hover {
   background: #0056b3;
@@ -96,6 +117,8 @@ button:disabled {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 10px; /* Add gap between items if they wrap */
 }
 
 /* Question Styling */
@@ -108,6 +131,7 @@ button:disabled {
   padding: 10px;
   border-radius: 4px;
   border: 1px solid #ddd;
+  line-height: 1.4; /* Improve readability */
 }
 
 /* Options Styling */
@@ -129,8 +153,9 @@ button:disabled {
   color: #000;
   border-radius: 4px;
   cursor: pointer;
-  transition: background 0.3s, transform 0.3s;
+  transition: background 0.3s, transform 0.3s, border-color 0.3s, color 0.3s; /* Added transitions */
   position: relative;
+  line-height: 1.4; /* Ensure text isn't cramped */
 }
 .options li button:hover {
   background: #f0f0f0;
@@ -159,6 +184,11 @@ button:disabled {
   margin-top: 20px;
   text-align: center;
 }
+/* Ensure buttons stack reasonably if needed */
+.action-buttons button, .nav-buttons button {
+    margin: 5px;
+}
+
 
 /* Progress Bar */
 .progress-container {
@@ -167,6 +197,7 @@ button:disabled {
   border-radius: 4px;
   height: 20px;
   margin-bottom: 20px;
+  overflow: hidden; /* Ensure bar stays within bounds */
 }
 .progress-bar {
   background: #28a745;
@@ -192,19 +223,19 @@ button:disabled {
   animation: fadeInOut 1s forwards;
 }
 @keyframes fadeInOut {
-  0% { opacity: 0; transform: translateY(-20px); }
-  50% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(-20px); }
+  0% { opacity: 0; transform: translateY(-15px) scale(0.8); } /* Adjusted animation */
+  50% { opacity: 1; transform: translateY(-50%) scale(1); } /* Adjusted transform */
+  100% { opacity: 0; transform: translateY(-50%) scale(0.8); } /* Adjusted transform */
 }
 
 /* Void Button */
 .void-btn {
-  background: #000;
+  background: #6c757d; /* Grey color for void */
   color: #fff;
   transition: background 0.3s;
 }
 .void-btn:hover {
-  background: #333;
+  background: #5a6268;
 }
 
 /* Restart Button */
@@ -231,8 +262,10 @@ body.dark-mode {
 body.dark-mode .container {
   background: #1e1e1e;
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  color: #e0e0e0; /* Ensure text inside container is also light */
 }
-body.dark-mode header,
+body.dark-mode header h1, /* Target specific elements */
+body.dark-mode header .disclaimer,
 body.dark-mode .question {
   color: #e0e0e0;
 }
@@ -240,13 +273,33 @@ body.dark-mode .question {
   background: #2c2c2c;
   border: 1px solid #444;
 }
-body.dark-mode button {
-  background: #3a3a3a;
-  color: #e0e0e0;
+/* Dark mode specific general button */
+body.dark-mode button:not(.toggle-option):not(.options li button):not(.void-btn):not(.restart-btn):not(.dark-toggle) {
+  background: #007BFF; /* Keep primary action color distinct */
+  color: #fff;
 }
-body.dark-mode button:hover {
-  background: #4a4a4a;
+body.dark-mode button:not(.toggle-option):not(.options li button):not(.void-btn):not(.restart-btn):not(.dark-toggle):hover {
+  background: #0056b3;
 }
+body.dark-mode button:disabled {
+    background: #555; /* Darker disabled */
+    color: #aaa;
+}
+
+/* Dark mode toggle container */
+body.dark-mode .toggle-container {
+    border-color: #007BFF; /* Keep border color consistent */
+}
+body.dark-mode .toggle-container .toggle-option {
+    background: #2c2c2c;
+    color: #00AFFF; /* Lighter blue for text */
+}
+body.dark-mode .toggle-container .toggle-option.active {
+    background: #007BFF;
+    color: #fff;
+}
+
+/* Dark mode options */
 body.dark-mode .options li button {
   background: #2c2c2c;
   color: #e0e0e0;
@@ -256,32 +309,34 @@ body.dark-mode .options li button:hover {
   background: #3a3a3a;
 }
 body.dark-mode .options li button.selected {
-  background: #4caf50;
-  border-color: #4caf50;
+  background: #3a3a3a; /* Darker selected */
+  border-color: #555;
   color: #fff;
 }
 body.dark-mode .options li button.correct {
-  background: #2e7d32;
+  background: #2e7d32; /* Keep correct distinct */
   border-color: #2e7d32;
+  color: #fff;
 }
 body.dark-mode .options li button.wrong {
-  background: #c62828;
+  background: #c62828; /* Keep wrong distinct */
   border-color: #c62828;
+  color: #fff;
 }
 body.dark-mode .progress-container {
   background: #333;
 }
 body.dark-mode .progress-bar {
-  background: #4caf50;
+  background: #4caf50; /* Keep progress distinct */
 }
 body.dark-mode .void-btn {
-  background: #000;
+  background: #444; /* Darker void */
 }
 body.dark-mode .void-btn:hover {
-  background: #333;
+  background: #555;
 }
 body.dark-mode .restart-btn {
-  background: #4caf50;
+  background: #4caf50; /* Keep restart distinct */
 }
 body.dark-mode .restart-btn:hover {
   background: #43a047;
@@ -298,16 +353,206 @@ body.dark-mode .restart-btn:hover {
   width: 50px;
   height: 50px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.2s;
   z-index: 1000;
+  display: flex; /* Center icon easily */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 .dark-toggle:hover {
   background: #0056b3;
+  transform: scale(1.1); /* Add slight scale on hover */
 }
 .dark-toggle .icon {
   font-size: 1.5em;
-  display: block;
-  text-align: center;
-  line-height: 50px;
   color: #fff;
+  /* line-height removed, flex handles centering */
+}
+/* Dark mode style for the toggle button itself */
+body.dark-mode .dark-toggle {
+    background: #333; /* Darker background */
+    box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+}
+body.dark-mode .dark-toggle:hover {
+    background: #444;
+}
+
+
+/* ------------------------- */
+/* --- Media Query Rules --- */
+/* ------------------------- */
+
+@media (max-width: 768px) {
+    /* Apply styles for tablets and smaller */
+    body {
+        padding-bottom: 70px; /* Adjust for potentially smaller toggle */
+    }
+
+    .container {
+        width: 95%; /* More width */
+        margin: 30px auto; /* Less vertical margin */
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.6em; /* Slightly smaller heading */
+    }
+
+     .question {
+        font-size: 1.2em;
+        margin-top: 30px;
+    }
+
+    /* Adjust button padding/font size slightly */
+    button,
+    .toggle-container .toggle-option,
+    .options li button {
+        padding: 10px 14px;
+        font-size: 0.95em;
+    }
+    .options li button {
+        padding: 10px; /* Keep options padding slightly smaller */
+    }
+}
+
+
+@media (max-width: 600px) {
+    /* Apply styles for mobile phones */
+    body {
+        font-size: 15px; /* Adjust base font size slightly */
+        padding-bottom: 70px; /* Ensure space for toggle */
+    }
+
+    .container {
+        width: 95%;
+        margin: 20px auto; /* Even less vertical margin */
+        padding: 10px; /* Less padding */
+        box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Softer shadow */
+    }
+     body.dark-mode .container {
+        box-shadow: 0 0 8px rgba(0,0,0,0.7);
+    }
+
+    header h1 {
+        font-size: 1.4em; /* Smaller heading */
+    }
+    header .disclaimer {
+        font-size: 0.85em;
+    }
+
+    /* Setup sections */
+    .mode-options label,
+    #chapter-dropdown h3,
+    #order-selection h2,
+    #order-selection h3 {
+        font-size: 1em; /* Adjust heading sizes */
+    }
+     #chapter-dropdown select,
+     #random-options input[type="number"] {
+        padding: 8px; /* Easier to tap */
+        font-size: 1em;
+        width: 90%; /* Take more width */
+        max-width: 250px; /* Limit max width */
+     }
+
+    /* Make toggle buttons potentially stack if too wide */
+    .toggle-container {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping */
+        justify-content: center; /* Center wrapped items */
+        width: 100%; /* Take full width to allow centering */
+        border: none; /* Remove container border */
+        overflow: visible; /* Allow buttons to have their own style */
+        gap: 5px; /* Add gap between buttons */
+    }
+    .toggle-container .toggle-option {
+        flex-grow: 1; /* Allow buttons to grow */
+        flex-basis: 120px; /* Suggest a minimum width before wrapping */
+        border: 2px solid #007BFF; /* Add border to individual buttons */
+        border-radius: 4px; /* Add radius to individual buttons */
+        margin-bottom: 0; /* Remove bottom margin from container rule */
+        font-size: 0.9em;
+        padding: 6px 10px;
+    }
+    body.dark-mode .toggle-container .toggle-option {
+        border-color: #007BFF; /* Keep border color */
+    }
+    .toggle-container .toggle-option:not(:last-child) {
+        border-right: 2px solid #007BFF; /* Restore border for distinct buttons */
+    }
+     body.dark-mode .toggle-container .toggle-option:not(:last-child) {
+         border-right-color: #007BFF;
+     }
+
+    /* General Button Adjustments */
+    button {
+        padding: 8px 12px;
+        font-size: 0.9em;
+        margin: 4px;
+    }
+
+    /* Quiz Info */
+    .quiz-info {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+        justify-content: space-around; /* Better spacing if wrapped */
+    }
+
+    /* Question Styling */
+    .question {
+        font-size: 1.1em; /* Smaller question font */
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+
+    /* Options Styling */
+    .options li button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    /* Action and Nav Buttons */
+    .action-buttons, .nav-buttons {
+        margin-top: 15px;
+        /* Consider making buttons take more width if needed */
+        /* display: flex; flex-direction: column; align-items: center; */
+    }
+    /* .action-buttons button, .nav-buttons button { width: 80%; max-width: 250px; margin: 5px 0; } */
+
+
+    /* Progress Bar */
+    .progress-container {
+        height: 16px; /* Slimmer */
+        margin-bottom: 15px;
+    }
+    .progress-text {
+        font-size: 0.8em;
+    }
+
+    /* Visual Cue */
+     .visual-cue {
+        font-size: 1.3em;
+        right: 8px;
+    }
+
+    /* Dark Mode Toggle */
+    .dark-toggle {
+        width: 45px;
+        height: 45px;
+        right: 15px;
+        bottom: 15px;
+    }
+    .dark-toggle .icon {
+        font-size: 1.3em;
+    }
+
+    /* Results */
+    #results h2 {
+        font-size: 1.2em;
+    }
+     #results h3 {
+        font-size: 1em;
+    }
 }
