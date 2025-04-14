@@ -999,7 +999,7 @@ const allQuestionsData = [
         "options": {
           "a": "Electromagnetic waves",
           "b": "Chemical reactions",
-          "c": "Sound waves (changes in air pressure)",
+          "c": "Sound waves",
           "d": "Mechanical pressure on the skin"
         },
         "answer": "c"
@@ -4120,3015 +4120,904 @@ const allQuestionsData = [
           "text": "Which learning outcome relates to distinguishing sensory memory from short-term memory?",
           "options": { "a": "Duration and capacity differences", "b": "Role of the hippocampus", "c": "Neural synapse function", "d": "Working memory model elements" },
           "answer": "a"
-        },
-        {
+        },{
           "number": 414,
-          "text": "The visuo-spatial sketchpad, phonological loop, episodic buffer, and central executive are elements of the:",
-          "options": { "a": "Sensory memory model", "b": "Long-term potentiation process", "c": "Model of working memory", "d": "Consolidation theory" },
-          "answer": "c"
+          "text": "According to the text, the definition of learning emphasizes which three key ideas?",
+          "options": { "a": "Instinct, maturation, and reflexes", "b": "Experience, changes in the organism, and relative permanence", "c": "Observation, imitation, and memory", "d": "Reinforcement, punishment, and association" },
+          "answer": "b"
         },
         {
           "number": 415,
-          "text": "Patient HM's case primarily illuminated the interrelationship between memory and which brain structure?",
-          "options": { "a": "Amygdala", "b": "Cerebellum", "c": "Frontal Lobe", "d": "Hippocampus" },
+          "text": "Jennifer, the military nurse, experienced heightened fear and anxiety upon hearing helicopters after her return from Iraq. This is primarily explained by which learning process?",
+          "options": { "a": "Operant Conditioning", "b": "Implicit Learning", "c": "Observational Learning", "d": "Classical Conditioning" },
           "answer": "d"
         },
         {
           "number": 416,
-          "text": "The work with Aplysia and the concept of LTP highlight the role of what neural component in long-term memory storage?",
-          "options": { "a": "Glial cells", "b": "The neural synapse", "c": "The cell nucleus", "d": "Neurotransmitter type" },
-          "answer": "b"
-        },
-        {
-          "number": 417,
-          "text": "According to the chapter introduction, Jennifer, the military nurse, served for how long abroad during the Iraq war?",
-          "options": { "a": "4 months", "b": "12 months", "c": "19 months", "d": "21 years" },
+          "text": "The gradual reduction in responding to a repeated or prolonged stimulus, like ignoring the sound of traffic after living near a highway for a while, is known as:",
+          "options": { "a": "Sensitization", "b": "Extinction", "c": "Habituation", "d": "Discrimination" },
           "answer": "c"
         },
         {
+          "number": 417,
+          "text": "Eric Kandel's research on the sea slug Aplysia demonstrated which simple forms of learning?",
+          "options": { "a": "Classical and Operant Conditioning", "b": "Habituation and Sensitization", "c": "Observational and Implicit Learning", "d": "Taste Aversion and Second-Order Conditioning" },
+          "answer": "b"
+        },
+        {
           "number": 418,
-          "text": "Where did Jennifer serve 4 months of her assignment in Iraq?",
-          "options": { "a": "In a field hospital near the front lines", "b": "In a prison hospital near Baghdad", "c": "On a hospital ship in the Persian Gulf", "d": "At a civilian hospital in Baghdad" },
+          "text": "If, after being broken into, a person becomes hypersensitive to late-night sounds that previously didn't bother them, this exemplifies:",
+          "options": { "a": "Habituation", "b": "Sensitization", "c": "Spontaneous Recovery", "d": "Generalization" },
           "answer": "b"
         },
         {
           "number": 419,
-          "text": "What kind of events did Jennifer witness frequently at the prison hospital?",
-          "options": { "a": "Successful recovery of most patients", "b": "Relentless mortar fire causing casualties", "c": "Diplomatic negotiations with extremists", "d": "Cultural exchange programs with Iraqi civilians" },
+          "text": "Behaviourism, the dominant psychological outlook from the 1930s-1950s, emphasized the study of learning through:",
+          "options": { "a": "Mental states and consciousness", "b": "Observable, quantifiable behaviour", "c": "Unconscious processes and early experiences", "d": "Cognitive expectations and interpretations" },
           "answer": "b"
         },
         {
           "number": 420,
-          "text": "What specific sensory experience did Jennifer frequently encounter while tending to wounded cases in Iraq?",
-          "options": { "a": "The sound of distant music", "b": "The smell of antiseptic solutions", "c": "The smell of burned flesh", "d": "The taste of field rations" },
+          "text": "John B. Watson, a key figure in behaviourism, was heavily influenced by the work of which researcher?",
+          "options": { "a": "Sigmund Freud", "b": "Edward Thorndike", "c": "Ivan Pavlov", "d": "B. F. Skinner" },
           "answer": "c"
         },
         {
           "number": 421,
-          "text": "The text states that Jennifer learned to associate the sound of an arriving helicopter with what?",
-          "options": { "a": "Incoming supplies", "b": "Senior officers visiting", "c": "Wounded soldiers arriving", "d": "The end of her shift" },
-          "answer": "c"
-        },
-        {
-          "number": 422,
-          "text": "According to Feczer & Bjorklund (2009), Jennifer frequently encountered the sight of what as part of her daily duties?",
-          "options": { "a": "Advanced medical equipment", "b": "Visiting dignitaries", "c": "“Young, mangled bodies”", "d": "Local wildlife" },
-          "answer": "c"
-        },
-        {
-          "number": 423,
-          "text": "Upon returning home, what reaction did Jennifer have to the sight of blood or the smell of cooking meat?",
-          "options": { "a": "Increased appetite", "b": "Nostalgia for her service", "c": "Feeling sick to her stomach", "d": "Indifference" },
-          "answer": "c"
-        },
-        {
-          "number": 424,
-          "text": "What effect did the previously innocent sound of an approaching helicopter have on Jennifer after her return?",
-          "options": { "a": "It made her feel calm and safe", "b": "It created heightened feelings of fear and anxiety", "c": "It reminded her of positive experiences", "d": "It had no significant effect" },
+          "text": "In Pavlov's experiments, the food presented to the dogs served as the:",
+          "options": { "a": "Conditioned Stimulus (CS)", "b": "Unconditioned Stimulus (US)", "c": "Conditioned Response (CR)", "d": "Unconditioned Response (UR)" },
           "answer": "b"
         },
         {
+          "number": 422,
+          "text": "The dogs' salivation in response to the food in Pavlov's experiments was the:",
+          "options": { "a": "Conditioned Stimulus (CS)", "b": "Unconditioned Stimulus (US)", "c": "Conditioned Response (CR)", "d": "Unconditioned Response (UR)" },
+          "answer": "d"
+        },
+        {
+          "number": 423,
+          "text": "Classical conditioning occurs when:",
+          "options": { "a": "A behaviour is followed by reinforcement", "b": "A neutral stimulus produces a response after being paired with a stimulus that naturally produces that response", "c": "An organism learns by observing others", "d": "Learning occurs without conscious awareness of the process" },
+          "answer": "b"
+        },
+        {
+          "number": 424,
+          "text": "In Pavlov's studies, the buzzer or metronome, after being paired with food, became the:",
+          "options": { "a": "Conditioned Stimulus (CS)", "b": "Unconditioned Stimulus (US)", "c": "Conditioned Response (CR)", "d": "Unconditioned Response (UR)" },
+          "answer": "a"
+        },
+        {
           "number": 425,
-          "text": "Jennifer's experiences after returning home, such as her reaction to helicopters, reflect a kind of learning based on what?",
-          "options": { "a": "Trial and error", "b": "Explicit instruction", "c": "Association", "d": "Logical deduction" },
+          "text": "The dogs' salivation to the sound of the buzzer or metronome alone was the:",
+          "options": { "a": "Conditioned Stimulus (CS)", "b": "Unconditioned Stimulus (US)", "c": "Conditioned Response (CR)", "d": "Unconditioned Response (UR)" },
           "answer": "c"
         },
         {
           "number": 426,
-          "text": "The text defines Learning as shorthand for a collection of different yet related processes that produce changes in what?",
-          "options": { "a": "An organism's physical structure", "b": "An organism's genetic makeup", "c": "An organism's behaviour", "d": "An organism's social status" },
-          "answer": "c"
+          "text": "The phase of classical conditioning where the CS and US are presented together is called:",
+          "options": { "a": "Extinction", "b": "Acquisition", "c": "Spontaneous Recovery", "d": "Generalization" },
+          "answer": "b"
         },
         {
           "number": 427,
-          "text": "Approximately how many different types of learning have learning psychologists identified and studied?",
-          "options": { "a": "About 10", "b": "About 20", "c": "About 40", "d": "Over 100" },
+          "text": "If a dog conditioned to salivate to a ticking metronome also salivates to a similar ticking sound, this demonstrates:",
+          "options": { "a": "Discrimination", "b": "Extinction", "c": "Generalization", "d": "Second-Order Conditioning" },
           "answer": "c"
         },
         {
           "number": 428,
-          "text": "Which two major approaches to learning are discussed first in this chapter?",
-          "options": { "a": "Implicit learning and observational learning", "b": "Classical conditioning and operant conditioning", "c": "Habituation and sensitization", "d": "Learning in the classroom and cognitive learning" },
-          "answer": "b"
-        },
-        {
-          "number": 429,
-          "text": "What type of learning involves simply watching others?",
-          "options": { "a": "Classical conditioning", "b": "Operant conditioning", "c": "Observational learning", "d": "Implicit learning" },
+          "text": "The gradual elimination of a learned response when the CS is repeatedly presented without the US is known as:",
+          "options": { "a": "Acquisition", "b": "Spontaneous Recovery", "c": "Extinction", "d": "Sensitization" },
           "answer": "c"
         },
         {
+          "number": 429,
+          "text": "After a period of rest following extinction, the reappearance of the conditioned response when the CS is presented again is called:",
+          "options": { "a": "Reacquisition", "b": "Spontaneous Recovery", "c": "Generalization", "d": "Habituation" },
+          "answer": "b"
+        },
+        {
           "number": 430,
-          "text": "Which type of learning can occur entirely outside of awareness?",
-          "options": { "a": "Classical conditioning", "b": "Operant conditioning", "c": "Observational learning", "d": "Implicit learning" },
-          "answer": "d"
+          "text": "The capacity to distinguish between similar but distinct stimuli is known as:",
+          "options": { "a": "Generalization", "b": "Discrimination", "c": "Extinction", "d": "Acquisition" },
+          "answer": "b"
         },
         {
           "number": 431,
-          "text": "What is the formal definition of Learning provided in the text?",
-          "options": { "a": "The process of memorizing facts and figures.", "b": "The acquisition, from experience, of new knowledge, skills, or responses that results in a relatively permanent change in the state of the learner.", "c": "A temporary change in behavior due to maturation.", "d": "The development of innate reflexes and instincts." },
+          "text": "In the Little Albert experiment, the loud noise produced by striking a steel bar was the:",
+          "options": { "a": "Conditioned Stimulus (CS)", "b": "Unconditioned Stimulus (US)", "c": "Conditioned Response (CR)", "d": "Unconditioned Response (UR)" },
           "answer": "b"
         },
         {
           "number": 432,
-          "text": "Which of the following is NOT one of the key ideas emphasized in the definition of learning?",
-          "options": { "a": "Learning is based on experience.", "b": "Learning produces changes in the organism.", "c": "These changes are always permanent and irreversible.", "d": "These changes are relatively permanent." },
-          "answer": "c"
+          "text": "In the Little Albert experiment, the white rat, initially a neutral object, became the:",
+          "options": { "a": "Conditioned Stimulus (CS)", "b": "Unconditioned Stimulus (US)", "c": "Conditioned Response (CR)", "d": "Unconditioned Response (UR)" },
+          "answer": "a"
         },
         {
           "number": 433,
-          "text": "Jennifer's association of helicopters with wounded soldiers illustrates which key idea about learning?",
-          "options": { "a": "Learning occurs instantly without experience.", "b": "Learning involves temporary changes.", "c": "Learning is based on experience leading to relatively permanent changes.", "d": "Learning only involves acquiring new knowledge." },
+          "text": "Little Albert's fear response to the white rat alone was the:",
+          "options": { "a": "Conditioned Stimulus (CS)", "b": "Unconditioned Stimulus (US)", "c": "Conditioned Response (CR)", "d": "Unconditioned Response (UR)" },
           "answer": "c"
         },
         {
           "number": 434,
-          "text": "What is habituation defined as?",
-          "options": { "a": "An increase in responding after repeated exposure to a stimulus.", "b": "Learning to associate two different stimuli.", "c": "A general process in which repeated or prolonged exposure to a stimulus results in a gradual reduction in responding.", "d": "Learning through reinforcement and punishment." },
-          "answer": "c"
+          "text": "Little Albert's fear of other furry objects like a rabbit and a Santa Claus mask demonstrated:",
+          "options": { "a": "Stimulus Discrimination", "b": "Stimulus Generalization", "c": "Extinction", "d": "Spontaneous Recovery" },
+          "answer": "b"
         },
         {
           "number": 435,
-          "text": "Living near an airport and eventually ignoring the plane noise is an example of which learning process?",
-          "options": { "a": "Sensitization", "b": "Classical conditioning", "c": "Operant conditioning", "d": "Habituation" },
-          "answer": "d"
+          "text": "One of Watson's main goals with the Little Albert study was to show that:",
+          "options": { "a": "Fear is an innate, unlearned emotion", "b": "Complex emotional responses could be classically conditioned", "c": "Phobias are primarily caused by unconscious conflicts", "d": "Operant conditioning is more powerful than classical conditioning" },
+          "answer": "b"
         },
         {
           "number": 436,
-          "text": "Which Nobel Prize-winner studied habituation in the sea slug Aplysia?",
-          "options": { "a": "Ivan Pavlov", "b": "B. F. Skinner", "c": "John B. Watson", "d": "Eric Kandel" },
-          "answer": "d"
+          "text": "Therapies for trauma-induced fears often involve repeatedly exposing individuals to trauma-related cues in a safe setting. This technique is based on the principle of:",
+          "options": { "a": "Acquisition", "b": "Generalization", "c": "Extinction", "d": "Sensitization" },
+          "answer": "c"
         },
         {
           "number": 437,
-          "text": "What response does Aplysia initially show when lightly touched, which then weakens with repeated touches?",
-          "options": { "a": "It releases ink.", "b": "It withdraws its gill.", "c": "It moves away quickly.", "d": "It changes color." },
+          "text": "Advertisers often pair their products with attractive people or pleasant music. This strategy relies on creating:",
+          "options": { "a": "Operantly conditioned preferences", "b": "Conditioned emotional responses", "c": "Implicit learning associations", "d": "Habituated responses" },
           "answer": "b"
         },
         {
           "number": 438,
-          "text": "The text suggests habituation might explain why action movies today compare to those of the 1950s in what way?",
-          "options": { "a": "They show less graphic violence.", "b": "They focus more on dialogue.", "c": "They tend to show much more graphic violence.", "d": "They have simpler plots." },
+          "text": "The Rescorla-Wagner model introduced which element into the understanding of classical conditioning?",
+          "options": { "a": "The role of evolutionary preparedness", "b": "The importance of the cerebellum", "c": "The concept of cognitive expectations", "d": "The necessity of biological reinforcers" },
           "answer": "c"
         },
         {
           "number": 439,
-          "text": "What is sensitization?",
-          "options": { "a": "A gradual reduction in responding to a repeated stimulus.", "b": "Learning through association of a neutral stimulus with an unconditioned stimulus.", "c": "Learning through consequences.", "d": "When presentation of a stimulus leads to an increased response to a later stimulus." },
-          "answer": "d"
+          "text": "According to the Rescorla-Wagner model, why didn't Pavlov himself become a reliable CS for salivation in his dogs?",
+          "options": { "a": "Pavlov was not presented immediately before the food.", "b": "The dogs discriminated between Pavlov and the feeders.", "c": "Pavlov was associated with many activities, not just reliably predicting food.", "d": "Human stimuli cannot become conditioned stimuli for dogs." },
+          "answer": "c"
         },
         {
           "number": 440,
-          "text": "After receiving a strong shock, Kandel found that Aplysia showed an increased gill-withdrawal response to a light touch. This is an example of:",
-          "options": { "a": "Habituation", "b": "Sensitization", "c": "Classical conditioning", "d": "Operant conditioning" },
-          "answer": "b"
+          "text": "The Rescorla-Wagner model predicts that conditioning is easier when the CS is:",
+          "options": { "a": "Familiar", "b": "Complex", "c": "Unfamiliar", "d": "Biologically relevant" },
+          "answer": "c"
         },
         {
           "number": 441,
-          "text": "The example of people becoming hypersensitive to late-night sounds after a house break-in illustrates:",
-          "options": { "a": "Habituation", "b": "Sensitization", "c": "Extinction", "d": "Discrimination" },
-          "answer": "b"
-        },
-        {
-          "number": 442,
-          "text": "Which psychological school of thought insisted on measuring only observable, quantifiable behaviour and dismissed mental activity?",
-          "options": { "a": "Psychoanalysis", "b": "Humanistic psychology", "c": "Cognitive psychology", "d": "Behaviourism" },
-          "answer": "d"
-        },
-        {
-          "number": 443,
-          "text": "During which period was behaviourism the major outlook of most psychologists working on learning theory?",
-          "options": { "a": "Late 1800s", "b": "Early 1900s", "c": "1930s through the 1950s", "d": "1970s through the 1990s" },
-          "answer": "c"
-        },
-        {
-          "number": 444,
-          "text": "Behaviourists argued that learning's 'permanent change in experience' could be demonstrated in which organisms?",
-          "options": { "a": "Only humans", "b": "Only primates", "c": "Only dogs and rats", "d": "Almost any organism: rats, dogs, pigeons, humans, etc." },
-          "answer": "d"
-        },
-        {
-          "number": 445,
-          "text": "While behaviourists advanced the field, the text suggests they overstated their case by ignoring what?",
-          "options": { "a": "The role of genetics", "b": "Important cognitive considerations (mental activity)", "c": "The influence of social factors", "d": "Evolutionary influences" },
-          "answer": "b"
-        },
-        {
-          "number": 446,
-          "text": "Which American psychologist kick-started the behaviourist movement in the early 20th century?",
-          "options": { "a": "Ivan Pavlov", "b": "B. F. Skinner", "c": "John B. Watson", "d": "Edward Thorndike" },
-          "answer": "c"
-        },
-        {
-          "number": 447,
-          "text": "John B. Watson argued psychologists should 'never use terms' like:",
-          "options": { "a": "Stimulus and response", "b": "Reinforcement and punishment", "c": "Consciousness, mental states, mind", "d": "Learning and behaviour" },
-          "answer": "c"
-        },
-        {
-          "number": 448,
-          "text": "Whose work heavily influenced John B. Watson's behaviourist stance?",
-          "options": { "a": "Sigmund Freud", "b": "Ivan Pavlov", "c": "William James", "d": "Eric Kandel" },
-          "answer": "b"
-        },
-        {
-          "number": 449,
-          "text": "Ivan Pavlov received the Nobel Prize in Physiology in 1904 for his work on:",
-          "options": { "a": "Learning mechanisms", "b": "The nervous system", "c": "The digestive processes of dogs", "d": "Visual perception" },
-          "answer": "c"
-        },
-        {
-          "number": 450,
-          "text": "Classical conditioning is defined as a type of learning that occurs when:",
-          "options": { "a": "Behaviour is followed by reinforcement.", "b": "A neutral stimulus produces a response after being paired with a stimulus that naturally produces a response.", "c": "An organism learns by observing others.", "d": "Responding decreases after repeated exposure to a stimulus." },
-          "answer": "b"
-        },
-        {
-          "number": 451,
-          "text": "In Pavlov's classic experiments, what did the dogs learn to salivate to?",
-          "options": { "a": "Only the sight of food", "b": "Only the smell of food", "c": "Neutral stimuli like a buzzer or metronome", "d": "The presence of Pavlov himself" },
-          "answer": "c"
-        },
-        {
-          "number": 452,
-          "text": "Why did Pavlov's findings appeal strongly to behaviourists like Watson?",
-          "options": { "a": "They focused on unobservable mental states.", "b": "They involved observable stimuli and responses without needing mental explanations.", "c": "They proved the existence of the subconscious mind.", "d": "They could only be demonstrated in humans." },
-          "answer": "b"
-        },
-        {
-          "number": 453,
-          "text": "In Pavlov's terminology, the food presented to the dog is called the:",
-          "options": { "a": "Conditioned stimulus (CS)", "b": "Unconditioned stimulus (US)", "c": "Conditioned response (CR)", "d": "Unconditioned response (UR)" },
-          "answer": "b"
-        },
-        {
-          "number": 454,
-          "text": "An unconditioned stimulus (US) is something that:",
-          "options": { "a": "Reliably produces a naturally occurring reaction.", "b": "Is initially neutral.", "c": "Produces a response only after learning.", "d": "Resembles a learned response." },
-          "answer": "a"
-        },
-        {
-          "number": 455,
-          "text": "The dog's salivation in response to food is called the:",
-          "options": { "a": "Conditioned stimulus (CS)", "b": "Unconditioned stimulus (US)", "c": "Conditioned response (CR)", "d": "Unconditioned response (UR)" },
-          "answer": "d"
-        },
-        {
-          "number": 456,
-          "text": "An unconditioned response (UR) is defined as:",
-          "options": { "a": "A learned reaction to a previously neutral stimulus.", "b": "A stimulus that produces a response without prior learning.", "c": "A reflexive reaction reliably produced by an unconditioned stimulus.", "d": "The phase where learning occurs." },
-          "answer": "c"
-        },
-        {
-          "number": 457,
-          "text": "What is the phase of classical conditioning when the CS and the US are presented together called?",
-          "options": { "a": "Extinction", "b": "Generalization", "c": "Discrimination", "d": "Acquisition" },
-          "answer": "d"
-        },
-        {
-          "number": 458,
-          "text": "After pairing the metronome (CS) with food (US), the metronome comes to elicit salivation. The metronome has become a(n):",
-          "options": { "a": "Unconditioned stimulus (US)", "b": "Unconditioned response (UR)", "c": "Conditioned stimulus (CS)", "d": "Conditioned response (CR)" },
-          "answer": "c"
-        },
-        {
-          "number": 459,
-          "text": "A conditioned stimulus (CS) is a:",
-          "options": { "a": "Stimulus that naturally causes a response.", "b": "Reflexive reaction.", "c": "Previously neutral stimulus that produces a reliable response after being paired with a US.", "d": "Response that resembles an unconditioned response." },
-          "answer": "c"
-        },
-        {
-          "number": 460,
-          "text": "The dog's salivation to the sound of the metronome alone is called the:",
-          "options": { "a": "Conditioned stimulus (CS)", "b": "Unconditioned stimulus (US)", "c": "Conditioned response (CR)", "d": "Unconditioned response (UR)" },
-          "answer": "c"
-        },
-        {
-          "number": 461,
-          "text": "A conditioned response (CR) is a reaction that:",
-          "options": { "a": "Is naturally produced by a US.", "b": "Is produced by a CS after learning.", "c": "Is identical to the UR in all respects.", "d": "Occurs before conditioning begins." },
-          "answer": "b"
-        },
-        {
-          "number": 462,
-          "text": "Which response reflects learning in classical conditioning?",
-          "options": { "a": "The unconditioned response (UR)", "b": "The conditioned response (CR)", "c": "Both the UR and the CR", "d": "Neither the UR nor the CR" },
-          "answer": "b"
-        },
-        {
-          "number": 463,
-          "text": "Figure 7.2 illustrates that before conditioning, the neutral stimulus (ticking metronome) produces:",
-          "options": { "a": "Salivation", "b": "Fear", "c": "No salivation", "d": "Excitement" },
-          "answer": "c"
-        },
-        {
-          "number": 464,
-          "text": "During the acquisition phase shown in Figure 7.2b, what is paired together?",
-          "options": { "a": "CS and CR", "b": "US and UR", "c": "CS and US", "d": "CR and UR" },
-          "answer": "c"
-        },
-        {
-          "number": 465,
-          "text": "After conditioning (Figure 7.2c), the CS (ticking metronome) alone elicits the:",
-          "options": { "a": "US", "b": "UR", "c": "CR", "d": "Neutral response" },
-          "answer": "c"
-        },
-        {
-          "number": 466,
-          "text": "Your dog getting excited when you move into the kitchen and open the cabinet before dinner is an example of a CR triggered by a:",
-          "options": { "a": "Simple US", "b": "Simple CS", "c": "Complex US", "d": "Complex CS" },
-          "answer": "d"
-        },
-        {
-          "number": 467,
-          "text": "Feeling the urge to check your phone immediately upon hearing the text message sound is presented as an example of:",
-          "options": { "a": "Habituation", "b": "Sensitization", "c": "Classical conditioning", "d": "Operant conditioning" },
-          "answer": "c"
-        },
-        {
-          "number": 468,
-          "text": "In the smartphone example, what acts as the conditioned stimulus (CS)?",
-          "options": { "a": "The important information in the text", "b": "The act of checking the phone", "c": "The text message sound", "d": "The feeling of anxiety" },
-          "answer": "c"
-        },
-        {
-          "number": 469,
-          "text": "What is second-order conditioning?",
-          "options": { "a": "Conditioning that occurs without awareness.", "b": "Learning that occurs by watching others.", "c": "A type of learning where a CS is paired with a stimulus that became associated with the US in an earlier procedure.", "d": "The weakening of a conditioned response." },
-          "answer": "c"
-        },
-        {
-          "number": 470,
-          "text": "In Pavlov's example of second-order conditioning, dogs salivated to a black square after it was paired with:",
-          "options": { "a": "Food", "b": "A light", "c": "The reliable tone (an established CS)", "d": "Water" },
-          "answer": "c"
-        },
-        {
-          "number": 471,
-          "text": "The text suggests second-order conditioning helps explain why people might desire money excessively because money is associated with:",
-          "options": { "a": "Biological needs directly", "b": "Objects or experiences that produce gratifying outcomes", "c": "Painful stimuli", "d": "Neutral stimuli only" },
-          "answer": "b"
-        },
-        {
-          "number": 472,
-          "text": "During the initial phase of acquisition in classical conditioning, learning typically:",
-          "options": { "a": "Starts high and decreases", "b": "Is instantaneous", "c": "Starts low, rises rapidly, and then levels off", "d": "Occurs at a steady, constant rate" },
-          "answer": "c"
-        },
-        {
-          "number": 473,
-          "text": "According to Figure 7.3, what happens during the acquisition phase?",
-          "options": { "a": "The CS is presented alone.", "b": "The US is presented alone.", "c": "CS-US pairings occur, and the CR increases.", "d": "The CR diminishes and disappears." },
-          "answer": "c"
-        },
-        {
-          "number": 474,
-          "text": "What is extinction in classical conditioning?",
-          "options": { "a": "The initial phase of learning the association.", "b": "The reappearance of a learned response after a rest period.", "c": "The gradual elimination of a learned response when the CS is repeatedly presented without the US.", "d": "Pairing a CS with a new neutral stimulus." },
-          "answer": "c"
-        },
-        {
-          "number": 475,
-          "text": "According to Figure 7.3, presenting the CS alone after acquisition leads to:",
-          "options": { "a": "An increase in the CR", "b": "A decrease and eventual cessation of the CR", "c": "The appearance of the US", "d": "No change in the CR" },
-          "answer": "b"
-        },
-        {
-          "number": 476,
-          "text": "What did Pavlov wonder after extinguishing a conditioned response?",
-          "options": { "a": "If the animal could learn a new response", "b": "If the elimination of the CR was permanent", "c": "If the US was still effective", "d": "If the CS had changed" },
-          "answer": "b"
-        },
-        {
-          "number": 477,
-          "text": "What is spontaneous recovery?",
-          "options": { "a": "The sudden learning of a response without conditioning.", "b": "The tendency of a learned behaviour to recover from extinction after a rest period.", "c": "Forgetting the learned association.", "d": "The strengthening of a response during acquisition." },
-          "answer": "b"
-        },
-        {
-          "number": 478,
-          "text": "Figure 7.3 shows that spontaneous recovery occurs:",
-          "options": { "a": "Only with additional CS-US pairings.", "b": "Immediately after extinction begins.", "c": "After a rest period following extinction, even without more CS-US pairings.", "d": "Only if extinction never occurred." },
-          "answer": "c"
-        },
-        {
-          "number": 479,
-          "text": "Spontaneous recovery suggests that extinction:",
-          "options": { "a": "Completely erases the learned association.", "b": "Strengthens the learned association.", "c": "Weakens the ability of the CS to elicit the CR but does not eliminate it.", "d": "Permanently changes the CS." },
-          "answer": "c"
-        },
-        {
-          "number": 480,
-          "text": "What is generalization in classical conditioning?",
-          "options": { "a": "The ability to distinguish between similar stimuli.", "b": "The reappearance of an extinguished response.", "c": "The tendency for the CR to be observed even though the CS is slightly different from the original CS.", "d": "The process of learning the CS-US association." },
-          "answer": "c"
-        },
-        {
-          "number": 481,
-          "text": "If a dog conditioned to salivate to a specific tone also salivates to a similar, new tone, it is demonstrating:",
-          "options": { "a": "Extinction", "b": "Discrimination", "c": "Spontaneous recovery", "d": "Generalization" },
-          "answer": "d"
-        },
-        {
-          "number": 482,
-          "text": "The principle of generalization suggests that the more a new stimulus differs from the original CS, the:",
-          "options": { "a": "Stronger the CR will be.", "b": "Less conditioned responding will be observed.", "c": "Faster extinction will occur.", "d": "More likely discrimination is." },
-          "answer": "b"
-        },
-        {
-          "number": 483,
-          "text": "What is discrimination in classical conditioning?",
-          "options": { "a": "Responding to stimuli similar to the original CS.", "b": "The capacity to distinguish between similar but distinct stimuli.", "c": "The weakening of the CR.", "d": "Learning through observation." },
-          "answer": "b"
-        },
-        {
-          "number": 484,
-          "text": "If a dog salivates to the original CS tone but not to a very different tone, it is demonstrating:",
-          "options": { "a": "Generalization", "b": "Extinction", "c": "Discrimination", "d": "Acquisition" },
-          "answer": "c"
-        },
-        {
-          "number": 485,
-          "text": "Generalization and discrimination are described as:",
-          "options": { "a": "Unrelated processes", "b": "Opposite ends of a spectrum", "c": "Two sides of the same coin", "d": "Relevant only to operant conditioning" },
-          "answer": "c"
-        },
-        {
-          "number": 486,
-          "text": "Who conducted the controversial 'Little Albert' study?",
-          "options": { "a": "Pavlov", "b": "Skinner", "c": "Watson and Rayner", "d": "Thorndike" },
-          "answer": "c"
-        },
-        {
-          "number": 487,
-          "text": "What was the primary goal of the Little Albert study?",
-          "options": { "a": "To demonstrate habituation in infants.", "b": "To show that complex emotional reactions like fear could be classically conditioned.", "c": "To test the effectiveness of reinforcement schedules.", "d": "To study infant cognitive development." },
-          "answer": "b"
-        },
-        {
-          "number": 488,
-          "text": "In the Little Albert experiment, what was the unconditioned stimulus (US)?",
-          "options": { "a": "The white rat", "b": "The rabbit", "c": "The loud noise", "d": "Albert's crying" },
-          "answer": "c"
-        },
-        {
-          "number": 489,
-          "text": "What was the conditioned stimulus (CS) in the Little Albert experiment?",
-          "options": { "a": "The loud noise", "b": "The white rat", "c": "Watson's presence", "d": "The steel bar" },
-          "answer": "b"
-        },
-        {
-          "number": 490,
-          "text": "What was the conditioned response (CR) observed in Little Albert?",
-          "options": { "a": "Curiosity towards the rat", "b": "Salivation", "c": "Fear reaction to the rat", "d": "Reaching for the rat" },
-          "answer": "c"
-        },
-        {
-          "number": 491,
-          "text": "Little Albert's fear of a white rabbit, a seal-fur coat, and a Santa Claus mask after being conditioned to fear a white rat demonstrates:",
-          "options": { "a": "Extinction", "b": "Discrimination", "c": "Spontaneous recovery", "d": "Stimulus generalization" },
-          "answer": "d"
-        },
-        {
-          "number": 492,
-          "text": "One of Watson's goals with the Little Albert study was to show that fear could be learned and did not necessarily stem from:",
-          "options": { "a": "Genetic predispositions", "b": "Direct physical harm", "c": "Deeper unconscious processes or early life experiences (as Freud argued)", "d": "Observing others' fear" },
-          "answer": "c"
-        },
-        {
-          "number": 493,
-          "text": "Why is the Little Albert study considered ethically controversial today?",
-          "options": { "a": "The loud noise was potentially damaging to Albert's hearing.", "b": "It involved conditioning fear in an infant without clear consent or follow-up/deconditioning.", "c": "The stimuli used were not culturally appropriate.", "d": "Watson published the results without Rayner's permission." },
-          "answer": "b"
-        },
-        {
-          "number": 494,
-          "text": "Therapies for trauma-induced fears, like Jennifer's, often involve repeated exposure to conditioned stimuli in a safe setting to promote:",
-          "options": { "a": "Generalization", "b": "Acquisition", "c": "Extinction", "d": "Sensitization" },
-          "answer": "c"
-        },
-        {
-          "number": 495,
-          "text": "Using attractive people or enjoyable music in advertising aims to create what through classical conditioning?",
-          "options": { "a": "Conditioned fear responses", "b": "Conditioned positive emotional responses associated with the product", "c": "Habituation to the product", "d": "Discriminative stimuli for purchasing" },
-          "answer": "b"
-        },
-        {
-          "number": 496,
-          "text": "Classical conditioning initially seemed like a simple process, but deeper understanding requires examining which elements?",
-          "options": { "a": "Only stimulus and response", "b": "Only acquisition and extinction", "c": "Cognitive, neural, and evolutionary elements", "d": "Social and cultural factors only" },
-          "answer": "c"
-        },
-        {
-          "number": 497,
-          "text": "The observation that Pavlov's dogs salivated to their feeders but not to Pavlov himself led to questions about what aspect of conditioning?",
-          "options": { "a": "The role of the US", "b": "The permanence of the CR", "c": "The cognitive element or expectation", "d": "The type of UR involved" },
-          "answer": "c"
-        },
-        {
-          "number": 498,
-          "text": "Who proposed the theory that classical conditioning occurs when an animal learns to set up an expectation?",
-          "options": { "a": "Pavlov", "b": "Watson and Rayner", "c": "Rescorla and Wagner", "d": "Skinner" },
-          "answer": "c"
-        },
-        {
-          "number": 499,
-          "text": "According to the Rescorla-Wagner model, Pavlov himself was NOT a reliable CS for food because:",
-          "options": { "a": "He never brought the food.", "b": "He was also linked with other activities unrelated to food.", "c": "The dogs disliked him.", "d": "He was present too often." },
-          "answer": "b"
-        },
-        {
-          "number": 500,
-          "text": "The Rescorla-Wagner model suggests that conditioning is easier when the CS is:",
-          "options": { "a": "A familiar event", "b": "An unfamiliar event", "c": "A very intense stimulus", "d": "A very weak stimulus" },
-          "answer": "b"
-        },
-        {
-          "number": 501,
-          "text": "Why is conditioning thought to be harder with a familiar CS according to the cognitive perspective?",
-          "options": { "a": "Familiar events cannot become CSs.", "b": "Familiar events lose their ability to signal anything.", "c": "Familiar events already have expectations associated with them.", "d": "Animals habituate too quickly to familiar events." },
-          "answer": "c"
-        },
-        {
-          "number": 502,
-          "text": "Which brain structure did Richard Thompson's research identify as critical for eyeblink conditioning?",
+          "text": "Research by Richard Thompson on eyeblink conditioning in rabbits identified which brain structure as critical for this type of classical conditioning?",
           "options": { "a": "Amygdala", "b": "Hippocampus", "c": "Cerebellum", "d": "Hypothalamus" },
           "answer": "c"
         },
         {
+          "number": 442,
+          "text": "The central nucleus of the amygdala is crucial for which type of conditioning?",
+          "options": { "a": "Eyeblink conditioning", "b": "Taste aversion conditioning", "c": "Emotional conditioning, particularly fear", "d": "Operant conditioning" },
+          "answer": "c"
+        },
+        {
+          "number": 443,
+          "text": "In fear conditioning studies with rats, if the connection between the amygdala and the midbrain is disrupted, what outcome is observed?",
+          "options": { "a": "The rat does not show autonomic fear responses (heart rate increase).", "b": "The rat does not exhibit the behavioural freezing response.", "c": "The rat cannot learn the association between the CS and US.", "d": "The rat shows exaggerated fear responses." },
+          "answer": "b"
+        },
+        {
+          "number": 444,
+          "text": "If the connection between the amygdala and the hypothalamus is severed in a fear-conditioned rat, what happens?",
+          "options": { "a": "The rat no longer freezes in response to the CS.", "b": "The rat forgets the association between the CS and US.", "c": "The rat fails to show autonomic responses (heart rate, hormones) associated with fear.", "d": "The rat shows increased generalization of fear." },
+          "answer": "c"
+        },
+        {
+          "number": 445,
+          "text": "The development of taste aversions, where an organism learns to avoid a food after a single instance of illness, often hours later, highlights the role of what in classical conditioning?",
+          "options": { "a": "Cognitive expectancy", "b": "Neural pathways in the cerebellum", "c": "Evolutionary adaptiveness and biological preparedness", "d": "Second-order conditioning principles" },
+          "answer": "c"
+        },
+        {
+          "number": 446,
+          "text": "Which of the following is NOT a typical characteristic of learned taste aversions explained by evolutionary principles?",
+          "options": { "a": "Learning can occur in one or two trials.", "b": "Conditioning can span long intervals (hours).", "c": "Aversion develops primarily to visual cues of the food.", "d": "Aversions occur more readily with novel foods." },
+          "answer": "c"
+        },
+        {
+          "number": 447,
+          "text": "Garcia's research on taste aversion in rats found that conditioning was strongest when the CS was:",
+          "options": { "a": "A visual stimulus (light)", "b": "An auditory stimulus (tone)", "c": "A tactile stimulus (shock)", "d": "A distinct taste or smell" },
+          "answer": "d"
+        },
+        {
+          "number": 448,
+          "text": "The propensity for learning particular kinds of associations over others (e.g., taste aversion in rats vs. visual aversion in birds) is known as:",
+          "options": { "a": "Latent learning", "b": "Biological preparedness", "c": "Stimulus control", "d": "Higher-order conditioning" },
+          "answer": "b"
+        },
+        {
+          "number": 449,
+          "text": "Giving cancer patients an unusual-flavored candy before chemotherapy to prevent aversion to other foods is an application derived from research on:",
+          "options": { "a": "Fear conditioning", "b": "Eyeblink conditioning", "c": "Taste aversion learning", "d": "Operant conditioning schedules" },
+          "answer": "c"
+        },
+        {
+          "number": 450,
+          "text": "Shepard Siegel's research suggests that drug overdoses often occur in experienced users when:",
+          "options": { "a": "They take a significantly larger dose than usual.", "b": "They combine multiple drugs.", "c": "They take the usual dose but in an unfamiliar setting.", "d": "Their tolerance has decreased due to abstinence." },
+          "answer": "c"
+        },
+        {
+          "number": 451,
+          "text": "According to Siegel's model of drug tolerance and overdose, the environmental cues associated with drug use (paraphernalia, setting) act as the:",
+          "options": { "a": "Unconditioned Stimulus (US)", "b": "Conditioned Stimulus (CS)", "c": "Unconditioned Response (UR)", "d": "Conditioned Response (CR)" },
+          "answer": "b"
+        },
+        {
+          "number": 452,
+          "text": "In Siegel's model, the body's physiological reactions that counteract the drug's effects (e.g., speeding up breathing in response to heroin) represent the:",
+          "options": { "a": "Unconditioned Stimulus (US)", "b": "Conditioned Stimulus (CS)", "c": "Unconditioned Response (UR)", "d": "Conditioned Response (CR - compensatory reaction)" },
+          "answer": "d"
+        },
+        {
+          "number": 453,
+          "text": "Drug tolerance develops, according to classical conditioning principles, because:",
+          "options": { "a": "The drug itself becomes less potent over time.", "b": "The body develops compensatory conditioned responses to cues associated with drug use.", "c": "The user learns to metabolize the drug more efficiently.", "d": "The user seeks out increasingly larger doses purely for psychological reasons." },
+          "answer": "b"
+        },
+        {
+          "number": 454,
+          "text": "Cue exposure therapies for addiction aim to:",
+          "options": { "a": "Reinforce abstinence behaviors.", "b": "Punish drug-seeking behaviors.", "c": "Extinguish the conditioned compensatory responses elicited by drug-related cues.", "d": "Teach users how to use drugs more safely in familiar environments." },
+          "answer": "c"
+        },
+        {
+          "number": 455,
+          "text": "Operant conditioning primarily studies behaviours that are:",
+          "options": { "a": "Reactive and involuntary", "b": "Reflexive and innate", "c": "Active and voluntary", "d": "Learned through observation" },
+          "answer": "c"
+        },
+        {
+          "number": 456,
+          "text": "Edward L. Thorndike's research with cats in puzzle boxes focused on what type of behaviour?",
+          "options": { "a": "Respondent behaviour", "b": "Classical conditioning", "c": "Instrumental behaviour", "d": "Observational learning" },
+          "answer": "c"
+        },
+        {
+          "number": 457,
+          "text": "Thorndike's Law of Effect states that:",
+          "options": { "a": "Learning occurs through association between stimuli.", "b": "Behaviours followed by satisfying consequences are more likely to be repeated.", "c": "Observation is sufficient for learning complex behaviours.", "d": "Punishment is more effective than reinforcement in shaping behaviour." },
+          "answer": "b"
+        },
+        {
+          "number": 458,
+          "text": "How did the learning situation in Thorndike's experiments differ fundamentally from Pavlov's?",
+          "options": { "a": "Thorndike used cats, while Pavlov used dogs.", "b": "In Thorndike's setup, the animal's behaviour determined the outcome (food).", "c": "Pavlov measured salivation, while Thorndike measured escape time.", "d": "Thorndike's research involved punishment, while Pavlov's did not." },
+          "answer": "b"
+        },
+        {
+          "number": 459,
+          "text": "B. F. Skinner coined the term ______ to refer to behaviour that an organism performs that has some impact on the environment.",
+          "options": { "a": "Respondent behaviour", "b": "Classical behaviour", "c": "Operant behaviour", "d": "Instrumental behaviour" },
+          "answer": "c"
+        },
+        {
+          "number": 460,
+          "text": "In Skinner's terminology, a reinforcer is any stimulus or event that ______ the likelihood of the behaviour that led to it.",
+          "options": { "a": "Decreases", "b": "Has no effect on", "c": "Increases", "d": "Extinguishes" },
+          "answer": "c"
+        },
+        {
+          "number": 461,
+          "text": "A punisher, according to Skinner, is any stimulus or event that ______ the likelihood of the behaviour that led to it.",
+          "options": { "a": "Decreases", "b": "Has no effect on", "c": "Increases", "d": "Generalizes" },
+          "answer": "a"
+        },
+        {
+          "number": 462,
+          "text": "Presenting a desired stimulus (like food) to increase a behaviour is called:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "a"
+        },
+        {
+          "number": 463,
+          "text": "Removing an unpleasant stimulus (like stopping a shock) to increase a behaviour is called:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "b"
+        },
+        {
+          "number": 464,
+          "text": "Administering an unpleasant stimulus (like a scolding) to decrease a behaviour is called:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "c"
+        },
+        {
+          "number": 465,
+          "text": "Removing a desired stimulus (like taking away driving privileges) to decrease a behaviour is called:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "d"
+        },
+        {
+          "number": 466,
+          "text": "A parent gives a child dessert after the child eats vegetables. This is an example of:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "a"
+        },
+        {
+          "number": 467,
+          "text": "Fastening your seatbelt to stop the annoying beeping sound in your car is an example of:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "b"
+        },
+        {
+          "number": 468,
+          "text": "A teacher gives a student detention for being late to class. This is an example of:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "c"
+        },
+        {
+          "number": 469,
+          "text": "A teenager loses their phone privileges for breaking curfew. This is an example of:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "d"
+        },
+        {
+          "number": 470,
+          "text": "Why is reinforcement generally considered more effective than punishment for promoting learning?",
+          "options": { "a": "Punishment often causes physical harm.", "b": "Reinforcement is easier to administer consistently.", "c": "Punishment only signals unacceptable behaviour, not the desired one.", "d": "Reinforcement works faster than punishment." },
+          "answer": "c"
+        },
+        {
+          "number": 471,
+          "text": "Food, water, and shelter are examples of:",
+          "options": { "a": "Secondary Reinforcers", "b": "Primary Reinforcers", "c": "Generalized Reinforcers", "d": "Conditioned Punishers" },
+          "answer": "b"
+        },
+        {
+          "number": 472,
+          "text": "Money, grades, and verbal approval gain their reinforcing power through association with primary reinforcers. They are known as:",
+          "options": { "a": "Primary Reinforcers", "b": "Unconditioned Reinforcers", "c": "Secondary Reinforcers", "d": "Intrinsic Reinforcers" },
+          "answer": "c"
+        },
+        {
+          "number": 473,
+          "text": "The effectiveness of secondary reinforcers is derived from their association with primary reinforcers through which learning process?",
+          "options": { "a": "Operant Conditioning", "b": "Observational Learning", "c": "Classical Conditioning", "d": "Implicit Learning" },
+          "answer": "c"
+        },
+        {
+          "number": 474,
+          "text": "Learning based on experience, resulting in relatively permanent changes, is the core definition of which concept?",
+          "options": { "a": "Memory", "b": "Learning", "c": "Cognition", "d": "Development" },
+          "answer": "b"
+        },
+        {
+          "number": 475,
+          "text": "Jennifer's aversion to the smell of cooking meat after her experiences in Iraq is an example of a learned association impacting:",
+          "options": { "a": "Operant behavior", "b": "Sensory adaptation", "c": "A conditioned response", "d": "Implicit memory" },
+          "answer": "c"
+        },
+        {
+          "number": 476,
+          "text": "Which type of learning does NOT require the organism to associate two stimuli or a behavior and its consequence?",
+          "options": { "a": "Classical conditioning", "b": "Operant conditioning", "c": "Second-order conditioning", "d": "Habituation" },
+          "answer": "d"
+        },
+        {
+          "number": 477,
+          "text": "Behaviourists argued that learning could be understood without referencing:",
+          "options": { "a": "Observable actions", "b": "Environmental stimuli", "c": "Internal mental states", "d": "Physiological responses" },
+          "answer": "c"
+        },
+        {
+          "number": 478,
+          "text": "Pavlov's initial interest before discovering classical conditioning was in:",
+          "options": { "a": "Psychology of learning", "b": "Canine behavior", "c": "Physiology of digestion", "d": "Neurology of reflexes" },
+          "answer": "c"
+        },
+        {
+          "number": 479,
+          "text": "In the context of classical conditioning, what must be true for a stimulus to become a CS?",
+          "options": { "a": "It must naturally elicit the response.", "b": "It must be presented after the US.", "c": "It must be initially neutral regarding the response.", "d": "It must be aversive." },
+          "answer": "c"
+        },
+        {
+          "number": 480,
+          "text": "Conditioning a dog to salivate to a light (CS1), then pairing the light with a bell (CS2) until the dog salivates to the bell alone, illustrates:",
+          "options": { "a": "Stimulus generalization", "b": "Extinction", "c": "Spontaneous recovery", "d": "Second-order conditioning" },
+          "answer": "d"
+        },
+        {
+          "number": 481,
+          "text": "Why is the conditioned response (CR) often slightly different from the unconditioned response (UR)?",
+          "options": { "a": "The CR is learned, while the UR is reflexive.", "b": "The CR is always weaker than the UR.", "c": "The CR is produced by the CS, while the UR is produced by the US.", "d": "All of the above contribute to potential differences." },
+          "answer": "d"
+        },
+        {
+          "number": 482,
+          "text": "If a dog is conditioned to salivate to a specific high-pitched tone but not to a low-pitched tone, it demonstrates:",
+          "options": { "a": "Generalization", "b": "Discrimination", "c": "Extinction", "d": "Acquisition" },
+          "answer": "b"
+        },
+        {
+          "number": 483,
+          "text": "The ethical concerns surrounding the Little Albert experiment primarily involved:",
+          "options": { "a": "Lack of a control group", "b": "Inducing fear in an infant without plans for removal", "c": "Using an animal stimulus", "d": "Failure to replicate the findings" },
+          "answer": "b"
+        },
+        {
+          "number": 484,
+          "text": "The Rescorla-Wagner model suggests that conditioning depends on the extent to which the US is:",
+          "options": { "a": "Intense", "b": "Pleasant", "c": "Biologically significant", "d": "Unexpected or surprising" },
+          "answer": "d"
+        },
+        {
+          "number": 485,
+          "text": "Eyeblink conditioning is considered a form of ________ conditioning.",
+          "options": { "a": "Operant", "b": "Aversive", "c": "Appetitive", "d": "Classical" },
+          "answer": "d"
+        },
+        {
+          "number": 486,
+          "text": "The amygdala's role in fear conditioning involves processing the ________ significance of a stimulus.",
+          "options": { "a": "Sensory", "b": "Emotional", "c": "Motor", "d": "Cognitive" },
+          "answer": "b"
+        },
+        {
+          "number": 487,
+          "text": "Why might taste aversions be learned so quickly and over long delays compared to other forms of conditioning?",
+          "options": { "a": "Taste receptors are directly linked to the amygdala.", "b": "It provides a significant survival advantage.", "c": "Food stimuli are inherently more salient.", "d": "The digestive system has unique neural pathways." },
+          "answer": "b"
+        },
+        {
+          "number": 488,
+          "text": "A bird learning to avoid brightly colored insects after eating one that tasted bad demonstrates biological preparedness based on:",
+          "options": { "a": "Taste cues", "b": "Auditory cues", "c": "Olfactory cues", "d": "Visual cues" },
+          "answer": "d"
+        },
+        {
+          "number": 489,
+          "text": "The 'Real World' box on drug overdoses explains that the ___________ acts as the CS, triggering a compensatory CR.",
+          "options": { "a": "Drug itself", "b": "User's mood", "c": "Environmental setting and cues", "d": "Passage of time since last dose" },
+          "answer": "c"
+        },
+        {
+          "number": 490,
+          "text": "When an addict takes drugs in a new environment, the usual compensatory CR may not occur, leading to:",
+          "options": { "a": "Increased tolerance", "b": "An overdose effect", "c": "Rapid extinction", "d": "Negative reinforcement" },
+          "answer": "b"
+        },
+        {
+          "number": 491,
+          "text": "Thorndike's cats gradually decreased ineffective behaviors and increased the effective lever-pressing behavior through a process of:",
+          "options": { "a": "Classical conditioning", "b": "Insight learning", "c": "Trial and error", "d": "Observational learning" },
+          "answer": "c"
+        },
+        {
+          "number": 492,
+          "text": "The Skinner box was designed to study:",
+          "options": { "a": "Classical conditioning principles", "b": "Operant conditioning in a controlled environment", "c": "Social learning phenomena", "d": "Habituation and sensitization" },
+          "answer": "b"
+        },
+        {
+          "number": 493,
+          "text": "Getting paid for working is an example of:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "a"
+        },
+        {
+          "number": 494,
+          "text": "Taking an aspirin to relieve a headache results in the headache going away, making you more likely to take aspirin for future headaches. This is:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "b"
+        },
+        {
+          "number": 495,
+          "text": "Receiving a speeding ticket for driving too fast is intended as:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "c"
+        },
+        {
+          "number": 496,
+          "text": "A child who previously enjoyed playing video games is no longer allowed to play them after misbehaving. This is:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "d"
+        },
+        {
+          "number": 497,
+          "text": "Which term is incorrectly matched with its effect on behavior?",
+          "options": { "a": "Positive Reinforcement: Increases behavior", "b": "Negative Reinforcement: Decreases behavior", "c": "Positive Punishment: Decreases behavior", "d": "Negative Punishment: Decreases behavior" },
+          "answer": "b"
+        },
+        {
+          "number": 498,
+          "text": "Primary reinforcers satisfy ________ needs.",
+          "options": { "a": "Social", "b": "Emotional", "c": "Biological", "d": "Cognitive" },
+          "answer": "c"
+        },
+        {
+          "number": 499,
+          "text": "The fact that a bronze trophy can be a powerful motivator for an athlete demonstrates the concept of:",
+          "options": { "a": "Primary reinforcement", "b": "Secondary reinforcement", "c": "Negative punishment", "d": "Classical conditioning" },
+          "answer": "b"
+        },
+        {
+          "number": 500,
+          "text": "Learning that occurs largely independent of awareness of both the process and the products of information acquisition is called:",
+          "options": { "a": "Classical Conditioning", "b": "Operant Conditioning", "c": "Observational Learning", "d": "Implicit Learning" },
+          "answer": "d"
+        },
+        {
+          "number": 501,
+          "text": "Learning by watching the actions of others is known as:",
+          "options": { "a": "Implicit Learning", "b": "Classical Conditioning", "c": "Observational Learning", "d": "Operant Conditioning" },
+          "answer": "c"
+        },
+        {
+          "number": 502,
+          "text": "Which process best explains why you might start using slang terms you hear your friends use frequently?",
+          "options": { "a": "Classical Conditioning", "b": "Operant Conditioning", "c": "Observational Learning", "d": "Habituation" },
+          "answer": "c"
+        },
+        {
           "number": 503,
-          "text": "Studies of humans with lesions and neuroimaging findings support the role of the cerebellum in which type of conditioning?",
-          "options": { "a": "Fear conditioning", "b": "Taste aversion conditioning", "c": "Eyeblink conditioning", "d": "Operant conditioning" },
+          "text": "The text implies that Jennifer's learned reactions were relatively ________, a key feature of the definition of learning.",
+          "options": { "a": "Temporary", "b": "Reflexive", "c": "Permanent", "d": "Implicit" },
           "answer": "c"
         },
         {
           "number": 504,
-          "text": "Which brain structure, particularly its central nucleus, is identified as critical for emotional conditioning, especially fear conditioning?",
-          "options": { "a": "Cerebellum", "b": "Amygdala", "c": "Thalamus", "d": "Prefrontal cortex" },
+          "text": "A key difference between habituation and sensory adaptation is that habituation:",
+          "options": { "a": "Occurs at the sensory receptor level", "b": "Is a form of learning involving reduced responding", "c": "Is usually permanent", "d": "Only occurs with pleasant stimuli" },
           "answer": "b"
         },
         {
           "number": 505,
-          "text": "In fear conditioning studies with rats (tone CS, shock US), the amygdala is essential for producing which components of the CR?",
-          "options": { "a": "Only the behavioural freezing response", "b": "Only the autonomic responses (heart rate, hormones)", "c": "Both the behavioural freezing and the autonomic responses", "d": "Neither the freezing nor the autonomic responses" },
-          "answer": "c"
+          "text": "Pavlov's finding that dogs salivated simply by being put into the experimental harness illustrates:",
+          "options": { "a": "The initial acquisition phase", "b": "Conditioning to contextual cues", "c": "Stimulus discrimination", "d": "Operant conditioning" },
+          "answer": "b"
         },
         {
           "number": 506,
-          "text": "Disrupting connections between the amygdala and the midbrain affects which part of the fear response in rats?",
-          "options": { "a": "Autonomic responses", "b": "Hormone release", "c": "Behavioural freezing", "d": "Memory of the shock" },
+          "text": "If extinction occurs, and then the CS is presented again much later, what is likely to happen?",
+          "options": { "a": "No response will occur.", "b": "The CR will return, but stronger than before.", "c": "Spontaneous recovery of the CR may occur.", "d": "The organism will show generalization." },
           "answer": "c"
         },
         {
           "number": 507,
-          "text": "Disrupting connections between the amygdala and the hypothalamus affects which part of the fear response in rats?",
-          "options": { "a": "Behavioural freezing", "b": "Auditory perception", "c": "Autonomic responses", "d": "Taste aversion" },
-          "answer": "c"
-        },
-        {
-          "number": 508,
-          "text": "The evolutionary perspective on classical conditioning emphasizes the _______ value of learning.",
-          "options": { "a": "cognitive", "b": "emotional", "c": "social", "d": "adaptive" },
-          "answer": "d"
-        },
-        {
-          "number": 509,
-          "text": "Conditioned food aversions are a key example used to illustrate which perspective on classical conditioning?",
-          "options": { "a": "Cognitive", "b": "Neural", "c": "Evolutionary", "d": "Behaviourist" },
-          "answer": "c"
-        },
-        {
-          "number": 510,
-          "text": "Conditioned taste aversions are peculiar because they often occur with:",
-          "options": { "a": "Multiple trials and short delays", "b": "A single trial and potentially long delays", "c": "Only familiar foods", "d": "Only visual stimuli" },
+          "text": "Watson believed that principles of ________ could explain virtually all human behavior.",
+          "options": { "a": "Operant Conditioning", "b": "Classical Conditioning", "c": "Observational Learning", "d": "Psychoanalysis" },
           "answer": "b"
         },
         {
+          "number": 508,
+          "text": "The cognitive element in classical conditioning involves the organism learning an ________ about the relationship between the CS and US.",
+          "options": { "a": "Aversion", "b": "Emotional response", "c": "Expectation", "d": "Motor reflex" },
+          "answer": "c"
+        },
+        {
+          "number": 509,
+          "text": "Impairment in eyeblink conditioning following damage to the cerebellum supports the idea that this structure is involved in:",
+          "options": { "a": "Emotional learning", "b": "Motor skill learning underlying the conditioned response", "c": "Processing the US", "d": "Cognitive expectation" },
+          "answer": "b"
+        },
+        {
+          "number": 510,
+          "text": "Conditioned food aversions are particularly relevant for species that:",
+          "options": { "a": "Hunt live prey", "b": "Have a very limited diet", "c": "Consume a variety of foods (forage)", "d": "Rely heavily on vision for feeding" },
+          "answer": "c"
+        },
+        {
           "number": 511,
-          "text": "From an evolutionary standpoint, why should taste aversion learning be rapid (1-2 trials)?",
-          "options": { "a": "To ensure the animal enjoys the food.", "b": "To prevent the animal from dying from eating a toxic substance repeatedly.", "c": "To make learning more challenging.", "d": "To match the speed of digestion." },
+          "text": "The concept of biological preparedness challenges which behaviourist assumption?",
+          "options": { "a": "That learning requires reinforcement.", "b": "That any two stimuli could be associated with equal ease.", "c": "That learning involves observable behavior.", "d": "That punishment is ineffective." },
           "answer": "b"
         },
         {
           "number": 512,
-          "text": "Why should taste aversion conditioning be possible over long delays (hours)?",
-          "options": { "a": "Because taste perception is slow.", "b": "Because toxic substances often cause illness after a delay.", "c": "To allow the animal time to find an antidote.", "d": "Because memory formation takes hours." },
+          "text": "In operant conditioning, the organism's behavior is primarily influenced by its:",
+          "options": { "a": "Antecedents (preceding stimuli)", "b": "Consequences (following stimuli)", "c": "Association with other stimuli", "d": "Biological predispositions" },
           "answer": "b"
         },
         {
           "number": 513,
-          "text": "Evolutionarily, it is more adaptive for taste aversions to be associated with the _______ of food, rather than just its ingestion.",
-          "options": { "a": "color or shape", "b": "location where it was found", "c": "smell or taste", "d": "sound it makes when eaten" },
-          "answer": "c"
+          "text": "Thorndike used the term 'satisfying state of affairs' to refer to what Skinner would later call:",
+          "options": { "a": "Punishment", "b": "Reinforcement", "c": "Extinction", "d": "Discrimination" },
+          "answer": "b"
         },
         {
           "number": 514,
-          "text": "Taste aversions are more likely to develop for _______ foods.",
-          "options": { "a": "familiar", "b": "novel (unfamiliar)", "c": "sweet", "d": "salty" },
+          "text": "The main difference between positive and negative reinforcement is:",
+          "options": { "a": "Whether the behavior increases or decreases", "b": "Whether a stimulus is added or removed", "c": "Whether the consequence is pleasant or unpleasant", "d": "Whether the learning is fast or slow" },
           "answer": "b"
         },
         {
           "number": 515,
-          "text": "John Garcia's research with rats showed that nausea (US) was most easily associated with which type of CS?",
-          "options": { "a": "Visual (light)", "b": "Auditory (tone)", "c": "Tactile (shock)", "d": "Taste or smell" },
-          "answer": "d"
+          "text": "A parent stops nagging a teenager after the teenager finally cleans their room. For the teenager, cleaning the room was influenced by:",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "b"
         },
         {
           "number": 516,
-          "text": "Broberg and Bernstein used Garcia's findings to help cancer patients avoid food aversions by:",
-          "options": { "a": "Giving them anti-nausea medication.", "b": "Telling them not to eat before therapy.", "c": "Giving them an unusual-tasting food before therapy to become the target of the aversion.", "d": "Exposing them repeatedly to the foods they normally eat." },
-          "answer": "c"
+          "text": "For the parent in the previous question, the teenager cleaning their room leads to the removal of the unpleasant need to nag. The parent's nagging behavior in the future might decrease due to the cleaning, but the parent stopping nagging acted as ________ for the teenager's cleaning.",
+          "options": { "a": "Positive Reinforcement", "b": "Negative Reinforcement", "c": "Positive Punishment", "d": "Negative Punishment" },
+          "answer": "b"
         },
         {
           "number": 517,
-          "text": "What is biological preparedness?",
-          "options": { "a": "The state of being ready to learn any association equally well.", "b": "A propensity for learning particular kinds of associations over other kinds.", "c": "The physical readiness of the brain for conditioning.", "d": "An immunity to certain types of conditioning." },
-          "answer": "b"
-        },
-        {
-          "number": 518,
-          "text": "While rats easily develop taste/smell aversions, birds are more likely to develop food aversions based on _______ cues.",
-          "options": { "a": "auditory", "b": "tactile", "c": "visual", "d": "olfactory" },
+          "text": "The example of babies training parents through smiling/cooing (positive reinforcement) or stopping crying (negative reinforcement) illustrates that reinforcement:",
+          "options": { "a": "Only works on simple behaviors", "b": "Is determined by the recipient's interpretation", "c": "Is defined by its effect on the behavior", "d": "Must be biologically significant" },
           "answer": "c"
         },
         {
-          "number": 519,
-          "text": "Shepard Siegel used classical conditioning principles to explain what phenomenon?",
-          "options": { "a": "How phobias develop", "b": "Drug overdoses in experienced users in unusual settings", "c": "Taste aversions in cancer patients", "d": "How pigeons learn complex discriminations" },
-          "answer": "b"
-        },
-        {
-          "number": 520,
-          "text": "According to Siegel's model, the conditioned stimulus (CS) in drug use includes:",
-          "options": { "a": "Only the drug itself", "b": "Only the user's mood", "c": "Only the needle", "d": "The entire context (paraphernalia, setting, companions)" },
+          "number": 518,
+          "text": "Learning complex sequences, like navigating a maze or mastering grammar rules, without explicit instruction often involves:",
+          "options": { "a": "Classical Conditioning", "b": "Operant Conditioning", "c": "Observational Learning", "d": "Implicit Learning" },
           "answer": "d"
         },
         {
+          "number": 519,
+          "text": "Bandura's Bobo doll experiments were seminal in demonstrating the power of:",
+          "options": { "a": "Classical Conditioning", "b": "Operant Conditioning", "c": "Observational Learning", "d": "Implicit Learning" },
+          "answer": "c"
+        },
+        {
+          "number": 520,
+          "text": "Which learning principle suggests that the consequences of a behavior are critical for learning?",
+          "options": { "a": "Classical Conditioning", "b": "Law of Effect", "c": "Habituation", "d": "Biological Preparedness" },
+          "answer": "b"
+        },
+        {
           "number": 521,
-          "text": "In Siegel's model of drug conditioning, the conditioned response (CR) is often a _______ reaction to the drug's effects (US).",
-          "options": { "a": "mimicking", "b": "compensatory (opposite)", "c": "identical", "d": "unrelated" },
+          "text": "A teacher ignores a student who shouts out answers but calls on them when they raise their hand. The teacher is using ______ for shouting and ______ for hand-raising.",
+          "options": { "a": "Punishment; Reinforcement", "b": "Extinction; Reinforcement", "c": "Punishment; Punishment", "d": "Extinction; Punishment" },
           "answer": "b"
         },
         {
           "number": 522,
-          "text": "The compensatory CR, triggered by the drug-associated context (CS), leads to the development of:",
-          "options": { "a": "Drug sensitization", "b": "Drug tolerance", "c": "Drug aversion", "d": "Drug-induced psychosis" },
+          "text": "Classical conditioning involves learning associations between:",
+          "options": { "a": "Behavior and consequence", "b": "Two stimuli", "c": "Observation and imitation", "d": "Thoughts and feelings" },
           "answer": "b"
         },
         {
           "number": 523,
-          "text": "Why might taking the usual drug dose in a novel environment be fatal for an experienced user?",
-          "options": { "a": "The drug is stronger in new environments.", "b": "The novel environment lacks the CS, so the protective compensatory CR is reduced or absent.", "c": "The user forgets how much to take in a new place.", "d": "Novel environments trigger allergic reactions to the drug." },
-          "answer": "b"
+          "text": "Operant conditioning involves learning associations between:",
+          "options": { "a": "Behavior and consequence", "b": "Two stimuli", "c": "Observation and imitation", "d": "Physiological and emotional responses" },
+          "answer": "a"
         },
         {
           "number": 524,
-          "text": "Cue exposure therapies for addiction involve exposing the addict to _______ without the _______, in order to promote extinction.",
-          "options": { "a": "the US / the CS", "b": "the CR / the UR", "c": "the drug (US) / the cues (CS)", "d": "drug-related cues (CS) / the drug (US)" },
-          "answer": "d"
-        },
-        {
-          "number": 525,
-          "text": "Operant conditioning is the study of how organisms learn from the _______ of their behaviour.",
-          "options": { "a": "causes", "b": "motivations", "c": "consequences", "d": "frequency" },
+          "text": "The phenomenon where a CS previously paired with a US can interfere with the conditioning of a new CS presented simultaneously is explained by:",
+          "options": { "a": "Extinction", "b": "Spontaneous recovery", "c": "Blocking (related to Rescorla-Wagner)", "d": "Second-order conditioning" },
           "answer": "c"
         },
         {
+          "number": 525,
+          "text": "The text suggests that learning involves acquiring new knowledge, skills, or responses ________.",
+          "options": { "a": "Through genetic inheritance", "b": "From experience", "c": "Only through formal education", "d": "Via unconscious processes exclusively" },
+          "answer": "b"
+        },
+        {
           "number": 526,
-          "text": "Classical conditioning primarily involves _______ behaviours, while operant conditioning involves _______ behaviours.",
-          "options": { "a": "voluntary / involuntary", "b": "active / reactive", "c": "reactive / active", "d": "complex / simple" },
+          "text": "Jennifer's case illustrates that learned associations can be powerful and ________.",
+          "options": { "a": "Easily extinguished", "b": "Limited to animal subjects", "c": "Long-lasting", "d": "Always adaptive" },
           "answer": "c"
         },
         {
           "number": 527,
-          "text": "Who first studied active (instrumental) behaviours using puzzle boxes with cats?",
-          "options": { "a": "Ivan Pavlov", "b": "B. F. Skinner", "c": "John B. Watson", "d": "Edward L. Thorndike" },
-          "answer": "d"
+          "text": "Habituation allows organisms to:",
+          "options": { "a": "Increase sensitivity to important stimuli", "b": "Learn complex motor skills", "c": "Ignore repetitive, irrelevant stimuli", "d": "Associate stimuli with consequences" },
+          "answer": "c"
         },
         {
           "number": 528,
-          "text": "Thorndike's research focused on behaviours that required an organism to do something to manipulate its environment, which he called _______ behaviours.",
-          "options": { "a": "respondent", "b": "instrumental", "c": "conditioned", "d": "reflexive" },
+          "text": "Unlike habituation, sensitization leads to:",
+          "options": { "a": "A decreased response to a stimulus", "b": "An increased response to a later stimulus", "c": "Learning through consequences", "d": "Ignoring familiar stimuli" },
           "answer": "b"
         },
         {
           "number": 529,
-          "text": "What principle did Thorndike develop based on his puzzle box experiments?",
-          "options": { "a": "Law of Association", "b": "Principle of Conditioning", "c": "Law of Effect", "d": "Theory of Preparedness" },
+          "text": "The 'blank slate' or 'tabula rasa' view, often associated with behaviourists like Watson, aligns least well with which concept?",
+          "options": { "a": "Classical conditioning", "b": "Operant conditioning", "c": "Biological preparedness", "d": "Extinction" },
           "answer": "c"
         },
         {
           "number": 530,
-          "text": "The Law of Effect states that behaviours followed by a _______ state of affairs tend to be repeated.",
-          "options": { "a": "neutral", "b": "punishing", "c": "satisfying", "d": "novel" },
+          "text": "Pavlov termed the initial neutral stimulus (like the bell) the ________ before conditioning began.",
+          "options": { "a": "Unconditioned Stimulus", "b": "Orienting Stimulus", "c": "Neutral Stimulus", "d": "Conditioned Stimulus" },
           "answer": "c"
         },
         {
           "number": 531,
-          "text": "The Law of Effect states that behaviours followed by an _______ state of affairs are less likely to be repeated.",
-          "options": { "a": "unpleasant", "b": "expected", "c": "reinforcing", "d": "intermittent" },
-          "answer": "a"
+          "text": "The reappearance of an extinguished CR suggests that extinction does not involve _______ the learned association.",
+          "options": { "a": "Strengthening", "b": "Completely erasing", "c": "Generalizing", "d": "Discriminating" },
+          "answer": "b"
         },
         {
           "number": 532,
-          "text": "A key difference between Thorndike's setup and Pavlov's was that in Thorndike's experiments:",
-          "options": { "a": "The animal was passive.", "b": "Only punishment was used.", "c": "The animal's behaviour determined the outcome (reward).", "d": "The reward was given regardless of the animal's behaviour." },
-          "answer": "c"
-        },
-        {
-          "number": 533,
-          "text": "Who coined the term 'operant behaviour'?",
-          "options": { "a": "Thorndike", "b": "Pavlov", "c": "Watson", "d": "Skinner" },
+          "text": "John B. Watson's work is most associated with which school of thought in psychology?",
+          "options": { "a": "Psychoanalysis", "b": "Cognitive Psychology", "c": "Humanistic Psychology", "d": "Behaviourism" },
           "answer": "d"
         },
         {
+          "number": 533,
+          "text": "Conditioned emotional responses, like fears or positive feelings triggered by certain stimuli, are primarily a result of:",
+          "options": { "a": "Operant Conditioning", "b": "Classical Conditioning", "c": "Implicit Learning", "d": "Observational Learning" },
+          "answer": "b"
+        },
+        {
           "number": 534,
-          "text": "Operant behaviour refers to behaviour that an organism performs that:",
-          "options": { "a": "Is purely reflexive.", "b": "Has some impact on the environment.", "c": "Is learned through association.", "d": "Occurs without awareness." },
+          "text": "The idea that a CS must reliably predict the US for strong conditioning to occur is central to:",
+          "options": { "a": "Thorndike's Law of Effect", "b": "The Rescorla-Wagner model", "c": "Skinner's theory of reinforcement", "d": "Pavlov's original findings" },
           "answer": "b"
         },
         {
           "number": 535,
-          "text": "Skinner believed most organisms actively engage the environment to reap rewards, much like:",
-          "options": { "a": "Dogs passively waiting in a harness", "b": "Cats actively solving a puzzle box", "c": "Aplysia habituating to touch", "d": "Little Albert fearing a rat" },
+          "text": "The cerebellum's role in classical conditioning appears most critical for learning involving:",
+          "options": { "a": "Emotional responses like fear", "b": "Simple motor responses like eyeblinks", "c": "Taste aversions", "d": "Complex cognitive expectations" },
           "answer": "b"
         },
         {
           "number": 536,
-          "text": "What is the Skinner box (or operant conditioning chamber) used for?",
-          "options": { "a": "Studying classical conditioning in dogs.", "b": "Measuring physiological responses.", "c": "Studying operant behaviour of small organisms in a controlled environment.", "d": "Testing intelligence in primates." },
+          "text": "The amygdala is to ______ conditioning as the cerebellum is to ______ conditioning.",
+          "options": { "a": "Taste; Eyeblink", "b": "Fear; Taste", "c": "Fear; Eyeblink", "d": "Eyeblink; Fear" },
           "answer": "c"
         },
         {
           "number": 537,
-          "text": "Skinner defined a reinforcer as any stimulus or event that:",
-          "options": { "a": "Decreases the likelihood of the behaviour that led to it.", "b": "Is biologically necessary.", "c": "Increases the likelihood of the behaviour that led to it.", "d": "Is perceived as pleasant." },
+          "text": "The evolutionary perspective emphasizes the _______ value of learning mechanisms.",
+          "options": { "a": "Cognitive", "b": "Emotional", "c": "Adaptive", "d": "Social" },
           "answer": "c"
         },
         {
           "number": 538,
-          "text": "Skinner defined a punisher as any stimulus or event that:",
-          "options": { "a": "Increases the likelihood of the behaviour that led to it.", "b": "Is perceived as unpleasant.", "c": "Decreases the likelihood of the behaviour that led to it.", "d": "Occurs naturally." },
+          "text": "Shepard Siegel's work highlights the importance of ________ in understanding drug tolerance and overdose.",
+          "options": { "a": "Operant principles", "b": "Observational learning", "c": "Classical conditioning", "d": "Implicit memory" },
           "answer": "c"
         },
         {
           "number": 539,
-          "text": "In Skinner's terminology, 'positive' refers to situations where a stimulus is _______, and 'negative' refers to situations where a stimulus is ______.",
-          "options": { "a": "good / bad", "b": "pleasant / unpleasant", "c": "presented / removed", "d": "increased / decreased" },
+          "text": "Thorndike referred to the type of learning he studied as instrumental because the organism's behavior was ________ in producing the outcome.",
+          "options": { "a": "Irrelevant", "b": "Accidental", "c": "Instrumental (key)", "d": "Reflexive" },
           "answer": "c"
         },
         {
           "number": 540,
-          "text": "What is positive reinforcement?",
-          "options": { "a": "A stimulus is removed, increasing behaviour.", "b": "A stimulus is presented, increasing behaviour.", "c": "A stimulus is removed, decreasing behaviour.", "d": "A stimulus is presented, decreasing behaviour." },
-          "answer": "b"
+          "text": "Skinner's approach emphasized the ________ control of behavior.",
+          "options": { "a": "Cognitive", "b": "Emotional", "c": "Environmental", "d": "Biological" },
+          "answer": "c"
         },
         {
           "number": 541,
-          "text": "What is negative reinforcement?",
-          "options": { "a": "A stimulus is removed, increasing behaviour.", "b": "A stimulus is presented, increasing behaviour.", "c": "A stimulus is removed, decreasing behaviour.", "d": "A stimulus is presented, decreasing behaviour." },
-          "answer": "a"
-        },
-        {
-          "number": 542,
-          "text": "What is positive punishment?",
-          "options": { "a": "A stimulus is removed, increasing behaviour.", "b": "A stimulus is presented, increasing behaviour.", "c": "A stimulus is removed, decreasing behaviour.", "d": "A stimulus is presented, decreasing behaviour." },
+          "text": "Negative reinforcement involves the ________ of an ________ stimulus.",
+          "options": { "a": "Presentation; appetitive", "b": "Removal; appetitive", "c": "Presentation; aversive", "d": "Removal; aversive" },
           "answer": "d"
         },
         {
+          "number": 542,
+          "text": "Positive punishment involves the ________ of an ________ stimulus.",
+          "options": { "a": "Presentation; appetitive", "b": "Removal; appetitive", "c": "Presentation; aversive", "d": "Removal; aversive" },
+          "answer": "c"
+        },
+        {
           "number": 543,
-          "text": "What is negative punishment?",
-          "options": { "a": "A stimulus is removed, increasing behaviour.", "b": "A stimulus is presented, increasing behaviour.", "c": "A stimulus is removed, decreasing behaviour.", "d": "A stimulus is presented, decreasing behaviour." },
+          "text": "Which is NOT a primary reinforcer?",
+          "options": { "a": "Food", "b": "Water", "c": "Money", "d": "Warmth" },
           "answer": "c"
         },
         {
           "number": 544,
-          "text": "A teenager getting their car keys taken away for speeding is an example of:",
-          "options": { "a": "Positive reinforcement", "b": "Negative reinforcement", "c": "Positive punishment", "d": "Negative punishment" },
-          "answer": "d"
-        },
-        {
-          "number": 545,
-          "text": "Taking an aspirin to get rid of a headache, which makes you more likely to take aspirin for headaches in the future, is an example of:",
-          "options": { "a": "Positive reinforcement", "b": "Negative reinforcement", "c": "Positive punishment", "d": "Negative punishment" },
+          "text": "Observational learning requires attention, retention, reproduction, and:",
+          "options": { "a": "Reinforcement", "b": "Motivation", "c": "Punishment", "d": "Extinction" },
           "answer": "b"
         },
         {
+          "number": 545,
+          "text": "Implicit learning often underlies the acquisition of:",
+          "options": { "a": "Explicit facts", "b": "Complex motor skills", "c": "Emotional responses", "d": "Grammar and social rules" },
+          "answer": "d"
+        },
+        {
           "number": 546,
-          "text": "Receiving praise (a presented stimulus) for doing well on an exam, making you study harder in the future, is an example of:",
-          "options": { "a": "Positive reinforcement", "b": "Negative reinforcement", "c": "Positive punishment", "d": "Negative punishment" },
-          "answer": "a"
+          "text": "Compared to classical conditioning, operant conditioning places more emphasis on behavior that is:",
+          "options": { "a": "Involuntary", "b": "Emitted rather than elicited", "c": "Reflexive", "d": "Associated with neutral stimuli" },
+          "answer": "b"
         },
         {
           "number": 547,
-          "text": "Getting a speeding ticket (a presented stimulus) that makes you less likely to speed in the future is an example of:",
-          "options": { "a": "Positive reinforcement", "b": "Negative reinforcement", "c": "Positive punishment", "d": "Negative punishment" },
+          "text": "A key takeaway from the 'Real World' box on drug overdoses is that ________ can become powerful conditioned stimuli.",
+          "options": { "a": "Internal mood states", "b": "The drug's chemical properties", "c": "Contextual cues", "d": "Genetic predispositions" },
           "answer": "c"
         },
         {
           "number": 548,
-          "text": "According to the text, reinforcement is generally more effective than punishment in promoting learning because punishment:",
-          "options": { "a": "Is always too severe.", "b": "Signals unacceptable behaviour but doesn't specify desired behaviour.", "c": "Only works if it's negative punishment.", "d": "Causes too much fear and anxiety." },
-          "answer": "b"
-        },
-        {
-          "number": 549,
-          "text": "Food, comfort, shelter, and warmth are examples of _______ reinforcers.",
-          "options": { "a": "secondary", "b": "conditioned", "c": "negative", "d": "primary" },
-          "answer": "d"
-        },
-        {
-          "number": 550,
-          "text": "Why are primary reinforcers effective?",
-          "options": { "a": "They are associated with other rewards.", "b": "They help satisfy biological needs or desires.", "c": "They are always presented immediately.", "d": "They only work for animals." },
-          "answer": "b"
-        },
-        {
-          "number": 551,
-          "text": "Money, verbal approval, and trophies are examples of _______ reinforcers.",
-          "options": { "a": "primary", "b": "unconditioned", "c": "secondary (or conditioned)", "d": "negative" },
+          "text": "If a conditioned fear is extinguished, it is most likely to reappear through:",
+          "options": { "a": "Generalization", "b": "Discrimination", "c": "Spontaneous recovery", "d": "Second-order conditioning" },
           "answer": "c"
         },
         {
+          "number": 549,
+          "text": "Learning to fear a specific intersection after witnessing an accident there is an example of:",
+          "options": { "a": "Operant Conditioning", "b": "Classical Conditioning (aversive)", "c": "Habituation", "d": "Implicit Learning" },
+          "answer": "b"
+        },
+        {
+          "number": 550,
+          "text": "Which process explains why a child might stop throwing tantrums if the tantrums are consistently ignored?",
+          "options": { "a": "Positive Punishment", "b": "Negative Punishment", "c": "Extinction (in operant conditioning)", "d": "Habituation" },
+          "answer": "c"
+        },
+        {
+          "number": 551,
+          "text": "The effectiveness of a token economy, where tokens earned for good behavior can be exchanged for rewards, relies on tokens acting as:",
+          "options": { "a": "Primary reinforcers", "b": "Secondary reinforcers", "c": "Negative punishers", "d": "Unconditioned stimuli" },
+          "answer": "b"
+        },
+        {
           "number": 552,
-          "text": "How do secondary reinforcers derive their effectiveness?",
-          "options": { "a": "From satisfying biological needs directly.", "b": "From their association with primary reinforcers through classical conditioning.", "c": "From being naturally rewarding.", "d": "From being presented on a fixed schedule." },
+          "text": "Biological preparedness suggests that certain associations are learned more readily because they:",
+          "options": { "a": "Are cognitively simpler", "b": "Have survival value", "c": "Involve primary reinforcers", "d": "Are taught explicitly" },
           "answer": "b"
         },
         {
           "number": 553,
-          "text": "What is a key determinant of the effectiveness of a reinforcer related to timing?",
-          "options": { "a": "The type of reinforcer used.", "b": "The amount of time between the behaviour and the reinforcer.", "c": "The time of day the behaviour occurs.", "d": "How long the reinforcer lasts." },
+          "text": "Getting praise from a teacher for a good answer is an example of:",
+          "options": { "a": "Primary reinforcement", "b": "Secondary reinforcement", "c": "Negative reinforcement", "d": "Positive punishment" },
           "answer": "b"
         },
         {
           "number": 554,
-          "text": "Generally, the _______ the delay between a behaviour and reinforcement, the _______ effective the reinforcer is.",
-          "options": { "a": "shorter / less", "b": "longer / more", "c": "longer / less", "d": "shorter / equally" },
-          "answer": "c"
+          "text": "According to the text, classical and operant conditioning are two major approaches within the broader topic of:",
+          "options": { "a": "Memory", "b": "Cognition", "c": "Motivation", "d": "Learning" },
+          "answer": "d"
         },
         {
           "number": 555,
-          "text": "The difficulty in quitting smoking or sticking to a diet can be partly explained by:",
-          "options": { "a": "The weakness of primary reinforcers.", "b": "The greater potency of immediate versus delayed reinforcement.", "c": "The overuse of punishment.", "d": "A lack of biological preparedness." },
-          "answer": "b"
+          "text": "The Rescorla-Wagner model emphasizes the ______ role in classical conditioning.",
+          "options": { "a": "Predictive", "b": "Emotional", "c": "Motor", "d": "Biological" },
+          "answer": "a"
         },
         {
           "number": 556,
-          "text": "Similar to reinforcement, the effectiveness of punishment _______ as the delay between the behaviour and the punishment increases.",
-          "options": { "a": "increases", "b": "decreases", "c": "stays the same", "d": "becomes unpredictable" },
+          "text": "Which learning concept is demonstrated when Aplysia withdraws its gill less strongly after repeated light touches?",
+          "options": { "a": "Sensitization", "b": "Habituation", "c": "Classical Conditioning", "d": "Operant Conditioning" },
           "answer": "b"
         },
         {
           "number": 557,
-          "text": "Strategies for increasing the effectiveness of delayed punishment include increasing severity and:",
-          "options": { "a": "Using only primary punishers.", "b": "Punishing intermittently.", "c": "Using verbal instructions to bridge the gap.", "d": "Ensuring the punishment is positive, not negative." },
+          "text": "Learning in the classroom, according to the chapter outline, represents a specific _______ where learning principles apply.",
+          "options": { "a": "Theory", "b": "Mechanism", "c": "Context", "d": "Outcome" },
           "answer": "c"
         },
         {
           "number": 558,
-          "text": "Learning often takes place in specific contexts, and behaviour may come under _______, developing when a response occurs only with an appropriate discriminative stimulus.",
-          "options": { "a": "extinction", "b": "generalization", "c": "stimulus control", "d": "sensitization" },
-          "answer": "c"
+          "text": "The case of Jennifer highlights how learning can lead to significant and sometimes ______ changes in behavior and emotion.",
+          "options": { "a": "Temporary", "b": "Maladaptive", "c": "Innate", "d": "Unconscious" },
+          "answer": "b"
         },
         {
           "number": 559,
-          "text": "What is a discriminative stimulus?",
-          "options": { "a": "A stimulus that automatically triggers a response.", "b": "A stimulus that indicates that a response will be reinforced.", "c": "A stimulus that has been paired with punishment.", "d": "A stimulus similar to the original conditioned stimulus." },
+          "text": "Thorndike's puzzle box experiments laid the groundwork for:",
+          "options": { "a": "Classical conditioning", "b": "Operant conditioning", "c": "Observational learning", "d": "Cognitive psychology" },
           "answer": "b"
         },
         {
           "number": 560,
-          "text": "Skinner described stimulus control using the 'three-term contingency'. What are the three terms?",
-          "options": { "a": "Stimulus, Response, Consequence", "b": "Discriminative Stimulus, Response, Reinforcer", "c": "CS, US, CR", "d": "Acquisition, Extinction, Recovery" },
-          "answer": "b"
+          "text": "Skinner defined reinforcement and punishment based on their observed effects on:",
+          "options": { "a": "Emotional state", "b": "Cognitive expectancy", "c": "Behavior frequency", "d": "Physiological response" },
+          "answer": "c"
         },
         {
           "number": 561,
-          "text": "The study where pigeons learned to discriminate between Monet and Picasso paintings demonstrates what principle in operant conditioning?",
-          "options": { "a": "Shaping", "b": "Stimulus control (including discrimination and generalization)", "c": "Negative reinforcement", "d": "Intermittent reinforcement effect" },
-          "answer": "b"
+          "text": "The primary difference between classical and operant conditioning lies in:",
+          "options": { "a": "The type of response (voluntary vs. involuntary)", "b": "The role of consequences", "c": "The necessity of pairing stimuli", "d": "All of the above" },
+          "answer": "d"
         },
         {
           "number": 562,
-          "text": "In operant conditioning, extinction occurs when:",
-          "options": { "a": "The discriminative stimulus is removed.", "b": "Reinforcement stops.", "c": "Punishment is introduced.", "d": "The behaviour is performed too frequently." },
+          "text": "A rat pressing a lever to receive food illustrates:",
+          "options": { "a": "Classical conditioning", "b": "Operant conditioning", "c": "Habituation", "d": "Observational learning" },
           "answer": "b"
         },
         {
           "number": 563,
-          "text": "Compared to classical conditioning, extinction in operant conditioning is more complicated because:",
-          "options": { "a": "Operant behaviours cannot be extinguished.", "b": "Reinforcement may not occur after every response (intermittent schedules).", "c": "Only punishment causes extinction.", "d": "Spontaneous recovery never happens." },
-          "answer": "b"
-        },
-        {
-          "number": 564,
-          "text": "Skinner's exploration of reinforcement schedules revealed that the _______ with which reinforcements appear is crucial in operant conditioning.",
-          "options": { "a": "intensity", "b": "type", "c": "pattern (schedule)", "d": "source" },
-          "answer": "c"
-        },
-        {
-          "number": 565,
-          "text": "What are the two main types of reinforcement schedules based on?",
-          "options": { "a": "Positive vs. Negative", "b": "Primary vs. Secondary", "c": "Interval (time) vs. Ratio (responses)", "d": "Continuous vs. Partial" },
-          "answer": "c"
-        },
-        {
-          "number": 566,
-          "text": "Under which schedule is reinforcement presented at fixed time periods, provided a response is made?",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
-          "answer": "c"
-        },
-        {
-          "number": 567,
-          "text": "The 'scalloped' pattern of responding (low rate after reinforcement, high rate before next interval) is characteristic of which schedule?",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
-          "answer": "c"
-        },
-        {
-          "number": 568,
-          "text": "Students cramming for exams just before the test date resembles behaviour on a _______ schedule.",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
-          "answer": "c"
-        },
-        {
-          "number": 569,
-          "text": "Under which schedule is reinforcement based on an average time elapsed since the last reinforcement?",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
-          "answer": "d"
-        },
-        {
-          "number": 570,
-          "text": "Which schedule typically produces steady, consistent responding because the time of the next reinforcement is unpredictable?",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
-          "answer": "d"
-        },
-        {
-          "number": 571,
-          "text": "Radio promotional giveaways that occur unpredictably around once per hour are an example of a _______ schedule.",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
-          "answer": "d"
-        },
-        {
-          "number": 572,
-          "text": "Under which schedule is reinforcement delivered after a specific number of responses have been made?",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
+          "text": "A dog learning to associate the sound of a can opener with food illustrates:",
+          "options": { "a": "Classical conditioning", "b": "Operant conditioning", "c": "Sensitization", "d": "Implicit learning" },
           "answer": "a"
-        },
-        {
-          "number": 573,
-          "text": "Piecework pay (payment after making a set number of items) operates on a _______ schedule.",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
-          "answer": "a"
-        },
-        {
-          "number": 574,
-          "text": "What is continuous reinforcement?",
-          "options": { "a": "Reinforcement given randomly.", "b": "Reinforcement given after every single response.", "c": "Reinforcement given after a fixed time interval.", "d": "Reinforcement given after an average number of responses." },
-          "answer": "b"
-        },
-        {
-          "number": 575,
-          "text": "Under which schedule is reinforcement based on a particular average number of responses?",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
-          "answer": "b"
-        },
-        {
-          "number": 576,
-          "text": "Slot machines in casinos typically pay out on a _______ schedule.",
-          "options": { "a": "Fixed Ratio (FR)", "b": "Variable Ratio (VR)", "c": "Fixed Interval (FI)", "d": "Variable Interval (VI)" },
-          "answer": "b"
-        },
-        {
-          "number": 577,
-          "text": "Which type of schedule generally produces the highest and most consistent rates of responding?",
-          "options": { "a": "Fixed Interval (FI)", "b": "Variable Interval (VI)", "c": "Fixed Ratio (FR)", "d": "Variable Ratio (VR)" },
-          "answer": "d"
-        },
-        {
-          "number": 578,
-          "text": "What is intermittent reinforcement?",
-          "options": { "a": "Reinforcement given after every response.", "b": "When only some of the responses made are followed by reinforcement.", "c": "Another term for punishment.", "d": "Reinforcement that satisfies biological needs." },
-          "answer": "b"
-        },
-        {
-          "number": 579,
-          "text": "What is the intermittent reinforcement effect?",
-          "options": { "a": "Behaviours learned quickly under intermittent reinforcement.", "b": "Behaviours maintained under intermittent schedules resist extinction better than those under continuous reinforcement.", "c": "Intermittent reinforcement is less effective than continuous reinforcement.", "d": "Organisms prefer intermittent reinforcement." },
-          "answer": "b"
-        },
-        {
-          "number": 580,
-          "text": "Why are behaviours on intermittent schedules more resistant to extinction?",
-          "options": { "a": "The reinforcement is stronger.", "b": "The organism forgets the behaviour less easily.", "c": "It's harder for the organism to detect when reinforcement has actually stopped.", "d": "Continuous reinforcement weakens the behaviour." },
-          "answer": "c"
-        },
-        {
-          "number": 581,
-          "text": "Behaviour maintained under which schedule would likely be most resistant to extinction?",
-          "options": { "a": "Continuous reinforcement (FR-1)", "b": "Fixed Interval (FI-1 minute)", "c": "Fixed Ratio (FR-10)", "d": "Variable Ratio (VR-100)" },
-          "answer": "d"
-        },
-        
-          {
-            "number": 582,
-            "text": "According to the text, how do dolphins learn complex sequences like those seen in aquarium shows?",
-            "options": {
-              "a": "They learn the entire sequence in one smooth motion through intense training.",
-              "b": "They are genetically predisposed to perform such aquabatics.",
-              "c": "Elements of their behaviour are shaped over time through successive approximations.",
-              "d": "They learn by observing older, trained dolphins performing the sequence."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 583,
-            "text": "What criticism did Skinner have regarding the trial-by-trial experiments of Pavlov and Thorndike?",
-            "options": {
-              "a": "They focused too much on punishment rather than reinforcement.",
-              "b": "They were too complex for animals to understand.",
-              "c": "They were rather artificial and didn't reflect how behaviour naturally occurs.",
-              "d": "They failed to account for cognitive processes in learning."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 584,
-            "text": "What is the definition of shaping provided in the text?",
-            "options": {
-              "a": "Learning that results from observing the actions of others.",
-              "b": "A type of learning where behaviour is controlled by consequences.",
-              "c": "Learning that results from the reinforcement of successive steps to a final desired behaviour.",
-              "d": "The process of learning through classical conditioning."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 585,
-            "text": "How do the outcomes of one set of behaviours influence the next set in the process of shaping?",
-            "options": {
-              "a": "They inhibit the next set of behaviours.",
-              "b": "They shape the next set of behaviours.",
-              "c": "They have no influence on subsequent behaviours.",
-              "d": "They trigger a punishment response."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 586,
-            "text": "What example is given for how parents use shaping to teach children complex skills?",
-            "options": {
-              "a": "Teaching language by correcting grammar.",
-              "b": "Teaching math by solving problems together.",
-              "c": "Teaching reading by sounding out letters.",
-              "d": "Teaching riding a bike by reinforcing successive necessary behaviours."
-            },
-            "answer": "d"
-          },
-          {
-            "number": 587,
-            "text": "In what year did Skinner realize the potential power of shaping while working on a wartime project?",
-            "options": { "a": "1938", "b": "1943", "c": "1958", "d": "1948" },
-            "answer": "b"
-          },
-          {
-            "number": 588,
-            "text": "What specific behaviour did Skinner and his colleagues try to teach pigeons in the flour mill lab?",
-            "options": {
-              "a": "To press a lever for food.",
-              "b": "To peck a specific key.",
-              "c": "To 'bowl' by swiping at a ball.",
-              "d": "To navigate a complex maze."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 589,
-            "text": "What was the initial step Skinner took that successfully started the shaping process for the pigeon bowling task?",
-            "options": {
-              "a": "Reinforcing only perfect swipes.",
-              "b": "Reinforcing looking at the ball.",
-              "c": "Punishing incorrect movements.",
-              "d": "Showing the pigeon how to swipe."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 590,
-            "text": "Why is it difficult to get a rat in a Skinner box to press the bar without shaping?",
-            "options": {
-              "a": "Rats are naturally afraid of levers.",
-              "b": "Bar pressing is not high in a rat's natural hierarchy of responses.",
-              "c": "Rats cannot see the bar clearly in the box.",
-              "d": "The food reward is not motivating enough."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 591,
-            "text": "Which of the following is the first step described in shaping a rat to press a bar?",
-            "options": {
-              "a": "Reinforcing touching the bar.",
-              "b": "Reinforcing taking a step towards the bar.",
-              "c": "Reinforcing turning in the direction of the bar.",
-              "d": "Reinforcing standing near the bar."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 592,
-            "text": "What term is used to describe each behaviour that gets incrementally closer to the overall desired behaviour during shaping?",
-            "options": {
-              "a": "Conditioned response",
-              "b": "Operant behaviour",
-              "c": "Successive approximation",
-              "d": "Reinforced action"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 593,
-            "text": "In the example of B.F. Skinner shaping the dog Agnes, what was Agnes being reinforced for?",
-            "options": {
-              "a": "Sitting quietly on the floor.",
-              "b": "Barking at the correct time.",
-              "c": "Touching successively higher lines on the wall.",
-              "d": "Fetching a specific object."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 594,
-            "text": "According to the text, what is one of the keys to establishing reliable operant behaviours?",
-            "options": {
-              "a": "The intensity of the stimulus.",
-              "b": "The correlation between response and reinforcement.",
-              "c": "The complexity of the desired behaviour.",
-              "d": "The species of the organism."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 595,
-            "text": "How does the correlation between response and reinforcement differ between continuous and intermittent reinforcement?",
-            "options": {
-              "a": "It is stronger in intermittent reinforcement.",
-              "b": "It is perfect (one-to-one) in continuous reinforcement and weaker in intermittent.",
-              "c": "It is absent in continuous reinforcement but present in intermittent.",
-              "d": "It is equally strong in both types."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 596,
-            "text": "What important principle from the Methods in Psychology chapter is relevant to understanding superstitious behaviour?",
-            "options": {
-              "a": "Operational definitions are crucial for measurement.",
-              "b": "Random assignment is necessary for causal claims.",
-              "c": "Correlation does not imply causation.",
-              "d": "Ethical considerations must guide research."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 597,
-            "text": "In Skinner's (1948) experiment illustrating superstitious behaviour, how often was food delivered to the pigeons?",
-            "options": {
-              "a": "Every time they pecked a key.",
-              "b": "Randomly.",
-              "c": "Every 15 seconds.",
-              "d": "Only when they performed a specific action."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 598,
-            "text": "What kinds of behaviours did Skinner observe in the pigeons in his superstitious behaviour experiment?",
-            "options": {
-              "a": "Only bar pressing.",
-              "b": "Aggressive behaviours towards each other.",
-              "c": "Sleeping most of the time.",
-              "d": "Odd, idiosyncratic behaviours like pecking corners or turning circles."
-            },
-            "answer": "d"
-          },
-          {
-            "number": 599,
-            "text": "How did Skinner explain the occurrence of 'superstitious' behaviours in his pigeons?",
-            "options": {
-              "a": "The pigeons were intentionally trying to make food appear.",
-              "b": "The behaviours were genetically programmed responses to confinement.",
-              "c": "The pigeons were repeating behaviours that had been accidentally reinforced.",
-              "d": "The behaviours were a sign of neurological distress."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 600,
-            "text": "What example of human superstition is mentioned in relation to accidental correlation?",
-            "options": {
-              "a": "Avoiding black cats.",
-              "b": "Knocking on wood.",
-              "c": "Baseball players not showering after playing well.",
-              "d": "Believing in lucky numbers."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 601,
-            "text": "Which researchers questioned Skinner's characterization of pigeon behaviours as superstitious?",
-            "options": {
-              "a": "Pavlov and Thorndike",
-              "b": "Watson and Rayner",
-              "c": "Staddon & Simmelhag",
-              "d": "Olds and Milner"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 602,
-            "text": "Subsequent studies on humans found that superstitious behaviour can be produced by reinforcing adults or children using schedules where reinforcement is:",
-            "options": {
-              "a": "delivered very frequently.",
-              "b": "contingent on complex responses.",
-              "c": "not contingent on their responses.",
-              "d": "delayed significantly after the response."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 603,
-            "text": "Like Watson before him, Skinner was satisfied to observe behaviour without looking for deeper explanations involving:",
-            "options": {
-              "a": "evolutionary influences.",
-              "b": "genetic predispositions.",
-              "c": "mental processes.",
-              "d": "social learning."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 604,
-            "text": "According to the behaviorist view described, why does an organism behave in a certain way?",
-            "options": {
-              "a": "Because it wants or wishes to.",
-              "b": "In response to stimuli in the environment.",
-              "c": "Due to unconscious desires.",
-              "d": "Based on logical reasoning."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 605,
-            "text": "What three elements are examined to expand the view of operant conditioning beyond Skinner's initial framework?",
-            "options": {
-              "a": "Stimulus, response, and reinforcement",
-              "b": "Classical, operant, and observational",
-              "c": "Cognitive, neural, and evolutionary",
-              "d": "Perception, memory, and attention"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 606,
-            "text": "Who was one of the first researchers to question Skinner's strictly behaviourist interpretation and advocate a cognitive approach to operant learning?",
-            "options": {
-              "a": "Ivan Pavlov",
-              "b": "John B. Watson",
-              "c": "Edward Chace Tolman",
-              "d": "Albert Bandura"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 607,
-            "text": "What did Tolman propose that an animal established through conditioning experience?",
-            "options": {
-              "a": "A simple stimulus-response connection.",
-              "b": "A means-ends relationship.",
-              "c": "A fixed action pattern.",
-              "d": "A conditioned emotional response."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 608,
-            "text": "Tolman's means-ends relationship concept suggests that conditioning produces knowledge or a belief that:",
-            "options": {
-              "a": "a specific stimulus automatically triggers a response.",
-              "b": "all stimuli are equally learnable.",
-              "c": "a specific reward will appear if a specific response is made in a situation.",
-              "d": "learning can only occur with immediate reinforcement."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 609,
-            "text": "How is Tolman's theory similar to the Rescorla-Wagner model of classical conditioning?",
-            "options": {
-              "a": "Both emphasize the role of punishment.",
-              "b": "Both focus exclusively on observable behaviour.",
-              "c": "Both suggest stimuli establish internal cognitive states (expectations) that produce behaviour.",
-              "d": "Both deny the importance of reinforcement."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 610,
-            "text": "Cognitive theories of learning, like Tolman's, focus less on the stimulus-response (S-R) connection and more on:",
-            "options": {
-              "a": "the physiological changes during learning.",
-              "b": "what happens in the organism's mind.",
-              "c": "the schedule of reinforcement.",
-              "d": "the evolutionary history of the organism."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 611,
-            "text": "What two phenomena did Tolman study that strongly suggest simple S-R interpretations are inadequate?",
-            "options": {
-              "a": "Shaping and chaining",
-              "b": "Classical and operant conditioning",
-              "c": "Latent learning and cognitive maps",
-              "d": "Habituation and sensitization"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 612,
-            "text": "What is latent learning?",
-            "options": {
-              "a": "Learning that occurs rapidly after a single trial.",
-              "b": "Learning that is immediately demonstrated in behaviour.",
-              "c": "Learning that occurs through observation.",
-              "d": "Learning that is not manifested as a behavioural change until sometime in the future."
-            },
-            "answer": "d"
-          },
-          {
-            "number": 613,
-            "text": "Tolman & Honzik's (1930a) latent learning experiment challenged the behaviourist position by showing that learning occurred:",
-            "options": {
-              "a": "only with continuous reinforcement.",
-              "b": "faster with punishment than reinforcement.",
-              "c": "without any obvious reinforcement.",
-              "d": "only in highly intelligent animals."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 614,
-            "text": "In Tolman's maze experiment (Figure 7.10), which group of rats showed a dramatic improvement in performance after day 10?",
-            "options": {
-              "a": "The control group (never reinforced).",
-              "b": "The regularly reinforced group.",
-              "c": "The group reinforced only for the first 10 days.",
-              "d": "The group treated like the control group for 10 days, then reinforced."
-            },
-            "answer": "d"
-          },
-          {
-            "number": 615,
-            "text": "What did the results of the latent learning experiment suggest the third group of rats had learned during the first 10 days?",
-            "options": {
-              "a": "Nothing significant about the maze.",
-              "b": "Only how to avoid wrong turns.",
-              "c": "A lot about the maze and the goal box location, despite no reinforcement.",
-              "d": "To fear the maze environment."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 616,
-            "text": "What is a cognitive map, according to Tolman?",
-            "options": {
-              "a": "A sequence of stimulus-response associations.",
-              "b": "A physical map provided by the experimenter.",
-              "c": "A mental representation of the physical features of the environment.",
-              "d": "A diagram of neural pathways involved in learning."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 617,
-            "text": "In Tolman's experiment testing cognitive maps (Figure 7.11), rats were initially trained in a maze (a). What change was made in the test phase (b)?",
-            "options": {
-              "a": "The maze was mirrored left-to-right.",
-              "b": "The start and goal boxes were switched.",
-              "c": "The original path was blocked, and alternative paths were available.",
-              "d": "The lighting conditions were changed."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 618,
-            "text": "When faced with the blocked path in Figure 7.11b, what did Tolman's rats typically do?",
-            "options": {
-              "a": "Gave up and didn't explore.",
-              "b": "Showed stimulus generalization and chose the path closest to the original.",
-              "c": "Chose the path that led most directly towards the goal box's original location.",
-              "d": "Randomly chose one of the new paths."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 619,
-            "text": "What do latent learning and cognitive maps together suggest about operant conditioning?",
-            "options": {
-              "a": "It only involves responding to stimuli.",
-              "b": "It is identical to classical conditioning.",
-              "c": "It involves cognitive components, even in rats.",
-              "d": "It is primarily driven by punishment."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 620,
-            "text": "The discovery of what phenomenon provided the first hint about specific brain structures involved in reinforcement?",
-            "options": {
-              "a": "Long-term potentiation",
-              "b": "Neurotransmitters",
-              "c": "Pleasure centres",
-              "d": "Split-brain effects"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 621,
-            "text": "Which researchers discovered pleasure centres by allowing rats to control electrical stimulation of their own brains?",
-            "options": {
-              "a": "Tolman and Honzik",
-              "b": "Skinner and Watson",
-              "c": "Olds and Milner",
-              "d": "Rescorla and Wagner"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 622,
-            "text": "What behaviour did rats exhibit when stimulating these 'pleasure centres'?",
-            "options": {
-              "a": "They avoided pressing the bar.",
-              "b": "They pressed the bar occasionally.",
-              "c": "They pressed the bar repeatedly, ignoring basic needs like food and water.",
-              "d": "They showed signs of distress and fear."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 623,
-            "text": "Neurons in which pathway are identified as most susceptible to stimulation that produces pleasure?",
-            "options": {
-              "a": "The corticospinal tract",
-              "b": "The spinothalamic tract",
-              "c": "The medial forebrain bundle",
-              "d": "The visual pathway"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 624,
-            "text": "The medial forebrain bundle runs from the midbrain through the hypothalamus into which structure?",
-            "options": {
-              "a": "Amygdala",
-              "b": "Hippocampus",
-              "c": "Cerebellum",
-              "d": "Nucleus accumbens"
-            },
-            "answer": "d"
-          },
-          {
-            "number": 625,
-            "text": "What type of neurotransmitter do neurons along the pleasure pathway, especially in the nucleus accumbens, primarily secrete?",
-            "options": { "a": "Serotonin", "b": "Acetylcholine", "c": "GABA", "d": "Dopamine" },
-            "answer": "d"
-          },
-          {
-            "number": 626,
-            "text": "Higher levels of dopamine in the brain are usually associated with:",
-            "options": {
-              "a": "Negative emotions and anxiety.",
-              "b": "Sleep and relaxation.",
-              "c": "Positive emotions.",
-              "d": "Pain perception."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 627,
-            "text": "What are the competing hypotheses mentioned regarding the precise role of dopamine in reward?",
-            "options": {
-              "a": "Dopamine controls motor movement vs. sensory perception.",
-              "b": "Dopamine is linked to expectation/wanting/craving vs. the reward/liking itself.",
-              "c": "Dopamine causes pleasure vs. reduces pain.",
-              "d": "Dopamine regulates short-term vs. long-term memory."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 628,
-            "text": "What happens when drugs that block the action of dopamine are administered to rats self-stimulating pleasure centres?",
-            "options": {
-              "a": "They stimulate even more intensely.",
-              "b": "There is no change in behaviour.",
-              "c": "They cease stimulating the pleasure centres.",
-              "d": "They show withdrawal symptoms."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 629,
-            "text": "Drugs like cocaine, amphetamine, and opiates have reinforcing effects partly because they:",
-            "options": {
-              "a": "block dopamine pathways.",
-              "b": "activate dopamine pathways and centres.",
-              "c": "increase serotonin levels.",
-              "d": "decrease GABA activity."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 630,
-            "text": "fMRI studies show increased activity in the nucleus accumbens in response to:",
-            "options": {
-              "a": "Threatening stimuli.",
-              "b": "Painful procedures.",
-              "c": "Pictures of attractive women (in heterosexual men) and anticipated money.",
-              "d": "Complex mathematical problems."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 631,
-            "text": "Under what condition does dopamine secretion increase in the nucleus accumbens when rats receive primary reinforcers (like food) or engage in sexual activity?",
-            "options": {
-              "a": "Only when they are satiated or not aroused.",
-              "b": "Regardless of their motivational state.",
-              "c": "Only when they are hungry, thirsty, or sexually aroused.",
-              "d": "Only during sleep."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 632,
-            "text": "The text suggests that the biological structures underlying rewards likely evolved to ensure species engaged in activities related to:",
-            "options": {
-              "a": "Complex problem solving.",
-              "b": "Artistic expression.",
-              "c": "Survival and reproduction.",
-              "d": "Social dominance."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 633,
-            "text": "In the 'trust' game study by Delgado et al. (2005), participants could keep $1 or transfer it to a partner who would receive $3. What could the partner then do?",
-            "options": {
-              "a": "Keep the $3 or return $1 to the participant.",
-              "b": "Keep the $3 or share half ($1.50) with the participant.",
-              "c": "Only keep the $3.",
-              "d": "Only share half ($1.50) with the participant."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 634,
-            "text": "How did participants typically learn who was trustworthy in the trust game?",
-            "options": {
-              "a": "They were told explicitly by the experimenter.",
-              "b": "Based on the partner's appearance.",
-              "c": "Through trial-and-error learning based on sharing behaviour.",
-              "d": "By guessing randomly."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 635,
-            "text": "In the Delgado et al. study, how did providing descriptions of partners (trustworthy, neutral, suspect) affect participants' behaviour, even when all partners shared equally?",
-            "options": {
-              "a": "It had no effect; behaviour was based only on trial-and-error.",
-              "b": "Participants transferred less money to the trustworthy partner.",
-              "c": "Participants transferred more money to the trustworthy partner, ignoring trial-by-trial feedback.",
-              "d": "Participants transferred equal amounts to all partners."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 636,
-            "text": "Brain signals distinguishing positive and negative feedback were only evident when participants played with which type of partner in the Delgado et al. study?",
-            "options": {
-              "a": "Trustworthy partner",
-              "b": "Suspect partner",
-              "c": "Neutral partner",
-              "d": "All partners equally"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 637,
-            "text": "The case of Bernard Madoff is used to illustrate how powerful cognitions (like trust) might cause people to:",
-            "options": {
-              "a": "invest more wisely.",
-              "b": "miss danger signals and fail to learn from feedback.",
-              "c": "become overly suspicious.",
-              "d": "verify information more carefully."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 638,
-            "text": "What 'curious observation' in early T maze studies contradicted standard operant conditioning principles?",
-            "options": {
-              "a": "Rats learned the maze faster when hungry.",
-              "b": "If a rat found food in one arm, it often ran down the other arm on the next trial.",
-              "c": "Rats preferred turning left over turning right.",
-              "d": "Reinforcement had no effect on maze learning."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 639,
-            "text": "From an evolutionary perspective, why might a rat choose the opposite arm of a T maze on the next trial after finding food?",
-            "options": {
-              "a": "It forgot where the food was.",
-              "b": "It's a random behaviour pattern.",
-              "c": "It's consistent with a foraging strategy to search new locations for food.",
-              "d": "It's trying to confuse the experimenter."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 640,
-            "text": "What kind of spatial abilities do foraging animals like rats possess?",
-            "options": {
-              "a": "Poor spatial memory.",
-              "b": "Ability to only remember the last place food was found.",
-              "c": "Well-developed spatial representations for efficient searching.",
-              "d": "Reliance solely on scent trails."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 641,
-            "text": "In the complex multiarm maze (Figure 7.14), how do rats typically search for food?",
-            "options": {
-              "a": "Randomly entering arms.",
-              "b": "Repeatedly visiting the same few arms.",
-              "c": "Systematically going from arm to arm, rarely returning to previously visited ones.",
-              "d": "Following a fixed sequence regardless of food location."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 642,
-            "text": "Who were Keller and Marian Breland in relation to B.F. Skinner?",
-            "options": {
-              "a": "His mentors",
-              "b": "His colleagues",
-              "c": "His former students",
-              "d": "His critics from classical conditioning"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 643,
-            "text": "What problem did the Brelands encounter when trying to train pigs to drop coins in a box?",
-            "options": {
-              "a": "The pigs couldn't physically pick up the coins.",
-              "b": "The pigs persisted in rooting with the coins.",
-              "c": "The pigs were afraid of the box.",
-              "d": "The pigs quickly lost interest."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 644,
-            "text": "What did raccoons do instead of dropping coins in the box when trained by the Brelands?",
-            "options": {
-              "a": "They ate the coins.",
-              "b": "They hid the coins.",
-              "c": "They threw the coins out of the box.",
-              "d": "They rubbed the coins between their paws."
-            },
-            "answer": "d"
-          },
-          {
-            "number": 645,
-            "text": "How did the Brelands explain the 'misbehaviour' of the pigs and raccoons?",
-            "options": {
-              "a": "The animals were not intelligent enough.",
-              "b": "The reinforcement schedule was wrong.",
-              "c": "The animals began to treat the coins like food, engaging in biologically predisposed behaviours.",
-              "d": "The training environment was too stressful."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 646,
-            "text": "The Brelands' work suggests that all species are biologically predisposed to learn some things more readily than others, consistent with their:",
-            "options": {
-              "a": "individual intelligence.",
-              "b": "social ranking.",
-              "c": "evolutionary history.",
-              "d": "current motivational state."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 647,
-            "text": "Why might evolved adaptive behaviours lead an organism 'astray'?",
-            "options": {
-              "a": "Evolution always produces perfect adaptations.",
-              "b": "If environmental circumstances change from those in which the behaviour evolved.",
-              "c": "Learning overrides all evolved behaviours.",
-              "d": "Organisms intentionally misuse their adaptations."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 648,
-            "text": "What is reward prediction error?",
-            "options": {
-              "a": "The error made when predicting the timing of a reward.",
-              "b": "The difference between the actual reward received and the predicted/expected reward.",
-              "c": "The tendency to overestimate the value of a reward.",
-              "d": "An error in the brain's reward pathway."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 649,
-            "text": "A positive prediction error occurs when the outcome is _______, leading the animal to _______ the behaviour.",
-            "options": {
-              "a": "worse-than-expected; repeat",
-              "b": "better-than-expected; be less likely to repeat",
-              "c": "worse-than-expected; be less likely to repeat",
-              "d": "better-than-expected; learn to repeat"
-            },
-            "answer": "d"
-          },
-          {
-            "number": 650,
-            "text": "A negative prediction error occurs when the outcome is _______, leading the animal to _______ the behaviour.",
-            "options": {
-              "a": "worse-than-expected; repeat",
-              "b": "better-than-expected; be less likely to repeat",
-              "c": "worse-than-expected; be less likely to repeat",
-              "d": "better-than-expected; learn to repeat"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 651,
-            "text": "Wolfram Schultz's studies on monkeys found that dopamine neuron activity increased when monkeys received _______ rewards.",
-            "options": { "a": "expected", "b": "delayed", "c": "unexpected", "d": "small" },
-            "answer": "c"
-          },
-          {
-            "number": 652,
-            "text": "Schultz found dopamine neuron activity decreased when monkeys:",
-            "options": {
-              "a": "received unexpected rewards.",
-              "b": "received expected rewards.",
-              "c": "did not receive expected rewards.",
-              "d": "were performing the task correctly."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 653,
-            "text": "These findings suggest dopamine neurons play a key role in generating:",
-            "options": {
-              "a": "the motor response.",
-              "b": "the expectation of reward.",
-              "c": "the reward prediction error signal.",
-              "d": "the memory of the reward."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 654,
-            "text": "Parkinson's disease involves the loss of neurons that produce which neurotransmitter?",
-            "options": { "a": "Serotonin", "b": "Acetylcholine", "c": "Dopamine", "d": "GABA" },
-            "answer": "c"
-          },
-          {
-            "number": 655,
-            "text": "How does the drug L-dopa help treat Parkinson's disease?",
-            "options": {
-              "a": "It blocks dopamine receptors.",
-              "b": "It increases serotonin production.",
-              "c": "It spurs surviving neurons to produce more dopamine.",
-              "d": "It prevents dopamine breakdown."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 656,
-            "text": "Research suggests that in individuals with Parkinson's performing reward-related tasks, the reward prediction error signal is:",
-            "options": { "a": "enhanced", "b": "unchanged", "c": "disrupted", "d": "irrelevant" },
-            "answer": "c"
-          },
-          {
-            "number": 657,
-            "text": "What problems are sometimes associated with Parkinson's drugs that stimulate dopamine receptors?",
-            "options": {
-              "a": "Increased anxiety and depression.",
-              "b": "Memory loss.",
-              "c": "Compulsive gambling, shopping, and impulsive behaviours.",
-              "d": "Excessive sleepiness."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 658,
-            "text": "In the study by Rigoli and colleagues (2016), what effect did administering L-dopa have on healthy adults performing a gambling task?",
-            "options": {
-              "a": "It decreased their propensity to gamble.",
-              "b": "It had no effect on their gambling behaviour.",
-              "c": "It increased their propensity to gamble.",
-              "d": "It made them choose the guaranteed reward more often."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 659,
-            "text": "What is observational learning?",
-            "options": {
-              "a": "Learning through trial and error.",
-              "b": "Learning by watching the actions of others.",
-              "c": "Learning via reinforcement and punishment.",
-              "d": "Implicit learning without awareness."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 660,
-            "text": "In the example of Rodney and Margie, how did Margie learn to keep away from the stove?",
-            "options": {
-              "a": "She was punished for touching it.",
-              "b": "She was reinforced for staying away.",
-              "c": "She touched it and got burned like Rodney.",
-              "d": "She learned by watching Rodney get burned."
-            },
-            "answer": "d"
-          },
-          {
-            "number": 661,
-            "text": "According to Bandura (1965), how are appropriate social behaviours primarily passed on in societies?",
-            "options": {
-              "a": "Through genetic inheritance.",
-              "b": "Through explicit instruction manuals.",
-              "c": "Largely through observation.",
-              "d": "Through trial-and-error learning."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 662,
-            "text": "What common examples of observational learning are mentioned in the text?",
-            "options": {
-              "a": "Learning to walk and talk.",
-              "b": "Learning historical facts and dates.",
-              "c": "Using chopsticks, operating a remote control, performing surgery.",
-              "d": "Developing phobias and anxieties."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 663,
-            "text": "Who investigated the parameters of observational learning in a famous series of studies involving a Bobo doll?",
-            "options": {
-              "a": "B. F. Skinner",
-              "b": "Edward Tolman",
-              "c": "Ivan Pavlov",
-              "d": "Albert Bandura"
-            },
-            "answer": "d"
-          },
-          {
-            "number": 664,
-            "text": "In Bandura's Bobo doll experiment, what did the adult model do?",
-            "options": {
-              "a": "Played gently with the Bobo doll.",
-              "b": "Ignored the Bobo doll.",
-              "c": "Acted aggressively towards the Bobo doll.",
-              "d": "Assembled the Bobo doll."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 665,
-            "text": "Compared to children who didn't observe the aggressive model, how did children who observed the model behave towards the Bobo doll?",
-            "options": {
-              "a": "They were less likely to interact with it.",
-              "b": "They interacted with it in the same way.",
-              "c": "They were more than twice as likely to interact aggressively.",
-              "d": "They tried to protect the doll from harm."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 666,
-            "text": "How did the consequences observed by the children (model being punished vs. rewarded) affect their subsequent aggression?",
-            "options": {
-              "a": "It had no effect on their aggression.",
-              "b": "Observing punishment increased aggression, reward decreased it.",
-              "c": "Observing punishment decreased aggression, reward increased it.",
-              "d": "Both punishment and reward decreased aggression."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 667,
-            "text": "Research linking media violence exposure to aggression suggests that _______ is one of the responsible mechanisms.",
-            "options": {
-              "a": "classical conditioning",
-              "b": "operant conditioning",
-              "c": "observational learning",
-              "d": "latent learning"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 668,
-            "text": "What is a diffusion chain in the context of observational learning?",
-            "options": {
-              "a": "A series of reinforcements leading to a behaviour.",
-              "b": "The gradual weakening of a learned response.",
-              "c": "A process where individuals learn by observing, then become models for others.",
-              "d": "The spread of information through explicit teaching."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 669,
-            "text": "Experiments showed that novel tool use could be spread through diffusion chains involving how many children?",
-            "options": {
-              "a": "Only 2-3 children",
-              "b": "Up to 5 children",
-              "c": "Across 10 and even 20 children",
-              "d": "Diffusion chains were not effective for tool use"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 670,
-            "text": "Studies of athletes indicate that they rely _______ on observational learning to improve critical skills.",
-            "options": { "a": "rarely", "b": "occasionally", "c": "heavily", "d": "only initially" },
-            "answer": "c"
-          },
-          {
-            "number": 671,
-            "text": "Can observing someone perform a motor task lead to learning in the observer, even without practice?",
-            "options": {
-              "a": "No, physical practice is always required.",
-              "b": "Yes, observation can produce robust learning, sometimes as much as practice.",
-              "c": "Yes, but only for very simple tasks.",
-              "d": "No, observation only helps with understanding, not performance."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 672,
-            "text": "Observational learning is suggested to be especially effective when observing:",
-            "options": {
-              "a": "only experts.",
-              "b": "only novices.",
-              "c": "both experts and novices.",
-              "d": "someone of the same age."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 673,
-            "text": "How does interrupting performance affect observational learning compared to physical motor learning?",
-            "options": {
-              "a": "It impairs both equally.",
-              "b": "It impairs physical learning but has no impact on observational learning.",
-              "c": "It impairs observational learning but has no impact on physical learning.",
-              "d": "It enhances both types of learning."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 674,
-            "text": "In the study with rhesus monkeys, how did lab-raised monkeys develop a fear of snakes?",
-            "options": {
-              "a": "Through classical conditioning (pairing snake with shock).",
-              "b": "They were born with an innate fear.",
-              "c": "By observing the fear reactions of other monkeys.",
-              "d": "They never developed a fear of snakes."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 675,
-            "text": "The fact that lab-raised monkeys could serve as models for fear learning in other monkeys resembles what phenomenon seen in children?",
-            "options": {
-              "a": "Shaping",
-              "b": "Latent learning",
-              "c": "Diffusion chains",
-              "d": "Instinctive drift"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 676,
-            "text": "The findings on monkeys learning snake fear support the idea of evolved biological _______ for specific behaviours/fears.",
-            "options": {
-              "a": "flexibility",
-              "b": "predispositions",
-              "c": "irrelevance",
-              "d": "complexity"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 677,
-            "text": "In the study by Nagell et al. (1993) on chimpanzee tool use, what did chimpanzees primarily learn from observing the experimenter use a rake?",
-            "options": {
-              "a": "The specific, efficient way to use the rake ('teeth up').",
-              "b": "That the rake could be used to obtain food.",
-              "c": "To avoid using the rake.",
-              "d": "How to build their own rake."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 678,
-            "text": "How did 2-year-old children differ from chimpanzees in the rake experiment?",
-            "options": {
-              "a": "Children failed to learn anything from observation.",
-              "b": "Children learned only that the rake could obtain food.",
-              "c": "Children learned the specific way the experimenter used the rake.",
-              "d": "Children used the rake less efficiently than chimpanzees."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 679,
-            "text": "What is the enculturation hypothesis proposed by Tomasello and colleagues?",
-            "options": {
-              "a": "Animals cannot learn through observation.",
-              "b": "Being raised in a human culture enhances chimpanzees' cognitive abilities, like understanding intentions.",
-              "c": "Observational learning is solely determined by genetics.",
-              "d": "All primates share the same capacity for observational learning."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 680,
-            "text": "In the study with capuchin monkeys using a screwdriver (Fredman & Whiten, 2008), which group was more likely to imitate the exact action observed (poking vs. prying)?",
-            "options": {
-              "a": "The control group (no observation).",
-              "b": "The mother-reared monkeys.",
-              "c": "The human-reared monkeys.",
-              "d": "Both mother-reared and human-reared imitated equally."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 681,
-            "text": "What type of neural cells fire both when an animal performs an action and when it observes someone else perform the same task?",
-            "options": {
-              "a": "Glial cells",
-              "b": "Sensory neurons",
-              "c": "Motor neurons",
-              "d": "Mirror neurons"
-            },
-            "answer": "d"
-          },
-          {
-            "number": 682,
-            "text": "Mirror neurons are thought to be located in which lobes of the brain?",
-            "options": {
-              "a": "Occipital and temporal lobes",
-              "b": "Temporal and parietal lobes",
-              "c": "Frontal and parietal lobes",
-              "d": "Occipital and frontal lobes"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 683,
-            "text": "Observing humans grasp food caused mirror neurons to fire in monkeys. This suggests mirror neurons might respond to actions performed by:",
-            "options": {
-              "a": "only members of the same species.",
-              "b": "only primates.",
-              "c": "members of other species as well.",
-              "d": "only inanimate objects."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 684,
-            "text": "What potential roles are suggested for mirror neurons?",
-            "options": {
-              "a": "Regulating sleep cycles.",
-              "b": "Processing basic sensory information.",
-              "c": "Imitation of behaviour and prediction of future behaviour.",
-              "d": "Controlling involuntary reflexes."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 685,
-            "text": "fMRI studies of observational learning in humans show that watching someone else perform a task engages _______ brain regions as actually performing the task.",
-            "options": {
-              "a": "completely different",
-              "b": "some of the same",
-              "c": "more primitive",
-              "d": "fewer"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 686,
-            "text": "In the fMRI study on learning dance sequences (Cross et al., 2009), viewing previously watched sequences compared to untrained sequences recruited brain networks including:",
-            "options": {
-              "a": "only visual cortex.",
-              "b": "only motor cortex.",
-              "c": "regions considered part of the mirror neuron system.",
-              "d": "the amygdala and hippocampus exclusively."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 687,
-            "text": "The dance study (Cross et al., 2009) found that performance was best on sequences that were:",
-            "options": {
-              "a": "untrained.",
-              "b": "previously watched.",
-              "c": "previously danced.",
-              "d": "both watched and danced equally."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 688,
-            "text": "Observational learning of complex reaching movements relies on which brain region, as shown by TMS studies?",
-            "options": {
-              "a": "Visual cortex",
-              "b": "Motor cortex",
-              "c": "Prefrontal cortex",
-              "d": "Cerebellum"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 689,
-            "text": "Applying TMS to the motor cortex _______ the amount of observational learning for motor skills.",
-            "options": {
-              "a": "greatly reduced",
-              "b": "slightly increased",
-              "c": "had no effect on",
-              "d": "doubled"
-            },
-            "answer": "a"
-          },
-          {
-            "number": 690,
-            "text": "Observational learning is mentioned as one mechanism perpetuating _______ in First Nations and other equity-deserving groups in Canada.",
-            "options": {
-              "a": "cultural traditions",
-              "b": "language acquisition",
-              "c": "intergenerational trauma",
-              "d": "economic prosperity"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 691,
-            "text": "What is implicit learning?",
-            "options": {
-              "a": "Learning that requires conscious effort and attention.",
-              "b": "Learning through direct instruction.",
-              "c": "Learning that takes place largely independent of awareness.",
-              "d": "Learning that results from reinforcement."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 692,
-            "text": "Which very simple kind of implicit learning involves a reduced response to repeated exposure to a stimulus?",
-            "options": {
-              "a": "Sensitization",
-              "b": "Shaping",
-              "c": "Habituation",
-              "d": "Observational learning"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 693,
-            "text": "How does the text contrast the process of learning to drive initially versus later on?",
-            "options": {
-              "a": "It starts implicit and becomes explicit.",
-              "b": "It starts explicit and becomes more implicit/automatic over time.",
-              "c": "It remains entirely explicit.",
-              "d": "It remains entirely implicit."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 694,
-            "text": "How do implicit/explicit learning typically differ from implicit/explicit memory?",
-            "options": {
-              "a": "There is no difference.",
-              "b": "Learning refers to retrieval, memory refers to acquisition.",
-              "c": "Memory usually refers to single past events, while learning refers to gradually acquiring skills/knowledge.",
-              "d": "Learning is conscious, memory is unconscious."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 695,
-            "text": "What are children implicitly learning when they learn how to behave in a civilized way, according to the text?",
-            "options": {
-              "a": "Specific historical facts.",
-              "b": "Explicit rules of grammar.",
-              "c": "Patterns of linguistic, social, and emotional behaviour.",
-              "d": "Mathematical formulas."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 696,
-            "text": "What is an artificial grammar, as used in studies of implicit learning?",
-            "options": {
-              "a": "A simplified version of English grammar.",
-              "b": "A set of explicit rules taught to participants.",
-              "c": "A complex set of rules used to form letter strings, usually unknown to participants.",
-              "d": "A computer program that generates sentences."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 697,
-            "text": "In artificial grammar tasks, participants typically develop a(n) _______ sense of the 'correctness' of letter strings.",
-            "options": {
-              "a": "explicit and detailed",
-              "b": "vague and intuitive",
-              "c": "completely inaccurate",
-              "d": "verbally articulated"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 698,
-            "text": "How well do people typically perform on artificial grammar classification tasks, and can they usually state the rules?",
-            "options": {
-              "a": "Poorly; they cannot state the rules.",
-              "b": "Perfectly; they can state all the rules.",
-              "c": "Reasonably well (60-70% correct); they are unable to state the rules explicitly.",
-              "d": "Reasonably well (60-70% correct); they can easily state the rules."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 699,
-            "text": "What happens in a serial reaction time task used to study implicit learning?",
-            "options": {
-              "a": "Participants memorize lists of words.",
-              "b": "Participants press buttons corresponding to lights that follow a hidden pattern.",
-              "c": "Participants classify images based on hidden rules.",
-              "d": "Participants solve complex mathematical problems."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 700,
-            "text": "What indicates that participants have learned the pattern in a serial reaction time task?",
-            "options": {
-              "a": "They can verbally describe the pattern.",
-              "b": "They make more errors over time.",
-              "c": "They get faster with practice as they anticipate the sequence.",
-              "d": "Their reaction time remains constant."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 701,
-            "text": "How do individual differences in implicit learning tasks compare to those in explicit tasks?",
-            "options": {
-              "a": "Implicit tasks show larger individual differences.",
-              "b": "Explicit tasks show relatively little difference.",
-              "c": "Implicit tasks show relatively little individual difference.",
-              "d": "Both show similar levels of individual difference."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 702,
-            "text": "What is the relationship between implicit learning ability and IQ?",
-            "options": {
-              "a": "Implicit learning is strongly correlated with IQ.",
-              "b": "Implicit learning seems to be unrelated to IQ.",
-              "c": "Only low IQ individuals show implicit learning.",
-              "d": "Only high IQ individuals show implicit learning."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 703,
-            "text": "How does implicit learning ability generally change across the life span compared to explicit learning?",
-            "options": {
-              "a": "Implicit learning declines more rapidly with age.",
-              "b": "Explicit learning remains stable while implicit declines.",
-              "c": "Implicit learning changes little/is less affected by aging.",
-              "d": "Both decline at the same rate."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 704,
-            "text": "The study by Saffran et al. (1996) showed that 8-month-old infants could implicitly learn:",
-            "options": {
-              "a": "complex mathematical rules.",
-              "b": "the rules of chess.",
-              "c": "rule-governed auditory patterns in streams of speech.",
-              "d": "how to read simple words."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 705,
-            "text": "How resistant is implicit learning to disorders like psychosis or amnesia that affect explicit learning?",
-            "options": {
-              "a": "It is more severely affected.",
-              "b": "It is equally affected.",
-              "c": "It is remarkably resistant.",
-              "d": "It depends on the specific disorder."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 706,
-            "text": "Profoundly amnesic patients show normal implicit learning of artificial grammar despite having no _______ of the learning phase.",
-            "options": {
-              "a": "motor memory",
-              "b": "emotional response",
-              "c": "explicit memory",
-              "d": "perceptual ability"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 707,
-            "text": "Children with dyslexia often exhibit deficits in implicit learning of:",
-            "options": {
-              "a": "emotional expressions.",
-              "b": "social rules.",
-              "c": "artificial grammars and motor/spatial sequences.",
-              "d": "musical patterns."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 708,
-            "text": "The intact implicit learning in amnesic individuals suggests that the brain structures underlying implicit learning are _______ those underlying explicit learning (like the hippocampus).",
-            "options": {
-              "a": "identical to",
-              "b": "dependent on",
-              "c": "distinct from",
-              "d": "less developed than"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 709,
-            "text": "In the dot pattern study (Reber et al., 2003), participants given explicit instructions showed increased brain activity in areas associated with:",
-            "options": {
-              "a": "visual processing only.",
-              "b": "motor control.",
-              "c": "explicit memories (prefrontal cortex, hippocampus, etc.).",
-              "d": "auditory processing."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 710,
-            "text": "Participants given implicit instructions in the dot pattern study showed decreased brain activation primarily in which region?",
-            "options": {
-              "a": "Prefrontal cortex",
-              "b": "Hippocampus",
-              "c": "Motor cortex",
-              "d": "Occipital region (visual processing)"
-            },
-            "answer": "d"
-          },
-          {
-            "number": 711,
-            "text": "fMRI studies suggest which brain area, involved in language production, is active during artificial grammar learning?",
-            "options": {
-              "a": "Wernicke's area",
-              "b": "Broca's area",
-              "c": "Angular gyrus",
-              "d": "Primary auditory cortex"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 712,
-            "text": "Which brain area appears critical for sequence learning on the serial reaction time task?",
-            "options": {
-              "a": "Hippocampus",
-              "b": "Amygdala",
-              "c": "Motor cortex",
-              "d": "Occipital lobe"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 713,
-            "text": "How do Westerners and Easterners tend to differ in perceptual processing, according to Nisbett & Miyamoto (2005)?",
-            "options": {
-              "a": "Westerners are holistic, Easterners are analytic.",
-              "b": "Westerners focus on color, Easterners focus on shape.",
-              "c": "Westerners are analytic (object-focused), Easterners are holistic (context-focused).",
-              "d": "There are no significant differences."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 714,
-            "text": "Analytic processing is related to _______ processing, while holistic processing is related to _______ processing.",
-            "options": {
-              "a": "global; local",
-              "b": "local; global",
-              "c": "fast; slow",
-              "d": "implicit; explicit"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 715,
-            "text": "In studies using GLOCAL strings (Kiyokawa et al., 2012; Fu et al., 2013), Japanese and Chinese participants showed greater implicit learning of grammatical rules applying to the _______ level compared to British participants.",
-            "options": {
-              "a": "local",
-              "b": "global",
-              "c": "semantic",
-              "d": "phonetic"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 716,
-            "text": "Studies on auditory implicit learning with Chinese tones and syllables found that Chinese participants had an advantage over Westerners in acquiring knowledge of the _______ patterns.",
-            "options": {
-              "a": "local",
-              "b": "random",
-              "c": "explicit",
-              "d": "global"
-            },
-            "answer": "d"
-          },
-          {
-            "number": 717,
-            "text": "What conclusion do studies on GLOCAL strings and auditory patterns support regarding implicit learning?",
-            "options": {
-              "a": "Implicit learning is identical across all cultures.",
-              "b": "Implicit learning is influenced by cultural differences in processing styles.",
-              "c": "Implicit learning does not occur in Eastern cultures.",
-              "d": "Implicit learning is only relevant for visual information."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 718,
-            "text": "Which popular study techniques received a 'low utility' assessment in the analysis by Dunlosky et al. (2013)?",
-            "options": {
-              "a": "Practice testing and distributed practice.",
-              "b": "Interleaved practice and elaborative interrogation.",
-              "c": "Highlighting, rereading, summarizing, and visual imagery mnemonics.",
-              "d": "All techniques were rated as moderately effective."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 719,
-            "text": "Which two study techniques were identified as having 'high effectiveness'?",
-            "options": {
-              "a": "Highlighting and rereading",
-              "b": "Practice testing and distributed practice",
-              "c": "Summarizing and keyword mnemonics",
-              "d": "Interleaved practice and elaborative interrogation"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 720,
-            "text": "What is 'cramming' also known as in learning research?",
-            "options": {
-              "a": "Distributed practice",
-              "b": "Massed practice",
-              "c": "Interleaved practice",
-              "d": "Practice testing"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 721,
-            "text": "What is distributed practice?",
-            "options": {
-              "a": "Studying intensely just before an exam.",
-              "b": "Mixing different subjects within one study session.",
-              "c": "Spreading out study activities over time.",
-              "d": "Testing yourself on the material."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 722,
-            "text": "Who first reported the benefits of distributed practice in studies on nonsense syllables?",
-            "options": { "a": "Skinner", "b": "Pavlov", "c": "Ebbinghaus", "d": "Tolman" },
-            "answer": "c"
-          },
-          {
-            "number": 723,
-            "text": "According to a large review (Cepeda et al., 2006), participants retained about what percentage of information after distributed practice compared to massed practice?",
-            "options": {
-              "a": "37% after distributed, 47% after massed",
-              "b": "47% after distributed, 37% after massed",
-              "c": "50% after distributed, 50% after massed",
-              "d": "60% after distributed, 40% after massed"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 724,
-            "text": "What concept suggests that more difficult retrievals during distributed practice benefit subsequent learning?",
-            "options": {
-              "a": "Cognitive load",
-              "b": "Perceptual fluency",
-              "c": "Desirable difficulties",
-              "d": "Encoding specificity"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 725,
-            "text": "What is interleaved practice?",
-            "options": {
-              "a": "Studying one topic thoroughly before moving to the next.",
-              "b": "A practice schedule that mixes different kinds of problems or materials.",
-              "c": "Testing oneself repeatedly on the same material.",
-              "d": "Studying for very short periods multiple times a day."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 726,
-            "text": "Interleaved practice may be particularly effective for learning subjects like:",
-            "options": { "a": "History", "b": "Literature", "c": "Foreign languages", "d": "Mathematics" },
-            "answer": "d"
-          },
-          {
-            "number": 727,
-            "text": "Why might interleaved practice be more effective than blocked practice for math problems?",
-            "options": {
-              "a": "It is less confusing for students.",
-              "b": "It requires students to choose the correct strategy for each problem.",
-              "c": "It allows for more repetition of the same strategy.",
-              "d": "It focuses only on easy problems."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 728,
-            "text": "Practice testing is effective partly because actively _______ an item from memory improves subsequent retention.",
-            "options": { "a": "encoding", "b": "retrieving", "c": "forgetting", "d": "summarizing" },
-            "answer": "b"
-          },
-          {
-            "number": 729,
-            "text": "What study strategy do students typically prefer over practice testing, according to Karpicke (2012)?",
-            "options": {
-              "a": "Summarizing",
-              "b": "Highlighting",
-              "c": "Rereading",
-              "d": "Using mnemonics"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 730,
-            "text": "When are the benefits of testing generally greatest?",
-            "options": {
-              "a": "When the test is easy.",
-              "b": "When the test requires recognition only.",
-              "c": "When the test is difficult and requires considerable retrieval effort.",
-              "d": "When the test covers very familiar material."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 731,
-            "text": "Beyond improving verbatim learning, testing can also enhance the _______ of learning from one situation to another.",
-            "options": { "a": "speed", "b": "transfer", "c": "forgetting", "d": "cost" },
-            "answer": "b"
-          },
-          {
-            "number": 732,
-            "text": "A large meta-analysis by Yang et al. (2021) confirmed that practice testing boosts learning and comprehension across:",
-            "options": {
-              "a": "only science subjects.",
-              "b": "only humanities subjects.",
-              "c": "a wide range of academic subjects, test formats, and educational levels.",
-              "d": "only university students."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 733,
-            "text": "What additional benefit of testing during lectures was highlighted by Szpunar et al. (2013)?",
-            "options": {
-              "a": "It makes the lecture shorter.",
-              "b": "It increases student anxiety.",
-              "c": "It reduces mind wandering and improves attention.",
-              "d": "It eliminates the need for note-taking."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 734,
-            "text": "Compared to non-tested groups, students in the tested group during the lecture study (Szpunar et al., 2013) showed:",
-            "options": {
-              "a": "More mind wandering and less note-taking.",
-              "b": "Less mind wandering, more note-taking, and better final test performance.",
-              "c": "Similar mind wandering but better final test performance.",
-              "d": "More anxiety about the final test."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 735,
-            "text": "When participants in the tested group did mind wander, what did they tend to think about?",
-            "options": {
-              "a": "Topics completely unrelated to the lecture.",
-              "b": "Their personal plans.",
-              "c": "Other parts of the lecture.",
-              "d": "The difficulty of the test."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 736,
-            "text": "What are judgements of learning (JOLs)?",
-            "options": {
-              "a": "Objective measures of how much has been learned.",
-              "b": "Grades assigned by an instructor.",
-              "c": "Subjective assessments of how well material has been learned.",
-              "d": "Predictions about future test performance."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 737,
-            "text": "How do JOLs influence study behaviour?",
-            "options": {
-              "a": "They have no influence.",
-              "b": "People typically study more the items they judge they have learned well.",
-              "c": "People typically devote more study time to items they judge they have not learned well.",
-              "d": "JOLs only influence test-taking strategies."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 738,
-            "text": "Why can the feeling of familiarity after rereading be misleading when making JOLs?",
-            "options": {
-              "a": "Familiarity always indicates deep learning.",
-              "b": "It may result from low-level perceptual priming, not deep understanding.",
-              "c": "Rereading always leads to accurate JOLs.",
-              "d": "Familiarity makes the material harder to remember later."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 739,
-            "text": "Students are sometimes _______ in judging how well they have learned definitions, leading them to fail to study effectively.",
-            "options": {
-              "a": "underconfident",
-              "b": "overconfident",
-              "c": "perfectly accurate",
-              "d": "uninterested"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 740,
-            "text": "What study technique can help reduce overconfidence stemming from inaccurate JOLs?",
-            "options": {
-              "a": "Rereading",
-              "b": "Highlighting",
-              "c": "Summarizing",
-              "d": "Practice testing"
-            },
-            "answer": "d"
-          },
-          {
-            "number": 741,
-            "text": "According to Bjork et al. (2013), becoming an effective learner requires understanding key features of learning, effective techniques, monitoring/control, and:",
-            "options": {
-              "a": "the history of psychology.",
-              "b": "advanced statistics.",
-              "c": "biases that undermine judgements of learning.",
-              "d": "the instructor's teaching style."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 742,
-            "text": "What is learning loss, as discussed in the 'Other Voices' section?",
-            "options": {
-              "a": "Forgetting information immediately after learning it.",
-              "b": "The inability to learn new information.",
-              "c": "The decay in knowledge and skills when students are not in school.",
-              "d": "The cost associated with educational materials."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 743,
-            "text": "Before the COVID-19 pandemic, learning loss was chiefly associated with:",
-            "options": {
-              "a": "switching schools.",
-              "b": "illness-related absences.",
-              "c": "the long summer break.",
-              "d": "poor teaching quality."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 744,
-            "text": "The pandemic has disproportionately worsened educational disparities for which student groups?",
-            "options": {
-              "a": "Gifted and talented students.",
-              "b": "Students in private schools.",
-              "c": "Racialized, Indigenous, low-income students, and students with disabilities.",
-              "d": "Students in urban areas."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 745,
-            "text": "What educational intervention is highlighted as particularly effective in closing learning gaps widened by the pandemic?",
-            "options": {
-              "a": "Longer school days",
-              "b": "More standardized testing",
-              "c": "Tutoring",
-              "d": "Increased homework"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 746,
-            "text": "Tutoring using which group was found to have positive results at a lower cost than teacher-led tutoring?",
-            "options": {
-              "a": "University professors",
-              "b": "Parent volunteers",
-              "c": "Paraprofessionals (trained assistants, youth-service members)",
-              "d": "Older student peers"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 747,
-            "text": "How does the frequency of tutoring affect its impact?",
-            "options": {
-              "a": "Frequency has no impact.",
-              "b": "Less frequent tutoring (once a week) is most effective.",
-              "c": "More frequent tutoring (3+ times/week) has almost twice the effect.",
-              "d": "Daily tutoring is overwhelming and ineffective."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 748,
-            "text": "What is suggested as a key component of an ambitious educational recovery strategy for Canada?",
-            "options": {
-              "a": "Focusing solely on high-achieving students.",
-              "b": "Implementing evidence-based tutoring models.",
-              "c": "Reducing funding for public education.",
-              "d": "Eliminating standardized tests."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 749,
-            "text": "The 'Other Voices' authors recommend incorporating which learning techniques into tutoring interventions?",
-            "options": {
-              "a": "Highlighting and rereading",
-              "b": "Summarizing and mnemonics",
-              "c": "Distributed practice, interleaved practice, and practice testing",
-              "d": "Massed practice and cramming"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 750,
-            "text": "Skinner used the term 'successive approximations' to refer to:",
-            "options": {
-              "a": "The gradual fading of a conditioned response.",
-              "b": "Behaviours that get incrementally closer to the desired outcome.",
-              "c": "Errors made during trial-and-error learning.",
-              "d": "The cognitive maps formed during learning."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 751,
-            "text": "Superstitious behaviour, according to Skinner, arises from:",
-            "options": {
-              "a": "Observational learning of rituals.",
-              "b": "Accidental reinforcement of random behaviours.",
-              "c": "Classical conditioning of fear responses.",
-              "d": "Cognitive biases in decision-making."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 752,
-            "text": "Tolman's concept of a 'means-ends relationship' emphasizes the _______ aspect of learning.",
-            "options": {
-              "a": "behavioral",
-              "b": "cognitive",
-              "c": "physiological",
-              "d": "evolutionary"
-            },
-            "answer": "b"
-          },
-          {
-            "number": 753,
-            "text": "The rats in Tolman's latent learning experiment demonstrated that learning could occur without immediate:",
-            "options": {
-              "a": "punishment.",
-              "b": "observation.",
-              "c": "reinforcement.",
-              "d": "cognitive awareness."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 754,
-            "text": "The brain's 'pleasure centres,' heavily involving dopamine, are part of the _______ elements of operant conditioning.",
-            "options": {
-              "a": "cognitive",
-              "b": "evolutionary",
-              "c": "behavioral",
-              "d": "neural"
-            },
-            "answer": "d"
-          },
-          {
-            "number": 755,
-            "text": "The study involving trustworthy, neutral, and suspect partners in a trust game highlighted the power of _______ effects in operant learning.",
-            "options": {
-              "a": "cognitive",
-              "b": "neural",
-              "c": "evolutionary",
-              "d": "behavioral"
-            },
-            "answer": "a"
-          },
-          {
-            "number": 756,
-            "text": "The tendency of rats to explore the alternate arm of a T-maze after finding food is explained by the _______ elements of operant conditioning.",
-            "options": {
-              "a": "cognitive",
-              "b": "neural",
-              "c": "evolutionary",
-              "d": "observational"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 757,
-            "text": "The 'misbehavior' of pigs rooting coins, described by the Brelands, is an example of:",
-            "options": {
-              "a": "shaping.",
-              "b": "latent learning.",
-              "c": "instinctive drift.",
-              "d": "superstitious behaviour."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 758,
-            "text": "Reward prediction error is closely linked to the neurotransmitter:",
-            "options": {
-              "a": "serotonin.",
-              "b": "acetylcholine.",
-              "c": "GABA.",
-              "d": "dopamine."
-            },
-            "answer": "d"
-          },
-          {
-            "number": 759,
-            "text": "Learning by watching others, as studied by Bandura, is known as:",
-            "options": {
-              "a": "operant conditioning.",
-              "b": "classical conditioning.",
-              "c": "observational learning.",
-              "d": "implicit learning."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 760,
-            "text": "The finding that human-reared capuchins imitated specific tool actions more faithfully than mother-reared ones supports the:",
-            "options": {
-              "a": "instinctive drift hypothesis.",
-              "b": "enculturation hypothesis.",
-              "c": "cognitive map theory.",
-              "d": "reward prediction error model."
-            },
-            "answer": "b"
-          },
-          {
-            "number": 761,
-            "text": "Mirror neurons are considered part of the _______ basis of observational learning.",
-            "options": {
-              "a": "cognitive",
-              "b": "evolutionary",
-              "c": "neural",
-              "d": "behavioral"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 762,
-            "text": "Learning without awareness, such as acquiring artificial grammar rules, is termed:",
-            "options": {
-              "a": "explicit learning.",
-              "b": "observational learning.",
-              "c": "implicit learning.",
-              "d": "latent learning."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 763,
-            "text": "Implicit learning is generally _______ affected by factors like aging and amnesia compared to explicit learning.",
-            "options": {
-              "a": "more",
-              "b": "equally",
-              "c": "less",
-              "d": "unpredictably"
-            },
-            "answer": "c"
-          },
-          {
-            "number": 764,
-            "text": "The finding that Japanese participants show greater implicit learning of global patterns than British participants points to _______ influences on implicit learning.",
-            "options": {
-              "a": "genetic",
-              "b": "neural",
-              "c": "developmental",
-              "d": "cultural"
-            },
-            "answer": "d"
-          },
-          {
-            "number": 765,
-            "text": "Spreading study sessions out over time is known as:",
-            "options": {
-              "a": "massed practice.",
-              "b": "interleaved practice.",
-              "c": "distributed practice.",
-              "d": "practice testing."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 766,
-            "text": "Actively retrieving information from memory as a study technique is called:",
-            "options": {
-              "a": "rereading.",
-              "b": "summarizing.",
-              "c": "practice testing.",
-              "d": "highlighting."
-            },
-            "answer": "c"
-          },
-          {
-            "number": 767,
-            "text": "A student's subjective assessment of how well they have learned something is their:",
-            "options": {
-              "a": "test score.",
-              "b": "judgement of learning (JOL).",
-              "c": "cognitive map.",
-              "d": "reward prediction error."
-            },
-            "answer": "b"
-          }
-        
-        
-      
-      
-      
-    ];    
+        }
+];    
